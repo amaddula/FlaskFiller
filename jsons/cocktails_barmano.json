@@ -1,0 +1,599 @@
+{
+    "Corpse Reviver": [
+        "Brandy",
+        "Vermouth, sweet red",
+        "Calvados"
+    ],
+    "Pimm's Cup": [
+        "7-up",
+        "Pimm's No. 1 Cup"
+    ],
+    "Champagne Punch": [
+        "Brandy",
+        "Champagne",
+        "Triple Sec",
+        "Soda Water"
+    ],
+    "Between the Sheets": [
+        "Brandy",
+        "Lemon Juice",
+        "Cointreau",
+        "Rum, white/light"
+    ],
+    "Caipirinha": [
+        "Cachaca",
+        "Lime",
+        "Sugar, brown"
+    ],
+    "Panache": [
+        "Ale",
+        "Lemonade"
+    ],
+    "Virgin Mary": [
+        "Lemon Juice",
+        "tabasco sauce",
+        "Tomato Juice",
+        "Worcestershire Sauce"
+    ],
+    "Blow Job shot": [
+        "Amaretto",
+        "Whipped cream"
+    ],
+    "Waldorf": [
+        "Angostura Bitters",
+        "Pastis, Pernod",
+        "Whiskey, Irish"
+    ],
+    "Bourbon Fizz": [
+        "Whiskey, Bourbon",
+        "Lemon Juice",
+        "Lemon-lime Soda",
+        "Sugar Syrup"
+    ],
+    "Banana Daiquiri": [
+        "Syrup, Gomme",
+        "Banana",
+        "Lime Juice",
+        "Liqueur, banana",
+        "Rum, white/light",
+        "Triple Sec"
+    ],
+    "Hot Marie": [
+        "Brandy",
+        "Coffee",
+        "Tia Maria",
+        "Rum, dark",
+        "Sugar"
+    ],
+    "Apple Colada": [
+        "Apple",
+        "Apple Juice",
+        "Rum, white/light",
+        "Liqueur, apple",
+        "Sugar, superfine",
+        "Coconut cream"
+    ],
+    "Banshee": [
+        "Cream",
+        "Cr\u00e8me de Bananes",
+        "Cr\u00e8me de Cacao, white"
+    ],
+    "Chicago": [
+        "Brandy",
+        "Bitters",
+        "Cura\u00e7ao, orange"
+    ],
+    "Dr Pepper": [
+        "Ale",
+        "Amaretto",
+        "Cola"
+    ],
+    "Brandy Egg Nog": [
+        "Brandy",
+        "Syrup, Gomme",
+        "Milk",
+        "egg, yolk"
+    ],
+    "Carmel Apple Martini": [
+        "Vodka",
+        "Sour Apple Pucker",
+        "Liqueur, butterscotch"
+    ],
+    "Dirty Mother": [
+        "Brandy",
+        "Kahl\u00faa"
+    ],
+    "Lady Finger": [
+        "Gin",
+        "Brandy, cherry",
+        "Kirschwasser"
+    ],
+    "Apple Daiquiri": [
+        "Syrup, Gomme",
+        "Lime Juice",
+        "Rum, white/light",
+        "Liqueur, apple",
+        "Liqueur, cinnamon"
+    ],
+    "Bronx": [
+        "Gin",
+        "Orange Juice",
+        "Vermouth, dry white",
+        "Vermouth, sweet red"
+    ],
+    "Banana Rum Punch": [
+        "Rum",
+        "Cr\u00e8me de Bananes",
+        "Ginger Ale",
+        "Orange Juice"
+    ],
+    "B-52 shot": [
+        "Bailey's Irish Cream",
+        "Kahl\u00faa",
+        "Grand Marnier Cordon Rouge"
+    ],
+    "East India": [
+        "Angostura Bitters",
+        "Cognac",
+        "Pineapple Juice",
+        "Rum, dark",
+        "Triple Sec"
+    ],
+    "Blue Balls shot": [
+        "Cura\u00e7ao, blue",
+        "Sprite",
+        "Liqueur, peach",
+        "Malibu Original",
+        "Sour Mix"
+    ],
+    "B-53 shot": [
+        "Vodka",
+        "Bailey's Irish Cream",
+        "Kahl\u00faa"
+    ],
+    "Acapulco": [
+        "Grapefruit Juice",
+        "Pineapple Juice",
+        "Rum, gold",
+        "Tequila, gold"
+    ],
+    "Indian Summer": [
+        "Cider, apple",
+        "Cinnamon",
+        "Liqueur, apple"
+    ],
+    "Rusty Nail": [
+        "Whiskey, Scotch",
+        "Drambuie"
+    ],
+    "Absolute Love": [
+        "Lemon Juice",
+        "Limoncello",
+        "Pisang Ambon",
+        "Vodka, lemon",
+        "Bitter Lemon"
+    ],
+    "B-54 shot": [
+        "Amaretto",
+        "Bailey's Irish Cream",
+        "Kahl\u00faa"
+    ],
+    "Affinity": [
+        "Angostura Bitters",
+        "Vermouth, dry white",
+        "Vermouth, sweet red",
+        "Whiskey, Scotch"
+    ],
+    "Alabama Slammer shot": [
+        "Amaretto",
+        "Lemon Juice",
+        "Orange Juice",
+        "Sloe Gin",
+        "Southern Comfort"
+    ],
+    "Bellini": [
+        "Peach Nectar",
+        "Prosecco"
+    ],
+    "Bellini Martini": [
+        "Vodka",
+        "Lemon Juice",
+        "Liqueur, peach",
+        "Peach Nectar"
+    ],
+    "Angel's Tit": [
+        "Cream",
+        "Liqueur, maraschino"
+    ],
+    "Diablo": [
+        "Rum",
+        "Angostura Bitters",
+        "Triple Sec",
+        "Vermouth, dry white"
+    ],
+    "Cranberry Cooler": [
+        "Cranberry Juice",
+        "Grape Juice",
+        "Lemon-lime Soda"
+    ],
+    "Keremiki Shot": [
+        "Rum, overproof/151 proof",
+        "Goldschl\u00e4ger",
+        "Liqueur, peppermint"
+    ],
+    "Black and Tan": [
+        "Ale",
+        "Stout"
+    ],
+    "Xanthia": [
+        "Gin",
+        "Brandy, cherry",
+        "Chartreuse Yellow"
+    ],
+    "Gin Rickey": [
+        "Gin",
+        "Lime Juice",
+        "Soda Water"
+    ],
+    "Bloody Mary": [
+        "Vodka",
+        "Lemon Juice",
+        "Pepper, black",
+        "Salt",
+        "tabasco sauce",
+        "Tomato Juice",
+        "Worcestershire Sauce"
+    ],
+    "Honey Bunny": [
+        "Grenadine",
+        "Orange Juice",
+        "Carrot Juice"
+    ],
+    "Gibson": [
+        "Gin",
+        "Vermouth, dry white"
+    ],
+    "Midori Sour": [
+        "Midori Melon Liqueur",
+        "Sour Mix",
+        "Soda Water"
+    ],
+    "Amaretto Sour": [
+        "Amaretto",
+        "Lemon Juice",
+        "egg, white"
+    ],
+    "Blue Hawaiian": [
+        "Cr\u00e8me de Coconut",
+        "Cura\u00e7ao, blue",
+        "Ice for bartending",
+        "Pineapple Juice",
+        "Rum, white/light"
+    ],
+    "Moscow Mule": [
+        "Vodka",
+        "Ginger Beer",
+        "Lime Juice"
+    ],
+    "Abbey": [
+        "Gin",
+        "Angostura Bitters",
+        "Liqueur, maraschino",
+        "Orange Juice",
+        "Vermouth, dry white"
+    ],
+    "Lemon Fizz": [
+        "Lemon Juice",
+        "Peach Nectar",
+        "Sugar Syrup",
+        "Soda Water"
+    ],
+    "Frisco Sour": [
+        "B\u00e9n\u00e9dictine",
+        "Lemon Juice",
+        "Lime Juice",
+        "Whiskey, blended"
+    ],
+    "Bentley": [
+        "Dubonnet Rouge",
+        "Calvados"
+    ],
+    "Mandarin Martini": [
+        "Gin",
+        "Vodka",
+        "Cointreau"
+    ],
+    "Bahama Mama": [
+        "Lemon Juice",
+        "Liqueur, coconut",
+        "Kahl\u00faa",
+        "Pineapple Juice",
+        "Rum, dark",
+        "Rum, overproof/151 proof"
+    ],
+    "Beton": [
+        "Becherovka",
+        "Lemon Juice",
+        "Tonic Water"
+    ],
+    "Blue Blazer": [
+        "Whiskey",
+        "Sugar",
+        "Water"
+    ],
+    "Carrot Cake shooter": [
+        "Bailey's Irish Cream",
+        "Liqueur, coffee",
+        "Goldschl\u00e4ger"
+    ],
+    "Cockroach": [
+        "Kahl\u00faa",
+        "Whiskey, Scotch"
+    ],
+    "Diabolo": [
+        "Rum",
+        "Angostura Bitters",
+        "Triple Sec",
+        "Vermouth, dry white"
+    ],
+    "Block and Fall": [
+        "Brandy",
+        "Cointreau",
+        "Pastis, Pernod",
+        "Calvados"
+    ],
+    "Brandy Flip": [
+        "Brandy",
+        "Cream",
+        "Egg",
+        "Sugar Syrup"
+    ],
+    "Irish Car Bomb": [
+        "Guinness Draught",
+        "Bailey's Irish Cream",
+        "Whiskey, Irish"
+    ],
+    "Brain Eraser": [
+        "Vodka",
+        "Amaretto",
+        "Liqueur, coffee",
+        "Soda Water"
+    ],
+    "Black Magic": [
+        "Vodka",
+        "Lemon Juice",
+        "Liqueur, coffee"
+    ],
+    "Boilermaker": [
+        "Beer",
+        "Whiskey, Bourbon"
+    ],
+    "Bomber": [
+        "Tequila",
+        "Beer"
+    ],
+    "An Apple a Day": [
+        "Gin",
+        "Syrup, Gomme",
+        "Grapefruit Juice",
+        "Lime Juice",
+        "Liqueur, maraschino",
+        "Liqueur, apple"
+    ],
+    "Bastille": [
+        "Syrup, Gomme",
+        "Champagne",
+        "Cr\u00e8me de M\u00fbre",
+        "Rum, white/light"
+    ],
+    "Bubble Gum Shot": [
+        "Vodka",
+        "Cr\u00e8me de Bananes",
+        "Liqueur, peach",
+        "Orange Juice"
+    ],
+    "Brandy Alexander": [
+        "Cognac",
+        "Cream",
+        "Cr\u00e8me de Cacao, white"
+    ],
+    "Angel Face": [
+        "Gin",
+        "Brandy, apricot",
+        "Calvados"
+    ],
+    "Ginger Snap": [
+        "Bitters",
+        "B\u00e9n\u00e9dictine",
+        "Domain de Canton Ginger Liqueur",
+        "Campo de Encanto Pisco de Peru"
+    ],
+    "Dodge": [
+        "Gin",
+        "Grape Juice, white",
+        "Cointreau"
+    ],
+    "Bacardi Classic": [
+        "Grenadine",
+        "Lime Juice",
+        "Rum, white/light"
+    ],
+    "After Eight": [
+        "Cr\u00e8me de Menthe",
+        "Irish Cream",
+        "Liqueur, coffee"
+    ],
+    "57 T-Bird": [
+        "Vodka",
+        "Amaretto",
+        "Liqueur, melon",
+        "Liqueur, peach",
+        "Orange Juice"
+    ],
+    "Atomic Cat": [
+        "Orange Juice",
+        "Tonic Water"
+    ],
+    "Pink Gin": [
+        "Gin",
+        "Angostura Bitters"
+    ],
+    "Almond Joy Martini": [
+        "Godiva",
+        "Frangelico",
+        "Malibu Original"
+    ],
+    "Devil's Advocate": [
+        "Gin",
+        "Cr\u00e8me de Raspberry",
+        "Vermouth, dry white"
+    ],
+    "Gin Fizz": [
+        "Gin",
+        "Syrup, Gomme",
+        "Lemon Juice",
+        "Soda Water"
+    ],
+    "Bacardi Cocktail": [
+        "Grenadine",
+        "Lemon Juice",
+        "Rum, white/light"
+    ],
+    "Horchata": [
+        "Rum",
+        "Cinnamon",
+        "Cinnamon Stick",
+        "Milk",
+        "Nutmeg",
+        "Sugar",
+        "Vanilla Extract",
+        "Water",
+        "Rice"
+    ],
+    "Jager Bomb": [
+        "Red Bull",
+        "J\u00e4germeister"
+    ],
+    "Angel's Kiss": [
+        "Cream",
+        "Cr\u00e8me de Cacao, dark"
+    ],
+    "Blind Melon": [
+        "Vodka",
+        "Liqueur, melon",
+        "Triple Sec"
+    ],
+    "Atomic Watermelon": [
+        "Vodka",
+        "Liqueur, watermelon",
+        "Sour Mix"
+    ],
+    "Chocolate Cake shooter": [
+        "Vodka",
+        "Frangelico"
+    ],
+    "Americano": [
+        "Campari",
+        "Vermouth, sweet red",
+        "Soda Water"
+    ],
+    "Blue Lady": [
+        "Gin",
+        "Cura\u00e7ao, blue",
+        "Lemon Juice"
+    ],
+    "Pina Colada": [
+        "Cr\u00e8me de Coconut",
+        "Pineapple Juice",
+        "Rum, white/light"
+    ],
+    "Black Mexican": [
+        "Tequila",
+        "Sambuca, black"
+    ],
+    "Basil Gimlet": [
+        "Gin",
+        "Lime Juice",
+        "Basil",
+        "Cocktail Syrup"
+    ],
+    "Flaming Asshole": [
+        "Cr\u00e8me de Bananes",
+        "Cr\u00e8me de Menthe, green",
+        "Grenadine",
+        "Rum, overproof/151 proof"
+    ],
+    "Apple Martini": [
+        "Vodka",
+        "Cointreau",
+        "Liqueur, apple"
+    ],
+    "Angel's Wing": [
+        "Brandy, plum",
+        "Cream",
+        "Cr\u00e8me de Cacao, white"
+    ],
+    "Black Russian": [
+        "Vodka",
+        "Kahl\u00faa"
+    ],
+    "Golden Fizz": [
+        "Gin",
+        "Syrup, Gomme",
+        "Lemon Juice",
+        "Soda Water",
+        "egg, yolk"
+    ],
+    "Blue Margarita": [
+        "Tequila",
+        "Cura\u00e7ao, blue",
+        "Lime Juice",
+        "Triple Sec"
+    ],
+    "Bosom Caresser": [
+        "Brandy",
+        "Cura\u00e7ao, orange",
+        "Grenadine",
+        "egg, yolk"
+    ],
+    "B & B": [
+        "Brandy",
+        "B\u00e9n\u00e9dictine"
+    ],
+    "After Sex": [
+        "Vodka",
+        "Cr\u00e8me de Bananes",
+        "Orange Juice"
+    ],
+    "Mimosa": [
+        "Champagne",
+        "Orange Juice"
+    ],
+    "Bloody Maria": [
+        "Tequila",
+        "Celery Salt",
+        "Lemon Juice",
+        "Pepper, black",
+        "Salt",
+        "tabasco sauce",
+        "Tomato Juice",
+        "Worcestershire Sauce"
+    ],
+    "Safer Sex on the Beach": [
+        "Cranberry Juice",
+        "Grapefruit Juice",
+        "Peach Nectar"
+    ],
+    "French Connection": [
+        "Amaretto",
+        "Cognac"
+    ],
+    "Buck's Fizz": [
+        "Champagne",
+        "Orange Juice"
+    ],
+    "Baby Guinness shot": [
+        "Irish Cream",
+        "Liqueur, coffee"
+    ]
+}
