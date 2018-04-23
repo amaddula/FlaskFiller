@@ -1,7 +1,7 @@
 from . import *
 from app.irsystem.models.helpers import *
 from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
-import gen_jaccard
+import gen_jaccard_app
 #import json_extraction
 
 
@@ -9,9 +9,6 @@ project_name = "Flask Filler"
 net_id = ""
 with open('ingredients.json', 'r') as fr:
     ingredients = json.load(fr)
-
-with open('gen_jaccard_normed.json', 'r') as fr:
-    drinks_dict = json.load(fr)
 
 ingredients = [item.lower().encode('utf-8') for item in ingredients]
 #print(ingredients)

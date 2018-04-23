@@ -6,6 +6,7 @@ import numpy as np
 
 
 
+
 n_drinks = 2314
 ids_names = OrderedDict()
 
@@ -32,9 +33,10 @@ def find_relevant(query,index):
             relevant.add(drink)
     return relevant
 
-def tf(ing, drink):
+def tf(ing, drink, drinks_dict):
     for tup in drinks_dict[drink]:
-        if ing.lower() == tup[0].lower():
+        ingredient = ing.lower()
+        if ingredient == tup[0].lower():
             return tup[1]
     return 0
 
@@ -46,11 +48,11 @@ def gen_jaccard_index_search (query, relevant, drinks_dict):
         sum_min = 0
         sum_max = 0
         for ingredient in drinks_dict[drink]:
-            sum_min += min(query_tf, tf(ingredient, drink))
-            sum_max += max(query_tf, tf(ingredient, drink))
+            sum_min += min(query_tf, tf(ingredient[0], drink, drinks_dict))
+            sum_max += max(query_tf, tf(ingredient[0], drink, drinks_dict))
         for ingredient in query:
-            sum_min += min(query_tf, tf(ingredient, drink))
-            sum_max += max(query_tf, tf(ingredient, drink))
+            sum_min += min(query_tf, tf(ingredient[0], drink, drinks_dict))
+            sum_max += max(query_tf, tf(ingredient[0], drink, drinks_dict))
         similarity = sum_min/sum_max
         results_dict[drink] = similarity
     return results_dict
