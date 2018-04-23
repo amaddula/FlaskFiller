@@ -14,7 +14,7 @@ from collections import OrderedDict
 ##    fw.write(data)
 
 
-with open('ingredients_alccontents.json', 'r') as fr:
+with open('jsons\ingredients_alccontents.json', 'r') as fr:
     ingredients = json.load(fr)
 
 count_undone = 0
