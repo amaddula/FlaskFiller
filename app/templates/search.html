@@ -169,27 +169,27 @@
 
                 <!-- flavor profiles checkboxes -->
                 <ul>
-                  <li class="flavor" id="sweet_id" onclick="toggleActive(this)"> 
+                  <li class="flavor" id="sweet" onclick="toggleActive(this)"> 
                     <label>SWEET</label>
                   </li>
 
-                  <li class="flavor" id="sour_id" onclick="toggleActive(this)"> 
+                  <li class="flavor" id="sour" onclick="toggleActive(this)"> 
                     <label >SOUR</label>
                   </li>
 
-                  <li class="flavor" id="salty_id" onclick="toggleActive(this)"> 
+                  <li class="flavor" id="salty" onclick="toggleActive(this)"> 
                     <label  >SALTY</label>
                   </li>
 
-                  <li class="flavor" id="bitter_id" onclick="toggleActive(this)"> 
+                  <li class="flavor" id="bitter" onclick="toggleActive(this)"> 
                     <label >BITTER</label>
                   </li>
 
-                  <li class="flavor" id="fruity_id" onclick="toggleActive(this)"> 
+                  <li class="flavor" id="fruity" onclick="toggleActive(this)"> 
                     <label>FRUITY</label>
                   </li>
 
-                  <li class="flavor" id="creamy_id" onclick="toggleActive(this)"> 
+                  <li class="flavor" id="creamy" onclick="toggleActive(this)"> 
                     <label>CREAMY</label>
                   </li>
                 </ul>
@@ -222,15 +222,34 @@
         <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
         <script  type="text/javascript">
 
+        flavor_dict = {"sweet": 0, "sour": 0, "salty": 0, "bitter": 0, "fruity": 0, "creamy": 0};
+        /*
+          SWEET = 0
+          SOUR = 1
+          SALTY = 2
+          BITTER = 3
+          FRUITY = 4
+          CREAMY = 5
+        */
+
+        /* Toggle the active state for flavor checkboxes */
         function toggleActive(element) {
           element.classList.toggle("active");
+          if (element.classList.contains("active")) {
+            flavor_dict[element.id] = 1;
+          } else {
+            flavor_dict[element.id] = 0;
+          }
+          console.log(flavor_dict);
         }
 
-
+        /* update value on the alcohol percent slider as it's dragged */
         function outputUpdate(val) {
           document.querySelector('#percent').value = 'Alcohol Content: ' + val + '%';
         }
 
+
+        /* Below is all the code for the automplete box */
         var ingredients = ["151 proof rum","190 Proof Everclear",
 "7-Up",
 "Absinthe",
