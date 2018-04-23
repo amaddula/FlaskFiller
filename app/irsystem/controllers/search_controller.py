@@ -537,10 +537,8 @@ def search():
 				search_ing.append(ing)
 		for ing in search_ing:
 			output_message += ing + ',  '
-		print(search_ing)
 		user_list = [x.lower().encode('utf-8') for x in search_ing]
-		print("user list:")
-		print(user_list)
+
 		#drink_list = [x.encode('ascii', 'ignore') for x in search_ing]
 
 		ranked_list = helpers.drink_jaccard_sim(user_list)

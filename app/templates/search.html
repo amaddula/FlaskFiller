@@ -1,136 +1,255 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="/static/bootstrap.min.css">
-        <link rel="stylesheet" href="/static/main.css">
+        <link href="/static/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="/static/main.css" rel="stylesheet" type="text/css" >
 
-    <style>
 
-.autocomplete-items {
-  position: absolute;
-  /*border: 1px solid #d4d4d4;*/
-  border-bottom: none;
-  border-top: none;
-  z-index: 100;
-  display: block;
-  color: white;
-  /*position the autocomplete items to be the same width as the container:*/
-  top: 100%;
-  left: 0;
-  right: 0;
-}
 
-.autocomplete-items::first-letter {
-    color: #41CAA8;
-}
+        <style>
+            /* STYLING TO OVVERRIDE THE AUTOCOMPLETE FORM*/
+            .autocomplete-items {
+              position: absolute;
+              border-bottom: none;
+              border-top: none;
+              z-index: 100;
+              display: block;
+              color: white;
+              top: 100%;
+              left: 0;
+              right: 0;
+            }
 
-.choices ul {
-    color: white;
-    font-size: 20px;
-}
+            .choices ul {
+                color: white;
+                font-size: 20px;
+            }
 
-.ing_item li {
-    color: white;
-    font-size: 20px;
-}
+            .ing_item li {
+                color: white;
+                font-size: 20px;
+            }
 
-.autocomplete-items div {
-    display: block;
-  cursor: pointer;
-  color: #212121;
-  background-color: #F0EAD6;
-  /*border-bottom: 1px solid #d4d4d4; */
-  text-align: left;
-  padding-left: 10px;
-}
-.autocomplete-items div:hover {
-  /*when hovering an item:*/
-  background-color: #ba1246;
-}
-.autocomplete-active {
-  /*when navigating through the items using the arrow keys:*/
-  background-color: DodgerBlue !important;
-  color: #ffffff;
-}
+            .autocomplete-items div {
+                display: block;
+              cursor: pointer;
+              color: #212121;
+              background-color: #F0EAD6; 
+              /*border-bottom: 1px solid #d4d4d4; */
+              text-align: left;
+              padding-left: 10px;
+            }
+            .autocomplete-items div:hover {
+              /*when hovering an item:*/
+              background-color: #e5648d; 
+            }
+            .autocomplete-active {
+              /*when navigating through the items using the arrow keys:*/
+              background-color: DodgerBlue !important; 
+              color: #ffffff; 
+            }
 
-body {
-  background-color: #F0EAD6;
-}
+            input[type='text'] {
+              border: none !important;
+               -webkit-box-shadow: none !important;
+               -moz-box-shadow: none !important;
+               box-shadow: none !important;
+               outline: none;
+            }
+
+            input[type='text']:focus {
+               border: none !important;
+               -webkit-box-shadow: none !important;
+               -moz-box-shadow: none !important;
+               box-shadow: 0px 0px 10px #e5648d !important;
+               outline: none;
+            }
+
+
+            /*ALCOHOL PERCENT SLIDER STYLES*/
+            input[type='range'] {
+                -webkit-appearance: none !important;
+                background: linear-gradient(to right, white, #ba1246);
+                height: 10px;
+                border-radius: 5px;
+                width: 100%;
+            }
+            input[type='range']:focus {
+              border: none !important;
+               -webkit-box-shadow: none !important;
+               -moz-box-shadow: none !important;
+               box-shadow: none !important;
+               outline: none;
+            }
+            input[type='range']::-webkit-slider-thumb {
+                -webkit-appearance: none !important;
+                background-color: white;
+                border-radius: 25px;
+                height:30px;
+                width:30px;
+            }
+            input[type='range']::-webkit-slider-thumb:hover {
+               background-color: #9ce2c9;
+               
+             }
+
+            input[type='range']::-webkit-slider-thumb:active {
+                -webkit-appearance: none !important;
+                background-color: #67C1A1;
+                border-radius: 25px;
+                height:30px;
+                width:30px;
+            }
+
+            ul {
+              display: block;
+            }
+            
+            li {
+              font-size: 18px;
+              font-family: Futura;
+              border-radius: 5px;
+              background-color: white;
+              padding: 5px;
+              margin: 3px;
+              text-align: center;
+            }
+
+            li:hover {
+              background-color: #9ce2c9;
+            }
+
+            li:active {
+              background-color: #67C1A1;
+            }
+
+            .active {
+              background-color: #378762;
+              box-shadow: 0px 0px 10px #9ce2c9 !important;
+            }
+
 
 
         </style>
 
-
-
-
     </head>
     <body>
-        <div class="topcorner">
+
+
+        <div class="topcorner" style="text-align: right">
             <p>Project Name: {{ name }}</p>
             <p>Student Name: ({{ netid }})</p>
         </div>
         <form class="form-inline global-search" autocomplete="off">
             <h1 style="font-family: Futura; font-size: 55px; color: #ba1246">FLASK FILLER</h1>
-
+            
             <br><br>
 
-            <p style="color: #F0EAD6; font-size: 15px; padding: 4px; font-family: Futura; display: block;">Enter a list of ingredients or attributes separated by commas to get drink recommendations</p>
-
+            <p style="color: #ba1246; font-size: 15px; padding: 4px; font-family: Futura; display: block;">Enter a list of ingredients or attributes separated by commas to get drink recommendations</p>
+            
             <div class="form-group">
 
+                <!-- Enter ingredients text book and search button -->
                 <div class="autocomplete" style="position: relative; display: inline-block; width: 500px; padding-bottom: 10px">
                     <div style="">
-                        <input id="input" type="text" name="search" class="form-control" placeholder="Enter ingredients" autocomplete="off">
+                        <input id="input" type="text" name="search" class="form-control" placeholder="Enter ingredients" autocomplete="off" style="">
                     </div>
                 </div>
 
-                <button type="submit" class="btn btn-info" style="color: #F0EAD6; background-color: #ba1246; border: none"> <strong>Search</strong> </button>
+                <button type="submit" class="btn btn-info" style="color: #F0EAD6; background-color: #ba1246; border: none; margin-left: 5px;"> <strong>Search</strong> </button>
 
+
+                <!-- container to display autocomplete items -->
                 <div class="container-multi" style="display: block">
-                    <ul id="choices" class="choices" style="list-style: none;">
+                    <ul id="choices" class="choices" style="list-style: none;">        
                     </ul>
                 </div>
 
 
-                <div class="autocomplete" style="position: relative; display: inline-block; width: 500px; padding-bottom: 10px;">
-                    <div style="">
-                        <input id="input" type="text" name="search" class="form-control" placeholder="Enter flavors" autocomplete="off">
-                    </div>
+
+                <!-- flavor profiles checkboxes -->
+                <ul>
+                  <li class="flavor" id="sweet" onclick="toggleActive(this)"> 
+                    <label>SWEET</label>
+                  </li>
+
+                  <li class="flavor" id="sour" onclick="toggleActive(this)"> 
+                    <label >SOUR</label>
+                  </li>
+
+                  <li class="flavor" id="salty" onclick="toggleActive(this)"> 
+                    <label  >SALTY</label>
+                  </li>
+
+                  <li class="flavor" id="bitter" onclick="toggleActive(this)"> 
+                    <label >BITTER</label>
+                  </li>
+
+                  <li class="flavor" id="fruity" onclick="toggleActive(this)"> 
+                    <label>FRUITY</label>
+                  </li>
+
+                  <li class="flavor" id="creamy" onclick="toggleActive(this)"> 
+                    <label>CREAMY</label>
+                  </li>
+                </ul>
+
+                <br><br>
+               
+                <!-- alcohol percentage slider -->
+                <div class="slide_container" style="display: block;">
+                  <input type="range" min="0" max="100" value="50" step="10" class="slider" id="mySlider" oninput="outputUpdate(value)">
+                  <output for="mySlider" id="percent" style="font-size: 20px; font-family: Futura; color: #67C1A1;">Alchol Content: 50%</output>
                 </div>
-
-                <button type="submit" class="btn btn-info" style="color: #F0EAD6; background-color: #ba1246; border: none"> <strong>Search</strong> </button>
-
-                <br>
-
-                <div class="autocomplete" style="position: relative; display: inline-block; width: 500px; padding-bottom: 10px;">
-                    <div style="">
-                        <input id="input" type="text" name="search" class="form-control" placeholder="Enter calories" autocomplete="off">
-                    </div>
-                </div>
-
-                <button type="submit" class="btn btn-info" style="color: #F0EAD6; background-color: #ba1246; border: none"> <strong>Search</strong> </button>
-
-                <div class="slidecontainer" style="display: block">
-                  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                  <p style="font-size: 20px; color: #ba1246; font-family: Futura;">Alcohol Content</p>
-                </div>
-
 
             </div>
 
         </form>
 
+
+        <!-- display search results -->
         <form class="form-inline global-search">
         {% if data %}
             <h1 style="color: #ba1246; font-size: 22px; font-family: Futura; padding: 3px;">{{output_message}}</h1>
             <p stle="color: white">{{ings}}</p>
-            {% for d in data %}
+            {% for d in data %}  
                 <br>
                 <p style="color: #212121">{{d}}</p>
             {% endfor %}
         {% endif %}
         </form>
 
-        <script>
+        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+        <script  type="text/javascript">
+
+        flavor_dict = {"sweet": 0, "sour": 0, "salty": 0, "bitter": 0, "fruity": 0, "creamy": 0};
+        /*
+          SWEET = 0
+          SOUR = 1
+          SALTY = 2
+          BITTER = 3
+          FRUITY = 4
+          CREAMY = 5
+        */
+
+        /* Toggle the active state for flavor checkboxes */
+        function toggleActive(element) {
+          element.classList.toggle("active");
+          if (element.classList.contains("active")) {
+            flavor_dict[element.id] = 1;
+          } else {
+            flavor_dict[element.id] = 0;
+          }
+          console.log(flavor_dict);
+        }
+
+        /* update value on the alcohol percent slider as it's dragged */
+        function outputUpdate(val) {
+          document.querySelector('#percent').value = 'Alcohol Content: ' + val + '%';
+        }
+
+
+        /* Below is all the code for the automplete box */
         var ingredients = ["151 proof rum","190 Proof Everclear",
 "7-Up",
 "Absinthe",
@@ -649,12 +768,17 @@ function autocomplete(inp, arr) {
       a.setAttribute("id", this.id + "autocomplete-list");
       a.setAttribute("class", "autocomplete-items");
 
-
+      array = val.split(",");
+      if (array.length == 1) { val = array[0];}
+      else {
+        val = array[array.length -1];
+      }
       /*append the DIV element as a child of the autocomplete container:*/
       this.parentNode.appendChild(a);
       /*for each item in the array...*/
       for (i = 0; i < arr.length; i++) {
         /*check if the item starts with the same letters as the text field value:*/
+
         if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
           /*create a DIV element for each matching element:*/
           b = document.createElement("DIV");
@@ -666,17 +790,22 @@ function autocomplete(inp, arr) {
           /*execute a function when someone clicks on the item value (DIV element):*/
               b.addEventListener("click", function(e) {
               /*insert the value for the autocomplete text field:*/
-              inp.value = this.getElementsByTagName("input")[0].value;
-              /*item = document.createElement("li")
-              item.innerHTML = this.getElementsByTagName("input")[0].value;
-              item.style.color = white;
-              item.setAttribute("class", "ing_item");*/
-              /*close the list of autocompleted values,
+              total_val = ""
+              if (array.length > 1) {
+                for (i = 0; i < array.length-1; i++) {
+                  total_val += array[i] + ","
+                }
+                total_val += this.getElementsByTagName("input")[0].value;
+                inp.value = total_val;
+              } else {
+                inp.value = this.getElementsByTagName("input")[0].value;
+              }
+              
+              /*close all lists
               (or any other open lists of autocompleted values:*/
               closeAllLists();
           });
           a.appendChild(b);
-          /*list.appendChild(item)*/
         }
       }
   });
@@ -739,6 +868,12 @@ document.addEventListener("click", function (e) {
 
 autocomplete(document.getElementById("input"), ingredients);
 
+inp.addEventListener("keydown", function(e) {
+  var keyCode = e.keyCode;
+  if(keyCode ==188) {
+    autocomplete(document.getElementById("input"), ingredients);
+  }
+})
         </script>
 
     </body>
