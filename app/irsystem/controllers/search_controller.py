@@ -8,7 +8,7 @@ import gen_jaccard_app
 project_name = "Flask Filler"
 net_id = ""
 with open('ingredients.json', 'r') as fr:
-    ingredients = json.load(fr)
+		ingredients = json.load(fr)
 
 ingredients = [item.lower().encode('utf-8') for item in ingredients]
 #print(ingredients)
@@ -18,6 +18,7 @@ def search():
 	query = request.args.get('search')
 	#print(type(query))
 	#query = query.decode('utf-8').lower()
+	search_ing = []
 	if not query:
 		print("Blank space baby")
 		data = []
@@ -28,37 +29,34 @@ def search():
 		output_message = "ingredients: "
 		ings = query.split(',')
 		ings = [item.lstrip(' ') for item in ings]
+
 		data = [] # change data to output list of drinks
-        search_ing = []
-        for ing in ings:
-            if ing in ingredients:
+		#search_ing = []
+		for ing in ings:
+			if ing in ingredients:
 				print(ing)
 				search_ing.append(ing)
-        for ing in search_ing:
-            output_message += ing + ',  '
-        #user_list = [x.lower() for x in search_ing]
-        #user_list = search_ing
-        data = gen_jaccard_app.get_results(user_list)
-        print(data)
+		# for ing in search_ing:
+		# 	output_message += ing + ',  '
+		for i in range(len(search_ing)):
+			comma_ending = ""
+			if i!=(len(search_ing)-1):
+				comma_ending = ", "
+			output_message = output_message + str(search_ing[i].encode('ascii', 'ignore').title()) + comma_ending
+        user_list = [x.lower() for x in search_ing]
+        if len(user_list)==0:
+            data=[]
+        else:
+            inter = gen_jaccard_app.get_results(user_list)
+            data = [x[1].encode('ascii', 'ignore') for x in inter]
+            print("data " + str(data))
 
-        query1 = [u"Lime juice", u"Vodka", u"Sugar", u"Cherries", u"Rum"]
-
-        inv_idx = build_inverted_index(drinks_dict)
-        rel = sorted(find_relevant(query1, inv_idx))
-        results_dict = gen_jaccard_index_search(query1, rel, drinks_dict)
-
-        results = []
-        sorted_drinks = sorted(results_dict, key=lambda x:results_dict[x], reverse=True)
-        for drink in sorted_drinks:
-            results.append((results_dict[drink], drink))
-
-        data = results[:10]
 		#drink_list = [x.encode('ascii', 'ignore') for x in search_ing]
 
 		# ranked_list = helpers.drink_jaccard_sim(user_list)
 		# #ranked_list = json_extraction.drink_jaccard_sim(user_list)
 		# for i in range(10):
-		# 	print(ranked_list[i])
+		#   print(ranked_list[i])
 
 		#data=(helpers.get_top_k_drinks(ranked_list, 10))
 		#data= json_extraction.get_top_k_drinks(ranked_list, 10)
