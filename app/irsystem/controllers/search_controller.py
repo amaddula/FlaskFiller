@@ -8,7 +8,7 @@ import gen_jaccard_app
 project_name = "Flask Filler"
 net_id = ""
 with open('ingredients.json', 'r') as fr:
-    ingredients = json.load(fr)
+		ingredients = json.load(fr)
 
 ingredients = [item.lower().encode('utf-8') for item in ingredients]
 #print(ingredients)
@@ -41,14 +41,14 @@ def search():
 		user_list = [x.lower().encode('utf-8') for x in search_ing]
 
 		data = gen_jaccard_app.get_results(user_list)
-        print(data)
+		print(data)
 
 		#drink_list = [x.encode('ascii', 'ignore') for x in search_ing]
 
 		# ranked_list = helpers.drink_jaccard_sim(user_list)
 		# #ranked_list = json_extraction.drink_jaccard_sim(user_list)
 		# for i in range(10):
-		# 	print(ranked_list[i])
+		#   print(ranked_list[i])
 
 		#data=(helpers.get_top_k_drinks(ranked_list, 10))
 		#data= json_extraction.get_top_k_drinks(ranked_list, 10)
