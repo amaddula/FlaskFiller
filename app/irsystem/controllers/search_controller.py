@@ -28,21 +28,31 @@ def search():
 		output_message = "ingredients: "
 		ings = query.split(',')
 		ings = [item.lstrip(' ') for item in ings]
-
 		data = [] # change data to output list of drinks
-
-		search_ing = []
-		for ing in ings:
-			if ing in ingredients:
+        search_ing = []
+        for ing in ings:
+            if ing in ingredients:
 				print(ing)
 				search_ing.append(ing)
-		for ing in search_ing:
-			output_message += ing + ',  '
-		user_list = [x.lower().encode('utf-8') for x in search_ing]
-
-		data = gen_jaccard_app.get_results(user_list)
+        for ing in search_ing:
+            output_message += ing + ',  '
+        #user_list = [x.lower() for x in search_ing]
+        #user_list = search_ing
+        data = gen_jaccard_app.get_results(user_list)
         print(data)
 
+        query1 = [u"Lime juice", u"Vodka", u"Sugar", u"Cherries", u"Rum"]
+
+        inv_idx = build_inverted_index(drinks_dict)
+        rel = sorted(find_relevant(query1, inv_idx))
+        results_dict = gen_jaccard_index_search(query1, rel, drinks_dict)
+
+        results = []
+        sorted_drinks = sorted(results_dict, key=lambda x:results_dict[x], reverse=True)
+        for drink in sorted_drinks:
+            results.append((results_dict[drink], drink))
+
+        data = results[:10]
 		#drink_list = [x.encode('ascii', 'ignore') for x in search_ing]
 
 		# ranked_list = helpers.drink_jaccard_sim(user_list)
