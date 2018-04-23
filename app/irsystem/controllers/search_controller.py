@@ -43,7 +43,7 @@ def search():
 			output_message += ing + ',  '
 		user_list = [x.lower().encode('utf-8') for x in search_ing]
 
-		data = gen_jaccard.get_results(user_list)
+		data = gen_jaccard_app.get_results(user_list)
         print(data)
 
 		#drink_list = [x.encode('ascii', 'ignore') for x in search_ing]
