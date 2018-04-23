@@ -12,7 +12,7 @@ drink_list = pickle.load( open( "drink_dic_pickle.p", "rb" ))
 #mixing_instr = pickle.load( open( "mixing_instructions.p", "rb" ))
 
 #clean the unicode off
-ingr_list = [x.lower().encode('utf-8') for x in ingr_list]
+ingr_list = [x.lower().encode('ascii', 'ignore') for x in ingr_list]
 
 # new_mix = {}
 # for k,v in mixing_instr.items():
@@ -24,11 +24,11 @@ ingr_list = [x.lower().encode('utf-8') for x in ingr_list]
 
 drink_list_new = {}
 for k,v in drink_list.items():
-	drink_name = k.lower().encode('utf-8')
+	drink_name = k.lower().encode('ascii', 'ignore')
 	recipe = []
 	for tup in v:
-		ing_name = tup[0].lower().encode('utf-8')
-		ing_amt = tup[1].lower().encode('utf-8')
+		ing_name = tup[0].lower().encode('ascii', 'ignore')
+		ing_amt = tup[1].lower().encode('ascii', 'ignore')
 		recipe.append([ing_name, ing_amt])
 	drink_list_new[drink_name] = recipe
 drink_list = drink_list_new
@@ -59,7 +59,7 @@ for i in range(len(drink_to_num)):
     curr_ingredients = drink_list[num_to_drink[i]]
     #for j in range(len(ingr_to_num)):
     for ingredient in curr_ingredients:
-        num_ingredient = ingr_to_num[ingredient[0].lower().encode('utf-8')]
+        num_ingredient = ingr_to_num[ingredient[0].lower().encode('ascii', 'ignore')]
         drink_ingr[i][num_ingredient] = 1
 print(drink_ingr)
 
@@ -96,7 +96,7 @@ print(drink_ingr)
 #     #print(np.sum(final_mat))
 #     return final_mat
 def ingredient_to_index(ingredient_str):
-    return ingr_to_num[ingredient_str.encode('utf-8', 'ignore').lower()]
+    return ingr_to_num[ingredient_str.encode('ascii', 'ignore').lower()]
 def number_list_of_drinks(ing_str_lst):
     newlst = []
     for ingr in ing_str_lst:
@@ -124,7 +124,7 @@ def drink_jaccard_sim(user_ingredients_lst, drink_lst):
         union = len(set.union(cat1, cat2))
         final_mat[i] = intersect/(union+1)
     return final_mat
-  
+
 # def get_mixing_instructions(drink_name):
 #     return mixing_instr[drink_name]
 
@@ -135,7 +135,7 @@ def get_top_k_drinks(lst, k):
     top_drinks = []
     for drink_num in sorted_lst:
         #stuff = get_ingredients_for_drink(drink_num, drink_list)
-        stuff2 = drink_list[index_to_drink(drink_num).lower()]
+        stuff2 = drink_list[index_to_drink(drink_num).lower().encode('ascii', 'ignore')]
         #mix = get_mixing_instructions(index_to_drink(drink_num))
         top_drinks.append([index_to_drink(drink_num), lst[drink_num], stuff2])
     #print(top_drinks)
