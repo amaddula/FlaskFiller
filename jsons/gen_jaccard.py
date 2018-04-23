@@ -57,7 +57,7 @@ def gen_jaccard_index_search (query, relevant, drinks_dict):
     return results_dict
             
 
-query1 = [u'Bailey\'s irish cream', u'7-Up']
+query1 = [u"Lime juice", u"Vodka", u"Salt", u"Sugar", u"Cherries", u"Rum"]
  
 inv_idx = build_inverted_index(drinks_dict)
 rel = sorted(find_relevant(query1, inv_idx))
@@ -68,3 +68,5 @@ sorted_drinks = sorted(results_dict, key=lambda x:results_dict[x], reverse=True)
 for drink in sorted_drinks:
     results.append((results_dict[drink], drink))
 
+for r in results[:10]:
+    print (r[1] + ": " + str(r[0]))
