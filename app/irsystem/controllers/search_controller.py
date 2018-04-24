@@ -9,7 +9,7 @@ import json
 
 
 project_name = "Flask Filler"
-net_id = ""
+net_id = "Anirudh Maddula (aam252), Jordan Stern (js2592), Diana Bank (dmb469)"
 
 with open('ingredients.json', 'r') as fr:
     ingr = json.load(fr)
