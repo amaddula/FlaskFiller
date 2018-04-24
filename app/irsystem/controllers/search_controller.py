@@ -11,7 +11,10 @@ import json
 project_name = "Flask Filler"
 net_id = ""
 with open('ingredients.json', 'r') as fr:
-        ingr = json.load(fr)
+    ingr = json.load(fr)
+
+with open('cossim_decimals.json', 'r') as f:
+    drinks_dict = json.load(f)
 
 with open('cossim_decimals.json', 'r') as fr:
         drink_ingredients = json.load(fr)
@@ -23,7 +26,9 @@ ingredients = [item.lower().encode('utf-8') for item in ingr]
 def search():
     query = request.args.get('search')
     query2 = request.args.get('but')
-    alc_content = float(query2)
+    try:
+        alc_content = float(query2)
+    except: alc_content = 0.0
     #print(type(query))
     #query = query.decode('utf-8').lower()
     search_ing = []
@@ -76,8 +81,10 @@ def search():
                 results_dict[drink] = jaccard_results[drink] + content_results[drink]
 
             inter = sorted(results_dict, key=lambda x:results_dict[x], reverse=True)
-            data = inter[:15]
-            print(data)
+            results = []
+            for drink in inter[:15]:
+                results.append((drink, drinks_dict[drink])
+            data = results
 
         #drink_list = [x.encode('ascii', 'ignore') for x in search_ing]
 
