@@ -3,7 +3,6 @@ from app.irsystem.models.helpers import *
 from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
 from collections import OrderedDict
 import gen_jaccard_app
-import codecs
 import alcohol_suggestions
 import json
 #import json_extraction
@@ -11,12 +10,22 @@ import json
 
 project_name = "Flask Filler"
 net_id = ""
+
 with open('ingredients.json', 'r') as fr:
     ingr = json.load(fr)
 
-with codecs.open('drinks_data_no_weird_amts.json', 'r', encoding='ascii') as f:
-    drinks_dict = json.load(f)
+with open('drinks_data_no_weird_amts.json', 'r') as f:
+    drinks_dict_utf = json.load(f)
 
+drinks_dict = {}
+for drink in drinks_dict_utf:
+    drink_name = drink.encode('ascii','ignore')
+    recipe = []
+    for ing in drinks_dict_utf[drink]:
+        ing_name = ing[0].encode('ascii','ignore')
+        ing_amt = ing[1].encode('ascii','ignore')
+        recipe.append((ing_name, ing_amt))
+    drinks_dict[drink_name] = recipe
 
 ingredients = [item.lower().encode('utf-8') for item in ingr]
 #print(ingredients)
