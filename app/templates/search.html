@@ -34,7 +34,7 @@
                 display: block;
               cursor: pointer;
               color: #333333;
-              background-color: #E8E8E8;
+              background-color: #cccccc;
               /*border-bottom: 1px solid #d4d4d4; */
               text-align: left;
               padding-left: 10px;
@@ -267,7 +267,7 @@
         function outputUpdate(val) {
             document.querySelector('#percent').value = 'Alcohol Content: ' + val + '%';
 
-          
+
         }
 
 
@@ -665,7 +665,7 @@ function autocomplete(inp, arr) {
       a.setAttribute("id", this.id + "autocomplete-list");
       a.setAttribute("class", "autocomplete-items");
 
-      array = val.split(",");
+      array = val.split(", ");
       if (array.length == 1) { val = array[0];}
       else {
         val = array[array.length -1];
