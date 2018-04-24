@@ -97,6 +97,7 @@ def search():
             results = []
             for drink in inter[:15]:
                 results.append((drink, drinks_dict[drink]))
+            print(inter[:20])
             data = results
 
         #drink_list = [x.encode('ascii', 'ignore') for x in search_ing]
