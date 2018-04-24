@@ -70,7 +70,7 @@ def search():
             inter = sorted(results_dict, key=lambda x:results_dict[x], reverse=True)
             results = []
             for drink in inter[:15]:
-                results.append((drink, drinks_dict[drink])
+                results.append((drink, drinks_dict[drink]))
             data = results
 
 
