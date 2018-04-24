@@ -13,11 +13,8 @@ net_id = ""
 with open('ingredients.json', 'r') as fr:
     ingr = json.load(fr)
 
-with open('cossim_decimals.json', 'r') as f:
+with open('drinks_data_no_weird_amts.json', 'r') as f:
     drinks_dict = json.load(f)
-
-with open('cossim_decimals.json', 'r') as fr:
-        drink_ingredients = json.load(fr)
 
 ingredients = [item.lower().encode('utf-8') for item in ingr]
 #print(ingredients)
