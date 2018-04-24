@@ -7,7 +7,7 @@ with open('name_swaps.json', 'r', encoding='utf-8') as f:
         name_swaps[k.strip()] = v.strip().strip("")
 
 def replace_names(): 
-    with open('clean_data_fractions.json', 'r') as fr:
+    with open('drinks_data_no_weird_amts.json', 'r') as fr:
         data_dict = json.load(fr)
 
     counter = 0
@@ -25,11 +25,11 @@ def replace_names():
     print(str(counter) + " swaps")
             
     data = json.dumps(data_dict, indent=4, separators=(',', ': '))
-    with open("clean_data_revised_names.json", "w") as fw:
+    with open("drinks_data_no_weird_amts.json", "w") as fw:
         fw.write(data)
 
 def update_ingredients_list():
-    with open('clean_data_revised_names.json', 'r') as fr:
+    with open('drinks_data_no_weird_amts.json', 'r') as fr:
         data_dict = json.load(fr)
         
     counter = 0
