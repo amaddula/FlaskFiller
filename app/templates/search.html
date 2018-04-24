@@ -33,8 +33,8 @@
             .autocomplete-items div {
                 display: block;
               cursor: pointer;
-              color: #212121;
-              background-color: #F0EAD6;
+              color: #333333;
+              background-color: #E8E8E8;
               /*border-bottom: 1px solid #d4d4d4; */
               text-align: left;
               padding-left: 10px;
@@ -69,7 +69,7 @@
             /*ALCOHOL PERCENT SLIDER STYLES*/
             input[type='range'] {
                 -webkit-appearance: none !important;
-                background: linear-gradient(to right, white, #ba1246);
+                background: linear-gradient(to right, white, #990100);
                 height: 10px;
                 border-radius: 5px;
                 width: 100%;
@@ -89,13 +89,13 @@
                 width:30px;
             }
             input[type='range']::-webkit-slider-thumb:hover {
-               background-color: #9ce2c9;
+               background-color: #B90504;
 
              }
 
             input[type='range']::-webkit-slider-thumb:active {
                 -webkit-appearance: none !important;
-                background-color: #67C1A1;
+                background-color: #333333;
                 border-radius: 25px;
                 height:30px;
                 width:30px;
@@ -116,16 +116,16 @@
             }
 
             li:hover {
-              background-color: #9ce2c9;
+              background-color: #B90504;
             }
 
             li:active {
-              background-color: #67C1A1;
+              background-color: #333333;
             }
 
             .active {
               background-color: #378762;
-              box-shadow: 0px 0px 10px #9ce2c9 !important;
+              box-shadow: 0px 0px 10px #B90504 !important;
             }
 
 
@@ -141,11 +141,11 @@
             <p>Student Name: ({{ netid }})</p>
         </div>
         <form class="form-inline global-search" autocomplete="off">
-            <h1 style="font-family: Futura; font-size: 55px; color: #ba1246">FLASK FILLER</h1>
+            <h1 style="font-family: Futura; font-size: 55px; color: #990100">FLASK FILLER</h1>
 
             <br><br>
 
-            <p style="color: #ba1246; font-size: 15px; padding: 4px; font-family: Futura; display: block;">Enter a list of ingredients or attributes separated by commas to get drink recommendations</p>
+            <p style="color: #990100; font-size: 15px; padding: 4px; font-family: Futura; display: block;">Enter a list of ingredients or attributes separated by commas to get drink recommendations</p>
 
             <div class="form-group">
 
@@ -156,7 +156,7 @@
                     </div>
                 </div>
 
-                <button type="submit" class="btn btn-info" style="color: #F0EAD6; background-color: #ba1246; border: none; margin-left: 5px;"> <strong>Search</strong> </button>
+                <button type="submit" class="btn btn-info" style="color: #E8E8E8; background-color: #990100; border: none; margin-left: 5px;"> <strong>Search</strong> </button>
 
 
                 <!-- container to display autocomplete items -->
@@ -199,7 +199,7 @@
                 <!-- alcohol percentage slider -->
                 <div class="slide_container" style="display: block;">
                   <input name="but" type="range" min="0" max="75" value="0" step="15" class="slider form" id="mySlider" oninput="outputUpdate(value)">
-                  <output for="mySlider" id="percent" style="font-size: 20px; font-family: Futura; color: #67C1A1;">Alchol Content: 0%</output>
+                  <output for="mySlider" id="percent" style="font-size: 20px; font-family: Futura; color: #333333;">Alchol Content: 0%</output>
                 </div>
 
             </div>
@@ -220,17 +220,17 @@
         <!-- display search results -->
         <form class="form-inline global-search">
         {% if data %}
-            <h1 style="color: #ba1246; font-size: 22px; font-family: Futura; padding: 3px;">{{output_message}}</h1>
+            <h1 style="color: #990100; font-size: 22px; font-family: Futura; padding: 3px;">{{output_message}}</h1>
             <p stle="color: white">{{ings}}</p>
             <br>
             {% for d in data %}
                 <!-- <br> -->
-                <!-- <p style="color: #212121">{{d}}</p> -->
+                <!-- <p style="color: #333333">{{d}}</p> -->
                 <div class="container">
                   <div class="row">
                     <div class="col-md-12">
                       <div class="well well-sm">
-                        <p style="color: #212121">{{d}}</p>
+                        <p style="color: #333333">{{d}}</p>
                       </div>
                     </div>
                   </div>
