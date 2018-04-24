@@ -55,15 +55,15 @@ def search():
         if len(user_list)==0:
             data=[]
         else:
-            inter = gen_jaccard_app.get_results(user_list)
-            inter1 = [x[1].encode('ascii', 'ignore') for x in inter[:15]]
-            ingrd1 = []
-            for drink in inter1:
-                drnk_ings = drink_ingredients[drink]
-                ingrd1.append(drnk_ings)
-            ingrd1 = [x[1].encode('ascii', 'ignore') for x in inter[:15]]
-            data = [inter1, ingrd1]
-            print(data)
+            # inter = gen_jaccard_app.get_results(user_list)
+            # inter1 = [x[1].encode('ascii', 'ignore') for x in inter[:15]]
+            # ingrd1 = []
+            # for drink in inter1:
+            #     drnk_ings = drink_ingredients[drink]
+            #     ingrd1.append(drnk_ings)
+            # ingrd1 = [x[1].encode('ascii', 'ignore') for x in inter[:15]]
+            # data = [inter1, ingrd1]
+            # print(data)
             #print("data " + str(data))
             jaccard_weight = 0.5
             alc_content_weight = 0.5
