@@ -1,7 +1,9 @@
 from . import *
 from app.irsystem.models.helpers import *
 from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
+from collections import OrderedDict
 import gen_jaccard_app
+import alcohol_suggestions
 import json
 #import json_extraction
 
@@ -18,7 +20,7 @@ ingredients = [item.lower().encode('utf-8') for item in ingr]
 def search():
     query = request.args.get('search')
     query2 = request.args.get('but')
-    print(query2)
+    alc_content = float(query2)
     #print(type(query))
     #query = query.decode('utf-8').lower()
     search_ing = []
@@ -36,7 +38,7 @@ def search():
         data = [] # change data to output list of drinks
         #search_ing = []
         for ing in ings:
-            if ing in ingredients:
+            if str(ing) in ingredients:
                 print(ing)
                 search_ing.append(ing)
         # for ing in search_ing:
@@ -50,9 +52,19 @@ def search():
         if len(user_list)==0:
             data=[]
         else:
-            inter = gen_jaccard_app.get_results(user_list)
+            jaccard_weight = 0.5
+            alc_content_weight = 0.5
+            content_results = alcohol_suggestions.get_results(alc_content, alc_content_weight)
+            jaccard_results = gen_jaccard_app.get_results(user_list, jaccard_weight)
+            results_dict = {}
+            print(len(content_results))
+            print(len(jaccard_results))
+            for drink in content_results:
+                results_dict[drink] = jaccard_results[drink] + content_results[drink]
+
+            inter = sorted(results_dict, key=lambda x:results_dict[x], reverse=True)
             data = [x[1].encode('ascii', 'ignore') for x in inter[:15]]
-            #print("data " + str(data))
+
 
         #drink_list = [x.encode('ascii', 'ignore') for x in search_ing]
 
@@ -68,4 +80,4 @@ def search():
         #data = [('Caribbean Orange Liqueur', 0.75), ('Saurian Brandy', 0.6), ('Stockholm "75"', 0.5), ('The Power of Milk', 0.4), ('Piggelin #1', 0.4), ('Top Banana', 0.4), ('Lemon Shooters', 0.4), ('St. Petersburg', 0.4), ('Sjarsk', 0.4), ('Raspberry Cordial', 0.4)]
         #data = [('Pine-Sol Shooter', 0.0), ('Black Army', 0.0), ('Cactus Juice', 0.0), ('Tidal Wave', 0.0), ('Drunk Watermelon', 0.0), ('The Seminole', 0.0), ('Dr. Pepper #1', 0.0), ('Pixie Stick', 0.0), ('Candy Corn #2', 0.0), ('Dark and Stormy #2', 0.0)]
         #print(data)
-    return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data)
+    return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data, ingr=json.dumps(ingr))
