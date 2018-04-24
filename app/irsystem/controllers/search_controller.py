@@ -78,8 +78,13 @@ def search():
             # data = [inter1, ingrd1]
             # print(data)
             #print("data " + str(data))
-            jaccard_weight = 0.6
-            alc_content_weight = 0.4
+            if (alc_content == 0):
+                jaccard_weight = 0.1
+                alc_content_weight = 0.9
+            else:
+                jaccard_weight = 0.666
+                alc_content_weight = 0.334
+            
             content_results = alcohol_suggestions.get_results(alc_content, alc_content_weight)
             jaccard_results = gen_jaccard_app.get_results(user_list, jaccard_weight)
             results_dict = {}
