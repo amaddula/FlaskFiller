@@ -5,6 +5,7 @@ from collections import OrderedDict
 import gen_jaccard_app
 import alcohol_suggestions
 import json
+import math
 #import json_extraction
 
 
@@ -91,13 +92,14 @@ def search():
             print(len(content_results))
             print(len(jaccard_results))
             for drink in content_results:
-                results_dict[drink] = jaccard_results[drink] + content_results[drink]
+                results_dict[drink] = math.sqrt(jaccard_results[drink] + content_results[drink])
 
             inter = sorted(results_dict, key=lambda x:results_dict[x], reverse=True)
             results = []
             for drink in inter[:15]:
                 results.append((drink, drinks_dict[drink]))
-            print(inter[:20])
+            for i in inter[:20]:
+                print(i + str(results_dict[i]))
             data = results
 
         #drink_list = [x.encode('ascii', 'ignore') for x in search_ing]
