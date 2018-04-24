@@ -35,7 +35,7 @@ def search():
     query = request.args.get('search')
     query2 = request.args.get('but')
     try:
-        alc_content = float(query2)
+        alc_content = float(query2)/100
     except: alc_content = 0.0
     #print(type(query))
     #query = query.decode('utf-8').lower()
