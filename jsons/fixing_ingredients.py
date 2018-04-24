@@ -41,7 +41,7 @@ def update_ingredients_list():
             ings.add(ingredient[0])
 
     ings = sorted(ings)
-    data = json.dumps(ings, separators=('\n', ": "))
+    data = json.dumps(ings, separators=(',\n', ": "))
     
     print(str(len(ings)) + " ingredients")
     
