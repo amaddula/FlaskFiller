@@ -76,7 +76,8 @@ def search():
                 results_dict[drink] = jaccard_results[drink] + content_results[drink]
 
             inter = sorted(results_dict, key=lambda x:results_dict[x], reverse=True)
-            data = [x[1].encode('ascii', 'ignore') for x in inter[:15]]
+            data = inter[:15]
+            print(data)
 
         #drink_list = [x.encode('ascii', 'ignore') for x in search_ing]
 
