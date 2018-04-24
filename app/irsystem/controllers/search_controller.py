@@ -3,6 +3,7 @@ from app.irsystem.models.helpers import *
 from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
 from collections import OrderedDict
 import gen_jaccard_app
+import codecs
 import alcohol_suggestions
 import json
 #import json_extraction
@@ -13,8 +14,9 @@ net_id = ""
 with open('ingredients.json', 'r') as fr:
     ingr = json.load(fr)
 
-with open('drinks_data_no_weird_amts.json', 'r') as f:
+with codecs.open('drinks_data_no_weird_amts.json', 'r', encoding='ascii') as f:
     drinks_dict = json.load(f)
+
 
 ingredients = [item.lower().encode('utf-8') for item in ingr]
 #print(ingredients)
@@ -67,8 +69,8 @@ def search():
             # data = [inter1, ingrd1]
             # print(data)
             #print("data " + str(data))
-            jaccard_weight = 0.5
-            alc_content_weight = 0.5
+            jaccard_weight = 0.25
+            alc_content_weight = 0.75
             content_results = alcohol_suggestions.get_results(alc_content, alc_content_weight)
             jaccard_results = gen_jaccard_app.get_results(user_list, jaccard_weight)
             results_dict = {}

@@ -6,7 +6,6 @@ def get_results(amt, weight):
         drinks_alcs = json.load(fr)
     scores = {}
     for drink in drinks_alcs:
-        score = abs(drinks_alcs[drink] - amt) * weight
+        score = (1-abs(drinks_alcs[drink] - amt)) * weight
         scores[drink.encode('ascii', 'ignore')]= score
-##    sorted_drinks = sorted(scores, key=lambda x:scores[x])
     return scores
