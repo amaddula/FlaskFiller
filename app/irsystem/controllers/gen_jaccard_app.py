@@ -69,6 +69,6 @@ def get_results(query):
     results_dict = gen_jaccard_index_search(query, rel, drinks_dict)
     results = []
     sorted_drinks = sorted(results_dict, key=lambda x:results_dict[x], reverse=True)
-    for drink in sorted_drinks[:50]:
+    for drink in sorted_drinks:
         results.append([results_dict[drink], drink])
     return results
