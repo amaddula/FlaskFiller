@@ -78,7 +78,7 @@ def search():
             # data = [inter1, ingrd1]
             # print(data)
             #print("data " + str(data))
-            if (alc_content == 0):
+            if not (alc_content > 0):
                 jaccard_weight = 0.1
                 alc_content_weight = 0.9
             else:
