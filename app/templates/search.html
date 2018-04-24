@@ -223,14 +223,19 @@
             <h1 style="color: #ba1246; font-size: 22px; font-family: Futura; padding: 3px;">{{output_message}}</h1>
             <p stle="color: white">{{ings}}</p>
             <br>
-            {% for d in data %}
+            {% for d in range(data|length) %}
                 <!-- <br> -->
                 <!-- <p style="color: #212121">{{d}}</p> -->
                 <div class="container">
                   <div class="row">
                     <div class="col-md-12">
-                      <div class="well">
-                        <p style="color: #212121">{{d}}</p>
+                      <div class="panel panel-primary">
+                        <div class="panel-body">
+                          <p style="color: #212121">{{data[0][d]}}</p>
+                        </div>
+                        <div class="panel-footer">
+                          <p style="color: #212121">{{data[1][d]}}</p>
+                        </div>
                       </div>
                     </div>
                   </div>

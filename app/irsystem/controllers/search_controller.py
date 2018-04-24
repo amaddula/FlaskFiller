@@ -11,6 +11,9 @@ net_id = ""
 with open('ingredients.json', 'r') as fr:
         ingr = json.load(fr)
 
+with open('cossim_decimals.json', 'r') as fr:
+        drink_ingredients = json.load(fr)
+
 ingredients = [item.lower().encode('utf-8') for item in ingr]
 #print(ingredients)
 
@@ -51,7 +54,14 @@ def search():
             data=[]
         else:
             inter = gen_jaccard_app.get_results(user_list)
-            data = [x[1].encode('ascii', 'ignore') for x in inter[:15]]
+            inter1 = [x[1].encode('ascii', 'ignore') for x in inter[:15]]
+            ingrd1 = []
+            for drink in inter1:
+                drnk_ings = drink_ingredients[drink]
+                ingrd1.append(drnk_ings)
+            ingrd1 = [x[1].encode('ascii', 'ignore') for x in inter[:15]]
+            data = [inter1, ingrd1]
+            print(data)
             #print("data " + str(data))
 
         #drink_list = [x.encode('ascii', 'ignore') for x in search_ing]
