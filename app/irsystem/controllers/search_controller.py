@@ -51,7 +51,7 @@ def search():
             data=[]
         else:
             inter = gen_jaccard_app.get_results(user_list)
-            data = [x[1].encode('ascii', 'ignore') for x in inter]
+            data = [x[1].encode('ascii', 'ignore') for x in inter[:15]]
             #print("data " + str(data))
 
         #drink_list = [x.encode('ascii', 'ignore') for x in search_ing]
