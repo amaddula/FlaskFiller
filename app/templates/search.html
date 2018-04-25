@@ -110,13 +110,13 @@
               font-family: Futura;
               border-radius: 5px;
               background-color: white;
-              padding: 5px;
-              margin: 3px;
-              text-align: center;
+              padding: 3px;
+              margin: 2px;
+              /* text-align: center; */
             }
 
             li:hover {
-              background-color: #B90504;
+              background-color: #66ff67;
             }
 
             li:active {
@@ -218,23 +218,37 @@
         </form> -->
 
         <!-- display search results -->
-        <form class="form-inline global-search">
+        <form class="">
         {% if data %}
-            <h1 style="color: #990100; font-size: 22px; font-family: Futura; padding: 3px;">{{output_message}}</h1>
-            <p stle="color: white">{{ings}}</p>
+            <h1 style="text-align:center; color: #990100; font-size: 22px; font-family: Futura; padding: 3px;">{{output_message}}</h1>
+            <p style="color: white">{{ings}}</p>
             <br>
             {% for d in data %}
                 <!-- <br> -->
                 <!-- <p style="color: #333333">{{d}}</p> -->
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="well well-sm">
-                        <p style="color: #333333">{{d}}</p>
-                      </div>
+                <div style="width:80%; background-color: white; display:block background-color: white; margin: 0 auto; padding: 10px; margin-bottom: 10px; border-radius: 10px;">
+                  <div>
+                    <div style="text-align:center"> <h2 style="margin-top:5px; margin-bottom:1px">{{d[0]}}</h2></div>
+                  <!-- <br> -->
+                    <div style="width:50%">
+                      <ul>
+                        {% for ingredient_amt in d[1] %}
+                        <li>{{ingredient_amt}}</li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                    <div style="text-align:right; direction:rtl; float:up"> 
+                      <h4 style="margin-top:5px; margin-bottom:1px">{{d[0]}}</h4>
                     </div>
                   </div>
-              </div>
+                  <!-- <div class="row"> -->
+                    <!-- <div class="col-md-12"> -->
+                      <!-- <div class="well well-sm"> -->
+                        <!-- <p style="color: #333333">{{d}}</p> -->
+                      <!-- </div> -->
+                    <!-- </div> -->
+                  <!-- </div> -->
+                </div>
             {% endfor %}
         {% endif %}
         </form>
