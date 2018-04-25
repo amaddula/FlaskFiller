@@ -5,6 +5,7 @@ from collections import OrderedDict
 import gen_jaccard_app
 import alcohol_suggestions
 import json
+import math
 #import json_extraction
 
 
@@ -35,7 +36,7 @@ def search():
     query = request.args.get('search')
     query2 = request.args.get('but')
     try:
-        alc_content = float(query2)
+        alc_content = float(query2)/100
     except: alc_content = 0.0
     #print(type(query))
     #query = query.decode('utf-8').lower()
@@ -78,20 +79,27 @@ def search():
             # data = [inter1, ingrd1]
             # print(data)
             #print("data " + str(data))
-            jaccard_weight = 0.4
-            alc_content_weight = 0.6
+            if not (alc_content > 0):
+                jaccard_weight = 0.1
+                alc_content_weight = 0.9
+            else:
+                jaccard_weight = 0.666
+                alc_content_weight = 0.334
+            
             content_results = alcohol_suggestions.get_results(alc_content, alc_content_weight)
             jaccard_results = gen_jaccard_app.get_results(user_list, jaccard_weight)
             results_dict = {}
             print(len(content_results))
             print(len(jaccard_results))
             for drink in content_results:
-                results_dict[drink] = jaccard_results[drink] + content_results[drink]
+                results_dict[drink] = math.sqrt(jaccard_results[drink] + content_results[drink])
 
             inter = sorted(results_dict, key=lambda x:results_dict[x], reverse=True)
             results = []
             for drink in inter[:15]:
                 results.append((drink, drinks_dict[drink]))
+            for i in inter[:20]:
+                print(i + str(results_dict[i]))
             data = results
 
         #drink_list = [x.encode('ascii', 'ignore') for x in search_ing]

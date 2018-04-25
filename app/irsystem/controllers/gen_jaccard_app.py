@@ -57,7 +57,9 @@ def gen_jaccard_index_search (query, relevant, drinks_dict, weight):
                 temp_tf = tf(ing, drink, drinks_dict)
                 sum_min += min(query_vec, temp_tf)
                 sum_max += max(query_vec, temp_tf)
-                similarity = sum_min/sum_max
+                if sum_max > 0:
+                    similarity = sum_min/sum_max
+                else: similarity = 0
             score = similarity * weight
         else: score = 0
         results_dict[drink.encode('ascii', 'ignore')] = score
