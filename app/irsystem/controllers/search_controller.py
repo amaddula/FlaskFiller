@@ -89,8 +89,8 @@ def search():
             content_results = alcohol_suggestions.get_results(alc_content, alc_content_weight)
             jaccard_results = gen_jaccard_app.get_results(user_list, jaccard_weight)
             results_dict = {}
-            print(len(content_results))
-            print(len(jaccard_results))
+            #print(len(content_results))
+            #print(len(jaccard_results))
             for drink in content_results:
                 results_dict[drink] = math.sqrt(jaccard_results[drink] + content_results[drink])
 
@@ -101,6 +101,7 @@ def search():
             for i in inter[:20]:
                 print(i + str(results_dict[i]))
             data = results
+            print(data)
 
         #drink_list = [x.encode('ascii', 'ignore') for x in search_ing]
 
