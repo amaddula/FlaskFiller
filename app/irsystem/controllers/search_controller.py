@@ -48,7 +48,7 @@ def search():
     else:
         query = query.lower()
         print(query + "wasup")
-        output_message = "ingredients: "
+        output_message = "Alcohol Content: " + str(query2) + "% | Ingredients: "
         ings = query.split(',')
         ings = [item.lstrip(' ') for item in ings]
 

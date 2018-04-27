@@ -7,6 +7,26 @@
 
 
         <style>
+
+            html, body {
+              height: 100%;
+              margin: 0;
+              padding: 0;
+              background: linear-gradient(#009b24, black);
+
+            }
+
+            #bg {
+              width: 100%;
+              height: 100%;
+              max-height: 100%;
+              margin: 0;
+              padding: 0;
+              background-image: url(http://healinghandheld.com/wp-content/uploads/2017/09/picturesque-design-glass-shelves-for-bar-charming-decoration-led-lighted-back-shelving-home-bars-restaurants.jpg);
+              background-size:100% 100%;
+              background-repeat: no-repeat;
+            }
+
             /* STYLING TO OVVERRIDE THE AUTOCOMPLETE FORM*/
             .autocomplete-items {
               position: absolute;
@@ -41,7 +61,7 @@
             }
             .autocomplete-items div:hover {
               /*when hovering an item:*/
-              background-color: #B90504;
+              background-color: #007599;
             }
             .autocomplete-active {
               /*when navigating through the items using the arrow keys:*/
@@ -61,7 +81,7 @@
                border: none !important;
                -webkit-box-shadow: none !important;
                -moz-box-shadow: none !important;
-               box-shadow: 0px 0px 10px #B90504 !important;
+               box-shadow: 0px 0px 10px #007599 !important;
                outline: none;
             }
 
@@ -69,7 +89,7 @@
             /*ALCOHOL PERCENT SLIDER STYLES*/
             input[type='range'] {
                 -webkit-appearance: none !important;
-                background: linear-gradient(to right, white, #990100);
+                background: linear-gradient(to right, white, #007599);
                 height: 10px;
                 border-radius: 5px;
                 width: 100%;
@@ -128,24 +148,32 @@
               box-shadow: 0px 0px 10px #B90504 !important;
             }
 
+            .drinks:hover {
+                border: none !important;
+               -webkit-box-shadow: none !important;
+               -moz-box-shadow: none !important;
+               box-shadow: 0px 0px 10px #007599 !important;
+               outline: none;
+            }            
+
 
 
         </style>
 
     </head>
-    <body>
-
+    <body background="bar_shelf.jpg">
+<div id="bg">
 
         <div class="topcorner" style="text-align: right">
             <p>Project Name: {{ name }}</p>
             <p>Student Name: ({{ netid }})</p>
         </div>
         <form class="form-inline global-search" autocomplete="off">
-            <h1 style="font-family: Futura; font-size: 55px; color: #990100">FLASK FILLER</h1>
+            <h1 style="font-family: Futura; font-size: 55px; color: #007599;">FLASK FILLER</h1>
 
             <br><br>
 
-            <p style="color: #990100; font-size: 15px; padding: 4px; font-family: Futura; display: block;">Enter a list of ingredients or attributes separated by commas to get drink recommendations</p>
+            <p style="color: #007599; font-size: 15px; padding: 4px; font-family: Futura; display: block;">Enter a list of ingredients or attributes separated by commas to get drink recommendations</p>
 
             <div class="form-group">
 
@@ -156,7 +184,7 @@
                     </div>
                 </div>
 
-                <button type="submit" class="btn btn-info" style="color: #E8E8E8; background-color: #990100; border: none; margin-left: 5px;"> <strong>Search</strong> </button>
+                <button type="submit" class="btn btn-info" style="color: #E8E8E8; background-color: #007599; border: none; margin-left: 5px;"> <strong>Search</strong> </button>
 
 
                 <!-- container to display autocomplete items -->
@@ -220,15 +248,15 @@
         <!-- display search results -->
         <form class="">
         {% if data %}
-            <h1 style="text-align:center; color: #990100; font-size: 22px; font-family: Futura; padding: 3px;">{{output_message}}</h1>
+            <h1 style="text-align:center; color: #007599; font-size: 22px; font-family: Futura; padding: 3px;">{{output_message}}</h1>
             <p style="color: white">{{ings}}</p>
             <br>
             {% for d in data %}
                 <!-- <br> -->
                 <!-- <p style="color: #333333">{{d}}</p> -->
-                <div style="width:80%; background-color: white; display:block background-color: white; margin: 0 auto; padding: 10px; margin-bottom: 10px; border-radius: 10px;">
+                <div style="width:80%; background-color: white; display:block; margin: 0 auto; padding: 10px; margin-bottom: 10px; border-radius: 10px;" class="drinks">
                   <div>
-                    <div style="text-align:center"> <h2 style="margin-top:5px; margin-bottom:1px">{{d[0]}}</h2></div>
+                    <div style="text-align:center"> <h2 style="margin-top:5px; margin-bottom:1px color:#007599;">{{d[0]}}</h2></div>
                   <!-- <br> -->
                     <div style="width:50%">
                       <ul>
@@ -786,7 +814,7 @@ inp.addEventListener("keydown", function(e) {
   }
 })
         </script>
-
+</div>
     </body>
 
 
