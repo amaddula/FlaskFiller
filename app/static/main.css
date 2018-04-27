@@ -12,32 +12,253 @@ body {
 	padding-top: 15%;
 	padding-bottom: 15px;
 	/*background-color: #212121;*/
-	background-color: #E8E8E8;
+	background-color: #DC4C46;
 }
+
+/* STYLING TO OVVERRIDE THE AUTOCOMPLETE FORM*/
+input[type='text'] {
+  border: none !important;
+   -webkit-box-shadow: none !important;
+   -moz-box-shadow: none !important;
+   box-shadow: none !important;
+   outline: none;
+}
+
+input[type='text']:focus {
+   border: none !important;
+   -webkit-box-shadow: none !important;
+   -moz-box-shadow: none !important;
+   box-shadow: 0px 0px 10px #B90504 !important;
+   outline: none;
+}
+
+
+/*ALCOHOL PERCENT SLIDER STYLES*/
+input[type='range'] {
+    -webkit-appearance: none !important;
+    background: linear-gradient(to right, white, #990100);
+    height: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+input[type='range']:focus {
+  border: none !important;
+   -webkit-box-shadow: none !important;
+   -moz-box-shadow: none !important;
+   box-shadow: none !important;
+   outline: none;
+}
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background-color: white;
+    border-radius: 25px;
+    height:30px;
+    width:30px;
+}
+input[type='range']::-webkit-slider-thumb:hover {
+   background-color: #B90504;
+
+ }
+
+input[type='range']::-webkit-slider-thumb:active {
+    -webkit-appearance: none !important;
+    background-color: #333333;
+    border-radius: 25px;
+    height:30px;
+    width:30px;
+}
+/* list items*/
+ul {
+  display: block;
+}
+
+li {
+  font-size: 18px;
+  font-family: Futura;
+  border-radius: 5px;
+  background-color: white;
+  padding: 3px;
+  margin: 2px;
+  /* text-align: center; */
+}
+
+li:hover {
+  /*background-color: #66ff67;*/
+}
+
+.active {
+	background-color: #B90504;
+  box-shadow: 0px 0px 10px #B90504 !important;
+ }
+
+.autocomplete-items {
+  position: absolute;
+  border-bottom: none;
+  border-top: none;
+  z-index: 100;
+  display: block;
+  color: white;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+
+.choices ul {
+    color: white;
+    font-size: 20px;
+}
+
+.ing_item li {
+    color: white;
+    font-size: 20px;
+}
+
+.autocomplete-items div {
+  display: block;
+  cursor: pointer;
+  color: #333333;
+  background-color: #cccccc;
+  /*border-bottom: 1px solid #d4d4d4; */
+  text-align: left;
+  padding-left: 10px;
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #B90504;
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: #B90504 !important;
+  color: #ffffff;
+}
+
 
 .global-search {
 	text-align:center;
 	padding:10px;
+  display:inline-block;
+  margin-bottom:0;
 }
+.global-search {
+  font-family: Futura;
+  font-size: 55px;
+  color: #C74066
+}
+
 .global-search .form-control {
 	width:500px;
-    border: 2px solid #dadada;
-    border-radius: 7px;
-}
-
-.global-search * {
-	display:inline-block;
-	margin-bottom:0;
+  border: 2px solid #cccccc;
+  border-radius: 7px;
 }
 .topcorner{
-position:absolute;
-top:2%;
-right:2%;
+	position:absolute;
+	top:2%;
+	right:2%;
 }
-
 .back_page {
 	background-color: #333333;
 	padding: 20px;
 	width: 800px;
 	border-radius: 25px;
+}
+/* STYLING TO OVVERRIDE THE AUTOCOMPLETE FORM*/
+.autocomplete-items {
+  position: absolute;
+  border-bottom: none;
+  border-top: none;
+  z-index: 100;
+  display: block;
+  color: white;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.choices ul {
+    color: white;
+    font-size: 20px;
+}
+.ing_item li {
+    color: white;
+    font-size: 20px;
+}
+.data .ingredients table td li:hover{
+    background-color: white;
+}
+.data h1 {
+  text-align:center;
+  color: #C74066;
+  font-size: 28px;
+  font-family: Futura;
+  padding: 6px;
+}
+.data .drink{
+  width:70%;
+  background-color: white;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;"
+}
+.data .drink .drink_name h2 {
+  text-align:center;
+  margin-top: 1px;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+.data .drink .table {
+  width:100%;
+  font-size: 12px;
+  font-family: Futura;
+}
+.data .drink .table .ingredients {
+  width:100%;
+}
+
+input[type='text'] {
+  border: none !important;
+   -webkit-box-shadow: none !important;
+   -moz-box-shadow: none !important;
+   box-shadow: none !important;
+   outline: none;
+}
+input[type='text']:focus {
+   border: none !important;
+   -webkit-box-shadow: none !important;
+   -moz-box-shadow: none !important;
+   box-shadow: 0px 0px 10px #B90504 !important;
+   outline: none;
+}
+/*ALCOHOL PERCENT SLIDER STYLES*/
+input[type='range'] {
+    -webkit-appearance: none !important;
+    background: linear-gradient(to right, white, #C74066);
+    height: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+input[type='range']:focus {
+  border: none !important;
+   -webkit-box-shadow: none !important;
+   -moz-box-shadow: none !important;
+   box-shadow: none !important;
+   outline: none;
+}
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background-color: white;
+    border-radius: 25px;
+    height:30px;
+    width:30px;
+}
+input[type='range']::-webkit-slider-thumb:hover {
+   background-color: #B90504;
+ }
+input[type='range']::-webkit-slider-thumb:active {
+    -webkit-appearance: none !important;
+    background-color: #333333;
+    border-radius: 25px;
+    height:30px;
+    width:30px;
 }

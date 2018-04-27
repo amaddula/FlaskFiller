@@ -1,151 +1,20 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="/static/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <link href="/static/main.css" rel="stylesheet" type="text/css" >
-
-
-
-        <style>
-            /* STYLING TO OVVERRIDE THE AUTOCOMPLETE FORM*/
-            .autocomplete-items {
-              position: absolute;
-              border-bottom: none;
-              border-top: none;
-              z-index: 100;
-              display: block;
-              color: white;
-              top: 100%;
-              left: 0;
-              right: 0;
-            }
-
-            .choices ul {
-                color: white;
-                font-size: 20px;
-            }
-
-            .ing_item li {
-                color: white;
-                font-size: 20px;
-            }
-
-            .autocomplete-items div {
-                display: block;
-              cursor: pointer;
-              color: #333333;
-              background-color: #E8E8E8;
-              /*border-bottom: 1px solid #d4d4d4; */
-              text-align: left;
-              padding-left: 10px;
-            }
-            .autocomplete-items div:hover {
-              /*when hovering an item:*/
-              background-color: #B90504;
-            }
-            .autocomplete-active {
-              /*when navigating through the items using the arrow keys:*/
-              background-color: DodgerBlue !important;
-              color: #ffffff;
-            }
-
-            input[type='text'] {
-              border: none !important;
-               -webkit-box-shadow: none !important;
-               -moz-box-shadow: none !important;
-               box-shadow: none !important;
-               outline: none;
-            }
-
-            input[type='text']:focus {
-               border: none !important;
-               -webkit-box-shadow: none !important;
-               -moz-box-shadow: none !important;
-               box-shadow: 0px 0px 10px #B90504 !important;
-               outline: none;
-            }
-
-
-            /*ALCOHOL PERCENT SLIDER STYLES*/
-            input[type='range'] {
-                -webkit-appearance: none !important;
-                background: linear-gradient(to right, white, #990100);
-                height: 10px;
-                border-radius: 5px;
-                width: 100%;
-            }
-            input[type='range']:focus {
-              border: none !important;
-               -webkit-box-shadow: none !important;
-               -moz-box-shadow: none !important;
-               box-shadow: none !important;
-               outline: none;
-            }
-            input[type='range']::-webkit-slider-thumb {
-                -webkit-appearance: none !important;
-                background-color: white;
-                border-radius: 25px;
-                height:30px;
-                width:30px;
-            }
-            input[type='range']::-webkit-slider-thumb:hover {
-               background-color: #B90504;
-
-             }
-
-            input[type='range']::-webkit-slider-thumb:active {
-                -webkit-appearance: none !important;
-                background-color: #333333;
-                border-radius: 25px;
-                height:30px;
-                width:30px;
-            }
-
-            ul {
-              display: block;
-            }
-
-            li {
-              font-size: 18px;
-              font-family: Futura;
-              border-radius: 5px;
-              background-color: white;
-              padding: 3px;
-              margin: 2px;
-              /* text-align: center; */
-            }
-
-            li:hover {
-              background-color: #66ff67;
-            }
-
-            li:active {
-              background-color: #333333;
-            }
-
-            .active {
-              background-color: #B90504;
-              box-shadow: 0px 0px 10px #B90504 !important;
-            }
-
-
-
-        </style>
-
-    </head>
-    <body>
-
-
-        <div class="topcorner" style="text-align: right">
-            <p>Project Name: {{ name }}</p>
-            <p>Student Name: ({{ netid }})</p>
-        </div>
+  <head>
+      <link href="/static/bootstrap.min.css" rel="stylesheet" type="text/css">
+      <link href="/static/main.css" rel="stylesheet" type="text/css" >
+  </head>
+  <body>
+    <div class="topcorner" style="text-align: right">
+        <p>Project Name: {{ name }}</p>
+        <p>Student Name: ({{ netid }})</p>
+    </div>
         <form class="form-inline global-search" autocomplete="off">
-            <h1 style="font-family: Futura; font-size: 55px; color: #990100">FLASK FILLER</h1>
+            <h1 style="font-family: Futura; font-size: 55px; color: #C74066">FLASK FILLER</h1>
 
             <br><br>
 
-            <p style="color: #990100; font-size: 15px; padding: 4px; font-family: Futura; display: block;">Enter a list of ingredients or attributes separated by commas to get drink recommendations</p>
+            <p style="color: #C74066; font-size: 15px; padding: 4px; font-family: Futura; display: block;">Enter a list of ingredients or attributes separated by commas to get drink recommendations</p>
 
             <div class="form-group">
 
@@ -156,7 +25,7 @@
                     </div>
                 </div>
 
-                <button type="submit" class="btn btn-info" style="color: #E8E8E8; background-color: #990100; border: none; margin-left: 5px;"> <strong>Search</strong> </button>
+                <button type="submit" class="btn btn-info" style="color: #E8E8E8; background-color: #C74066; border: none; margin-left: 5px;"> <strong>Search</strong> </button>
 
 
                 <!-- container to display autocomplete items -->
@@ -206,57 +75,40 @@
 
         </form>
 
-        <!-- attempt to make bootstrap result boxes -->
-        <!-- <form class="form-inline global-search">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="well">
-                <p>Just Forgot that I had to mention something about someone to someone about how I forgot something, but now I forgot it. Ahh, forget it! Or wait. I remember.... no I don't.</p>
-              </div>
-            </div>
-          </div>
-        </form> -->
-
-        <!-- display search results -->
-        <form class="">
+    <!-- display search results -->
+      <form class="data">
         {% if data %}
-            <h1 style="text-align:center; color: #990100; font-size: 22px; font-family: Futura; padding: 3px;">{{output_message}}</h1>
-            <p style="color: white">{{ings}}</p>
-            <br>
-            {% for d in data %}
-                <!-- <br> -->
-                <!-- <p style="color: #333333">{{d}}</p> -->
-                <div style="width:80%; background-color: white; display:block background-color: white; margin: 0 auto; padding: 10px; margin-bottom: 10px; border-radius: 10px;">
-                  <div>
-                    <div style="text-align:center"> <h2 style="margin-top:5px; margin-bottom:1px">{{d[0]}}</h2></div>
-                  <!-- <br> -->
-                    <div style="width:50%">
-                      <ul>
+          <h1>{{output_message}}{{ings}}</h1>
+          {% for d in data %}
+            <div class="drink">
+              <div class ="drink_name"><h2>{{d[0]}}</h2></div>
+              <table style = "width:100%">
+                <tr>
+                  <td>
+                    <div class ="ingredients">
+                      <table style = "width:75%">
                         {% for ingredient_amt in d[1] %}
-                        <li>{{ingredient_amt}}</li>
+                        <tr>
+                          <td>{{ingredient_amt[0]}}</td>
+                          <td align = "right">{{ingredient_amt[1]}}</td>
+                        </tr>
                         {% endfor %}
-                      </ul>
+                      </table>
                     </div>
-                    <div style="text-align:right; direction:rtl; float:up"> 
-                      <h4 style="margin-top:5px; margin-bottom:1px">{{d[0]}}</h4>
-                    </div>
-                  </div>
-                  <!-- <div class="row"> -->
-                    <!-- <div class="col-md-12"> -->
-                      <!-- <div class="well well-sm"> -->
-                        <!-- <p style="color: #333333">{{d}}</p> -->
-                      <!-- </div> -->
-                    <!-- </div> -->
-                  <!-- </div> -->
-                </div>
-            {% endfor %}
-        {% endif %}
-        </form>
+                  </td>
+                  <td>
+                    <div class="instructions" align="right">Mixing Instructions</div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          {% endfor %}
+      {% endif %}
+      </form>
 
-        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
-        <script  type="text/javascript">
-
-        flavor_dict = {"sweet": 0, "sour": 0, "salty": 0, "bitter": 0, "fruity": 0, "creamy": 0};
+      <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+      <script  type="text/javascript">
+      flavor_dict = {"sweet": 0, "sour": 0, "salty": 0, "bitter": 0, "fruity": 0, "creamy": 0};
         /*
           SWEET = 0
           SOUR = 1
@@ -265,7 +117,6 @@
           FRUITY = 4
           CREAMY = 5
         */
-
         /* Toggle the active state for flavor checkboxes */
         function toggleActive(element) {
           element.classList.toggle("active");
@@ -276,19 +127,14 @@
           }
           console.log(flavor_dict);
         }
-
         /* update value on the alcohol percent slider as it's dragged */
         function outputUpdate(val) {
             document.querySelector('#percent').value = 'Alcohol Content: ' + val + '%';
-
-
         }
-
-
         /* Below is all the code for the automplete box */
         // console.log("{{ingr}}")
         // var ingredients = JSON.parse("{{ingr}}")
-         var ingredients = ["151 proof rum",
+var ingredients = ["151 proof rum",
 "7-Up",
 "Absinthe",
 "Absolut Peppar",
@@ -678,8 +524,7 @@ function autocomplete(inp, arr) {
       a = document.createElement("DIV");
       a.setAttribute("id", this.id + "autocomplete-list");
       a.setAttribute("class", "autocomplete-items");
-
-      array = val.split(",");
+      array = val.split(", ");
       if (array.length == 1) { val = array[0];}
       else {
         val = array[array.length -1];
@@ -689,7 +534,6 @@ function autocomplete(inp, arr) {
       /*for each item in the array...*/
       for (i = 0; i < arr.length; i++) {
         /*check if the item starts with the same letters as the text field value:*/
-
         if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
           /*create a DIV element for each matching element:*/
           b = document.createElement("DIV");
@@ -711,7 +555,6 @@ function autocomplete(inp, arr) {
               } else {
                 inp.value = this.getElementsByTagName("input")[0].value;
               }
-
               /*close all lists
               (or any other open lists of autocompleted values:*/
               closeAllLists();
@@ -776,9 +619,7 @@ document.addEventListener("click", function (e) {
     closeAllLists(e.target);
 });
 }
-
 autocomplete(document.getElementById("input"), ingredients);
-
 inp.addEventListener("keydown", function(e) {
   var keyCode = e.keyCode;
   if(keyCode ==188) {
