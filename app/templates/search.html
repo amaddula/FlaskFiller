@@ -187,8 +187,8 @@
                         <input id="input" type="text" name="search" class="form-control" placeholder="Enter ingredients" autocomplete="off" style="">
                     </div>
                 </div>
-
-                <button type="submit" class="btn btn-info" style="color: #E8E8E8; background-color: #d83c1a; bd83c1aorder: none; margin-left: 5px;"> <strong>Search</strong> </button>
+                <!-- SEARCH BUTTON -->
+                <button type="submit" class="btn btn-info" style="color: #E8E8E8; background-color: #d83c1a; bd83c1aorder: none; margin-left: 5px;" onclick="searchDrinks()"> <strong>Search</strong> </button>
 
 
                 <!-- container to display autocomplete items -->
@@ -232,8 +232,11 @@
 
                 <!-- alcohol percentage slider -->
                 <div class="slide_container" style="display: block;">
-                  <input name="but" type="range" min="0" max="40" value="15" step="5" class="slider form" id="mySlider" oninput="outputUpdate(value)">
-                  <output for="mySlider" id="percent" style="font-size: 20px; font-family: Futura; color: white;">Alcohol Content: 15%</output>
+
+                  <input name="but" type="range" min="0" max="40" value="{{alc}}" step="5" class="slider form" id="mySlider" onclick="outputUpdate(value)">
+                  <output for="mySlider" id="percent" style="font-size: 20px; font-family: Futura; color: white;"><p>Alcohol Content:  </p>{{alc}}<p>%</p></output>
+                  <input name="checkAlc" type="checkbox" id="checkAlc">
+
                 </div>
 
             </div>
@@ -299,6 +302,15 @@
         /* update value on the alcohol percent slider as it's dragged */
         function outputUpdate(val) {
             document.querySelector('#percent').value = 'Alcohol Content: ' + val + '%';
+            document.getElementById("checkAlc").checked = true;
+
+        }
+
+        function searchDrinks() {
+          val = document.getElementById("checkAlc").checked;
+          if(val == false) {
+            document.querySelector('#percent').value = "No alcohol percentage inputted";
+          }
         }
         /* Below is all the code for the automplete box */
         // console.log("{{ingr}}")
