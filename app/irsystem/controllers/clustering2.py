@@ -168,15 +168,24 @@ print()
 print()
 
 
-def ingr_to_string(drink_name):
-    data_dict = OrderedDict()
-    #opening drink dictionary
-    with open('drinks_data_no_weird_amts.json', 'r') as fr:
-        data_dict = json.load(fr)
-    this_drink = data_dict[drink_name]
+# def ingr_to_string(drink_name):
+#     data_dict = OrderedDict()
+#     #opening drink dictionary
+#     with open('drinks_data_no_weird_amts.json', 'r') as fr:
+#         data_dict = json.load(fr)
+#     this_drink = data_dict[drink_name]
+#     doc_words = ""
+#     for pair in this_drink:
+#         doc_words = doc_words + " " + str(pair[0])
+#     doc_words = doc_words.strip()
+#     print(doc_words)
+#     print(tokenize_only(doc_words))
+#     return tokenize_only(doc_words)
+
+def ingr_to_lst(ingr_list):
     doc_words = ""
-    for pair in this_drink:
-        doc_words = doc_words + " " + str(pair[0])
+    for word in ingr_list:
+        doc_words = doc_words + " " + str(word)
     doc_words = doc_words.strip()
     print(doc_words)
     print(tokenize_only(doc_words))
@@ -186,9 +195,10 @@ def ingr_to_string(drink_name):
 #     Y = vectorizer.transform(["chrome browser to open."])
 #     prediction = model.predict(Y)
 #     print(prediction)
-def get_top_k_similar(drink_name, k):
+def get_top_k_similar(ingr_lst, k):
     # Y = tfidf_vectorizer.transform(["apple cider apple juice"])
-    Y = tfidf_vectorizer.transform(ingr_list)
+    tokens = ingr_to_lst(ingr_lst)
+    Y = tfidf_vectorizer.transform(tokens)
     prediction = km.predict(Y)
     prediction = prediction[0]
     print(prediction)
