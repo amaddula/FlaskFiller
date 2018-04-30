@@ -31,13 +31,26 @@ for drink in drinks_dict_utf:
 ingredients = [item.lower().encode('utf-8') for item in ingr]
 #print(ingredients)
 
+def alc(data):
+    for i in range(len(data)):
+        
+
+
+
 @irsystem.route('/', methods=['GET'])
 def search():
     query = request.args.get('search')
     query2 = request.args.get('but')
+
+    if request.form.get('checkAlc'):
+        print("alc selected")
+
     try:
         alc_content = float(query2)/100
-    except: alc_content = 0.0
+        alc = query2
+    except: 
+        alc_content = 0.0
+        alc = 0
     #print(type(query))
     #query = query.decode('utf-8').lower()
     search_ing = []
@@ -89,8 +102,8 @@ def search():
             content_results = alcohol_suggestions.get_results(alc_content, alc_content_weight)
             jaccard_results = gen_jaccard_app.get_results(user_list, jaccard_weight)
             results_dict = {}
-            print(len(content_results))
-            print(len(jaccard_results))
+            #print(len(content_results))
+            #print(len(jaccard_results))
             for drink in content_results:
                 results_dict[drink] = math.sqrt(jaccard_results[drink] + content_results[drink])
 
@@ -101,6 +114,7 @@ def search():
             for i in inter[:20]:
                 print(i + str(results_dict[i]))
             data = results
+            print(data)
 
         #drink_list = [x.encode('ascii', 'ignore') for x in search_ing]
 
@@ -116,4 +130,5 @@ def search():
         #data = [('Caribbean Orange Liqueur', 0.75), ('Saurian Brandy', 0.6), ('Stockholm "75"', 0.5), ('The Power of Milk', 0.4), ('Piggelin #1', 0.4), ('Top Banana', 0.4), ('Lemon Shooters', 0.4), ('St. Petersburg', 0.4), ('Sjarsk', 0.4), ('Raspberry Cordial', 0.4)]
         #data = [('Pine-Sol Shooter', 0.0), ('Black Army', 0.0), ('Cactus Juice', 0.0), ('Tidal Wave', 0.0), ('Drunk Watermelon', 0.0), ('The Seminole', 0.0), ('Dr. Pepper #1', 0.0), ('Pixie Stick', 0.0), ('Candy Corn #2', 0.0), ('Dark and Stormy #2', 0.0)]
         #print(data)
-    return render_template('search.html', name=project_name, netid=net_id, output_message=output_message, data=data, ingr=json.dumps(ingr))
+
+    return render_template('search.html', name=project_name, netid=net_id, alc=alc, output_message=output_message, data=data, ingr=json.dumps(ingr))

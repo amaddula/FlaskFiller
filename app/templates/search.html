@@ -7,6 +7,15 @@
 
         <style>
             /* STYLING TO OVVERRIDE THE AUTOCOMPLETE FORM*/
+            body {
+              background-image: url(https://media1.popsugar-assets.com/files/thumbor/U4_vcisJ0tjcQSTSETLMRWBli0s/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2013/04/15/2/192/1922195/4a7b98caba0b5c61_shutterstock_17930134/i/Where-do-you-stand-serving-top-shelf-liquor.jpg);
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+              }
+
+
             .autocomplete-items {
               position: absolute;
               border-bottom: none;
@@ -37,7 +46,7 @@
             }
             .autocomplete-items div:hover {
               /*when hovering an item:*/
-              background-color: #B90504;
+              background-color: #d83c1a;
             }
             .autocomplete-active {
               /*when navigating through the items using the arrow keys:*/
@@ -95,7 +104,7 @@
             /*ALCOHOL PERCENT SLIDER STYLES*/
             input[type='range'] {
                 -webkit-appearance: none !important;
-                background: linear-gradient(to right, white, #990100);
+                background: linear-gradient(to right, white, #d83c1a);
                 height: 10px;
                 border-radius: 5px;
                 width: 100%;
@@ -146,6 +155,13 @@
               background-color: #B90504;
               box-shadow: 0px 0px 10px #B90504 !important;
             }
+
+            .glass {
+              width: 75px;
+              height: 100px;
+              background-image: linear-gradient(#e66465 80%, #9198e5 100%, white);
+              border-radius: 5px;
+            }
         </style>
 
     </head>
@@ -157,11 +173,11 @@
             <p>Student Name: ({{ netid }})</p>
         </div>
         <form class="form-inline global-search" autocomplete="off">
-            <h1 style="font-family: Futura; font-size: 55px; color: #990100">FLASK FILLER</h1>
+            <h1 style="font-family: Futura; font-size: 55px; color: #d83c1a">FLASK FILLER</h1>
 
             <br><br>
 
-            <p style="color: #990100; font-size: 15px; padding: 4px; font-family: Futura; display: block;">Enter a list of ingredients or attributes separated by commas to get drink recommendations</p>
+            <p style="color: white; font-size: 15px; padding: 4px; font-family: Futura; display: block;">Enter a list of ingredients or attributes separated by commas to get drink recommendations</p>
 
             <div class="form-group">
 
@@ -171,8 +187,8 @@
                         <input id="input" type="text" name="search" class="form-control" placeholder="Enter ingredients" autocomplete="off" style="">
                     </div>
                 </div>
-
-                <button type="submit" class="btn btn-info" style="color: #E8E8E8; background-color: #990100; border: none; margin-left: 5px;"> <strong>Search</strong> </button>
+                <!-- SEARCH BUTTON -->
+                <button type="submit" class="btn btn-info" style="color: #E8E8E8; background-color: #d83c1a; bd83c1aorder: none; margin-left: 5px;" onclick="searchDrinks()"> <strong>Search</strong> </button>
 
 
                 <!-- container to display autocomplete items -->
@@ -216,8 +232,11 @@
 
                 <!-- alcohol percentage slider -->
                 <div class="slide_container" style="display: block;">
-                  <input name="but" type="range" min="0" max="40" value="15" step="5" class="slider form" id="mySlider" oninput="outputUpdate(value)">
-                  <output for="mySlider" id="percent" style="font-size: 20px; font-family: Futura; color: #333333;">Alcohol Content: 15%</output>
+
+                  <input name="but" type="range" min="0" max="40" value="{{alc}}" step="5" class="slider form" id="mySlider" onclick="outputUpdate(value)">
+                  <output for="mySlider" id="percent" style="font-size: 20px; font-family: Futura; color: white;"><p>Alcohol Content:  </p>{{alc}}<p>%</p></output>
+                  <input name="checkAlc" type="checkbox" id="checkAlc">
+
                 </div>
 
             </div>
@@ -227,12 +246,16 @@
     <!-- display search results -->
       <form class="data">
         {% if data %}
-          <h1>{{output_message}}{{ings}}</h1>
+          <h1 style="color: white">{{output_message}}{{ings}}</h1>
           {% for d in data %}
             <div class="drink">
-              <div class ="drink_name"><h2>{{d[0]}}</h2></div>
+              <div class ="drink_name"><h2 style="color: #d83c1a; font-family: Futura;">{{d[0]}}</h2></div>
               <table style = "width:100%">
                 <tr>
+                  <td>
+                    <div class="glass">Vodka</div>
+                  
+                  </td>
                   <td>
                     <div class ="ingredients">
                       <table style = "width:75%">
@@ -279,6 +302,15 @@
         /* update value on the alcohol percent slider as it's dragged */
         function outputUpdate(val) {
             document.querySelector('#percent').value = 'Alcohol Content: ' + val + '%';
+            document.getElementById("checkAlc").checked = true;
+
+        }
+
+        function searchDrinks() {
+          val = document.getElementById("checkAlc").checked;
+          if(val == false) {
+            document.querySelector('#percent').value = "No alcohol percentage inputted";
+          }
         }
         /* Below is all the code for the automplete box */
         // console.log("{{ingr}}")
