@@ -6,6 +6,7 @@ import gen_jaccard_app
 import alcohol_suggestions
 import json
 import math
+import ratings
 #import json_extraction
 
 
@@ -23,8 +24,7 @@ with open('instructions.json', 'r') as fi:
 
 with open('drinks_with_alcohol_content.json', 'r') as fa:
     alc_contents_dict = json.load(fa)
-
-
+    
 drinks_dict = {}
 for drink in drinks_dict_utf:
     drink_name = drink.encode('ascii','ignore')
@@ -107,18 +107,21 @@ def search():
             #print("data " + str(data))
             if not (alc_content > 0):
                 jaccard_weight = 0.1
-                alc_content_weight = 0.9
+                ratings_weight = 0.1
+                alc_content_weight = 0.8
             else:
-                jaccard_weight = 0.666
-                alc_content_weight = 0.334
+                jaccard_weight = 0.400
+                ratings_weight = 0.300
+                alc_content_weight = 0.300
 
             content_results = alcohol_suggestions.get_results(alc_content, alc_content_weight)
             jaccard_results = gen_jaccard_app.get_results(user_list, jaccard_weight)
+            rating_results = ratings.get_results(ratings_weight)
             results_dict = {}
             #print(len(content_results))
             #print(len(jaccard_results))
             for drink in content_results:
-                results_dict[drink] = math.sqrt(jaccard_results[drink] + content_results[drink])
+                results_dict[drink] = math.sqrt(jaccard_results[drink] + content_results[drink]) + rating_results[drink]
 
             inter = sorted(results_dict, key=lambda x:results_dict[x], reverse=True)
             results = []
