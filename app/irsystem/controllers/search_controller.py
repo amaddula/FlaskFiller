@@ -95,6 +95,7 @@ def search():
             data = [] # change data to output list of drinks
             #search_ing = []
             for ing in ings:
+                if str(ing) == "baileys irish cream": ing = "bailey's irish cream"
                 if str(ing) in ingredients:
                     #print(ing)
                     search_ing.append(ing)
