@@ -55,8 +55,8 @@ def search():
     
     query = request.args.get('search')
     query2 = request.args.get('but')
-    is_ingredients = True
-    if is_ingredients:
+    query3 = request.form.get('switch')
+    if not query3:
         # if request.form.get('checkAlc'):
         #     #print("alc selected")
 
@@ -140,7 +140,14 @@ def search():
                     print(i + str(results_dict[i]))
                 data = (results)
     else:
-        pass
+        drink = query.encode('ascii', 'ignore')
+        ingredients_list = drinks_dict[drink]
+        mixing_instructions = instructions[drink]
+        content_percent = round(alc_contents[drink]*100)
+        top_few_drinks = clustering2.get_top_k_similar(drink, 3)
+        data = [name, ingredients_list, mixing_instructions, content_percent, top_few_drinks]
+
+
             #we need to add a section into "data" that will call clustering to get the top few similar drinks
             #might wanna do this in gen jaccard, or do another loop here where you append to each list, we'll decide later
             #will return a list of the top k drinks
