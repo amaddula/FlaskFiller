@@ -26,6 +26,9 @@ with open('instructions.json', 'r') as fi:
 with open('drinks_with_alcohol_content.json', 'r') as fa:
     alc_contents_dict = json.load(fa)
 
+with open('ratings.json', 'r') as fs:
+    ratings_dict = json.load(fs)
+
 drinks_dict = {}
 for drink in drinks_dict_utf:
     drink_name = drink.encode('ascii','ignore')
@@ -46,6 +49,11 @@ for drink in alc_contents_dict:
     drink_name = drink.encode('ascii','ignore')
     alc_contents[drink_name] = alc_contents_dict[drink]
 
+ratingses = {}
+for drink in ratings_dict:
+    drink_name = drink.encode('ascii','ignore')
+    ratingses[drink_name] = ratings_dict[drink]
+
 ingredients = [item.lower().encode('utf-8') for item in ingr]
 #print(ingredients)
 
@@ -56,6 +64,7 @@ def search():
     query = request.args.get('search')
     query2 = request.args.get('but')
     query3 = request.args.get('switch')
+    query4 = request.args.get('checkAlc')
     #'switch' in request.form
 
     print("~~~~~~~~~~~~~~~~")
@@ -64,11 +73,10 @@ def search():
         # if request.form.get('checkAlc'):
         #     #print("alc selected")
 
-        try:
+        if query4:
             alc_content = float(query2)/100
-            alc = query2
-        except:
-            alc_content = 0.0
+            alc = alc_content
+        else:
             alc = 0
         #print(type(query))
         #query = query.decode('utf-8').lower()
@@ -111,23 +119,31 @@ def search():
                 # data = [inter1, ingrd1]
                 # print(data)
                 #print("data " + str(data))
-                if not (alc_content > 0):
-                    jaccard_weight = 0.1
-                    ratings_weight = 0.1
-                    alc_content_weight = 0.8
-                else:
+
+                if query4:
                     jaccard_weight = 0.400
                     ratings_weight = 0.300
                     alc_content_weight = 0.300
+                    content_results = alcohol_suggestions.get_results(alc_content, alc_content_weight)
+                    jaccard_results = gen_jaccard_app.get_results(user_list, jaccard_weight)
+                    rating_results = ratings.get_results(ratings_weight)
+                    results_dict = {}
+                    for drink in content_results:
+                        results_dict[drink] = math.sqrt(jaccard_results[drink] + content_results[drink]) + rating_results[drink]
 
-                content_results = alcohol_suggestions.get_results(alc_content, alc_content_weight)
-                jaccard_results = gen_jaccard_app.get_results(user_list, jaccard_weight)
-                rating_results = ratings.get_results(ratings_weight)
-                results_dict = {}
+                else:
+                    jaccard_weight = 0.6
+                    ratings_weight = 0.4
+                    jaccard_results = gen_jaccard_app.get_results(user_list, jaccard_weight)
+                    rating_results = ratings.get_results(ratings_weight)
+                    results_dict = {}
+                    for drink in jaccard_results:
+                        results_dict[drink] = math.sqrt(jaccard_results[drink]) + rating_results[drink]
+
+
+
                 #print(len(content_results))
                 #print(len(jaccard_results))
-                for drink in content_results:
-                    results_dict[drink] = math.sqrt(jaccard_results[drink] + content_results[drink]) + rating_results[drink]
 
                 inter = sorted(results_dict, key=lambda x:results_dict[x], reverse=True)
                 results = []
@@ -137,8 +153,9 @@ def search():
                     ingredients_list = drinks_dict[drink]
                     mixing_instructions = instructions[drink]
                     content_percent = round(alc_contents[drink]*100)
-                    top_few_drinks = clustering2.get_top_k_similar(drink, 3)
-                    results.append([name, ingredients_list, mixing_instructions, content_percent, top_few_drinks])
+                    top_few_drinks = clustering2.get_top_k_similar(name, 3)
+                    drink_rating = ratingses[name]["rating"]
+                    results.append([name, ingredients_list, mixing_instructions, content_percent, top_few_drinks, drink_rating])
                 for i in inter[:20]:
                     print(i + str(results_dict[i]))
                 data = (results)
@@ -150,14 +167,10 @@ def search():
         mixing_instructions = instructions[drink]
         content_percent = round(alc_contents[drink]*100)
         top_few_drinks = clustering2.get_top_k_similar(drink, 3)
+        drink_rating = ratingses[drink]["rating"]
         output_message = ""
-        try:
-            alc_content = float(query2)/100
-            alc = query2
-        except:
-            alc_content = 0.0
-            alc = 0
-        data = [[drink, ingredients_list, mixing_instructions, content_percent, top_few_drinks]]
+        alc = ""
+        data = [[drink, ingredients_list, mixing_instructions, content_percent, top_few_drinks, drink_rating]]
 
 
             #we need to add a section into "data" that will call clustering to get the top few similar drinks
