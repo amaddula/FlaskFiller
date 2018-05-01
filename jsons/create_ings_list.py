@@ -2,23 +2,19 @@ import json
 import re
 from fractions import Fraction
         
-with open('gen_jaccard_normed.json', 'r') as fr:
-    data_dict = json.load(fr)
-    
-counter = 0
-ings = set()
+with open('alcoholic_cocktails_webtender_mixing.json', 'r') as fr:
+    instructions_dict = json.load(fr)
+with open('drinks_data_no_weird_amts.json', 'r') as f:
+    data_dict = json.load(f)
 
-for drink in data_dict:
-    drink_ings_list = data_dict[drink]
-    for ingredient in drink_ings_list:
-        ings.add(ingredient[0])
 
-ings = sorted(ings)
-print(len(ings))
-data = json.dumps(ings, separators=(',\n', ": "))
+for drink in instructions_dict:
+    print(drink)
 
-with open('ingredients.json', 'w') as fr:
-    fr.write(data)
+##data = json.dumps(ings, separators=(',\n', ": "))
+##
+##with open('ingredients.json', 'w') as fr:
+##    fr.write(data)
 
 ##
 ##for drink in data_dict:

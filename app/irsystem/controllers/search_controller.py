@@ -18,6 +18,9 @@ with open('ingredients.json', 'r') as fr:
 with open('drinks_data_no_weird_amts.json', 'r') as f:
     drinks_dict_utf = json.load(f)
 
+with open('instructions.json', 'r') as fi:
+    instructions = json.load(fi)
+    
 drinks_dict = {}
 for drink in drinks_dict_utf:
     drink_name = drink.encode('ascii','ignore')
@@ -30,11 +33,6 @@ for drink in drinks_dict_utf:
 
 ingredients = [item.lower().encode('utf-8') for item in ingr]
 #print(ingredients)
-
-def alc(data):
-    for i in range(len(data)):
-        
-
 
 
 @irsystem.route('/', methods=['GET'])
@@ -109,11 +107,12 @@ def search():
 
             inter = sorted(results_dict, key=lambda x:results_dict[x], reverse=True)
             results = []
+            results_mixing = []
             for drink in inter[:15]:
-                results.append((drink, drinks_dict[drink]))
+                results.append([drink, drinks_dict[drink], instructions[drink]])
             for i in inter[:20]:
                 print(i + str(results_dict[i]))
-            data = results
+            data = (results)
             print(data)
 
         #drink_list = [x.encode('ascii', 'ignore') for x in search_ing]

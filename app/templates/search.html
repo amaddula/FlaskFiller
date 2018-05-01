@@ -70,7 +70,8 @@
               margin: 0 auto;
               padding: 10px;
               margin-bottom: 10px;
-              border-radius: 10px;"
+              border-radius: 10px;
+
             }
             .data .drink .drink_name h2 {
               text-align:center;
@@ -82,9 +83,16 @@
               width:100%;
               font-size: 12px;
               font-family: Futura;
+              padding: 6px;
             }
             .data .drink .table .ingredients {
               width:100%;
+              padding: 6px;
+            }
+            }
+            .data .drink .table .instructions {
+              width:100%;
+              word-wrap: break-word;
             }
 
             input[type='text'] {
@@ -254,22 +262,28 @@
                 <tr>
                   <td>
                     <div class="glass">Vodka</div>
-                  
+
                   </td>
                   <td>
                     <div class ="ingredients">
-                      <table style = "width:75%">
+                      <table style = "width:350px; padding:20px;font-size:14pt">
                         {% for ingredient_amt in d[1] %}
                         <tr>
                           <td>{{ingredient_amt[0]}}</td>
-                          <td align = "right">{{ingredient_amt[1]}}</td>
+                          <td align = "right" >{{ingredient_amt[1]}}</td>
                         </tr>
                         {% endfor %}
                       </table>
                     </div>
                   </td>
                   <td>
-                    <div class="instructions" align="right">Mixing Instructions</div>
+                    <div class="instructions" align="right">
+                      <table style="width:450px">
+                        <td style="padding:6px; font-size:14pt">
+                        {{ d[2]}}
+                        </td>
+                      </table>
+                    </div>
                   </td>
                 </tr>
               </table>
