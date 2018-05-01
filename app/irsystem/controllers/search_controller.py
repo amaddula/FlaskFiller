@@ -153,7 +153,7 @@ def search():
                     ingredients_list = drinks_dict[drink]
                     mixing_instructions = instructions[drink]
                     content_percent = round(alc_contents[drink]*100)
-                    top_few_drinks = clustering2.get_top_k_similar(name, 3)
+                    top_few_drinks = clustering2.get_top_k_similar(name, 10)
                     drink_rating = ratingses[name]["rating"]
                     results.append([name, ingredients_list, mixing_instructions, content_percent, top_few_drinks, drink_rating])
                 for i in inter[:20]:
@@ -166,7 +166,7 @@ def search():
         #print(ingredients_list)
         mixing_instructions = instructions[drink]
         content_percent = round(alc_contents[drink]*100)
-        top_few_drinks = clustering2.get_top_k_similar(drink, 3)
+        top_few_drinks = clustering2.get_top_k_similar(drink, 10)
         drink_rating = ratingses[drink]["rating"]
         output_message = ""
         alc = ""

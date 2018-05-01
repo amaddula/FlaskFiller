@@ -112,21 +112,10 @@ print("#######################################################################")
 # print(frame.ix[0]['title'].values.tolist())
 
 def ingr_to_string(drink_name):
-    data_dict_utf = OrderedDict()
+    data_dict = OrderedDict()
     #opening drink dictionary
     with open('drinks_data_no_weird_amts.json', 'r') as fr:
-        data_dict_utf = json.load(fr)
-
-    data_dict = OrderedDict()
-    for drink in data_dict_utf:
-        drink_name = drink.encode('ascii','ignore')
-        recipe = []
-        for ing in data_dict_utf[drink]:
-            ing_name = ing[0].encode('ascii','ignore')
-            ing_amt = ing[1].encode('ascii','ignore')
-            recipe.append((ing_name, ing_amt))
-    data_dict[drink_name] = recipe
-
+        data_dict = json.load(fr)
     this_drink = data_dict[drink_name]
     print(this_drink)
     doc_words = ""

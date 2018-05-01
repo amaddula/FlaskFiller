@@ -267,7 +267,7 @@
             <p>Student Name: ({{ netid }})</p>
         </div>
         <form class="form-inline global-search" autocomplete="off">
-            <strong><h1 style="font-family: Futura; font-size: 65px; color: #d83c1a">FLASK FILLER</h1></strong>
+            <h1 style="font-family: Futura; font-size: 55px; color: #d83c1a">FLASK FILLER</h1>
 
             <br><br>
 
@@ -303,7 +303,8 @@
 
                   <input name="but" type="range" min="0" max="40" value="{{alc}}" step="5" class="slider form" id="mySlider" oninput="outputUpdate(value)">
                   <output for="mySlider" id="percent" style="font-size: 20px; font-family: Futura; color: white;"><p>Alcohol Content:</p></output>
-                  <input type="checkbox" name="checkAlc">
+                  <input name="checkAlc" type="checkbox" id="checkAlc">
+
                 </div>
 
             </div>
@@ -321,7 +322,7 @@
                 <tr>
                   <td>
                     <div class="glass" style="background-size: 100% {{d[3]}}%; background-repeat: no-repeat;">
-                      <div class="alc-percent" align="center" style="transform: rotate(180deg);">{{d[3]}}%</div>
+                      <div class="alc-percent" align="center" style="transform: rotate(180deg); padding-bottom:90px; font-size:13pt">{{d[3]}}%</div>
                     </div>
                   </td>
                   <td>
@@ -351,7 +352,8 @@
               <div>
                 <h4 style="font-family: Futura; color: #d83c1a;">Other drinks you may like:
                 {% for drink in d[4] %}
-                    {% set drink_url = "?switch=on&search=" + drink.strip().replace(" ", "+").replace("#", "%23").replace("(", "%28").replace(")",  "%29").replace("-", " %2D").replace(".",  "%2E").replace("'", "%27") + "&but=0"%}
+                  {% set new_drink = drink.replace(" ", "%20").replace("#", "%23").replace("&", "%26").replace("'", "%27").replace("(", "%28").replace(")", "%29").replace("-", "%2D") %}
+                  {% set drink_url = "?switch=on&search=" +new_drink +"&but=0"%}
                   <u><a href={{drink_url}} style="color:#d83c2a">{{drink}}</a></u>
                 {% endfor %}</h4>
               </div>
@@ -379,8 +381,6 @@
         function outputUpdate(val) {
             document.querySelector('#percent').value = 'Alcohol Content: ' + val + '%';
             document.getElementById("checkAlc").checked = true;
-
-
         }
 
         function searchDrinks(val) {
