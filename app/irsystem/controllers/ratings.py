@@ -21,11 +21,3 @@ def get_results(weight):
         score = new_rating*weight
         scores[drink.encode('ascii', 'ignore')] = score
     return scores
-
-d = get_results(1)
-r= sorted(d, key=lambda x:d[x], reverse=True)
-results = []
-for i in r:
-    results.append((i, d[i]))
-print(results[:10])
-

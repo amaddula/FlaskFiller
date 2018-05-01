@@ -7,6 +7,7 @@ import alcohol_suggestions
 import json
 import math
 import ratings
+import clustering2
 #import json_extraction
 
 
@@ -48,109 +49,101 @@ for drink in alc_contents_dict:
 ingredients = [item.lower().encode('utf-8') for item in ingr]
 #print(ingredients)
 
-print(alc_contents)
 
 @irsystem.route('/', methods=['GET'])
 def search():
+    
     query = request.args.get('search')
     query2 = request.args.get('but')
+    is_ingredients = True
+    if is_ingredients:
+        # if request.form.get('checkAlc'):
+        #     #print("alc selected")
 
-    if request.form.get('checkAlc'):
-        print("alc selected")
-
-    try:
-        alc_content = float(query2)/100
-        alc = query2
-    except:
-        alc_content = 0.0
-        alc = 0
-    #print(type(query))
-    #query = query.decode('utf-8').lower()
-    search_ing = []
-    if not query:
-        print("Blank space baby")
-        data = []
-        output_message = ''
-    else:
-        query = query.lower()
-        print(query + "wasup")
-        output_message = "Alcohol Content: " + str(query2) + "% | Ingredients: "
-        ings = query.split(',')
-        ings = [item.lstrip(' ') for item in ings]
-
-        data = [] # change data to output list of drinks
-        #search_ing = []
-        for ing in ings:
-            if str(ing) in ingredients:
-                print(ing)
-                search_ing.append(ing)
-        # for ing in search_ing:
-        #     output_message += ing + ',  '
-        for i in range(len(search_ing)):
-            comma_ending = ""
-            if i!=(len(search_ing)-1):
-                comma_ending = ", "
-            output_message = output_message + str(search_ing[i].encode('ascii', 'ignore').title()) + comma_ending
-        user_list = [x.lower() for x in search_ing]
-        if len(user_list)==0:
-            data=[]
+        try:
+            alc_content = float(query2)/100
+            alc = query2
+        except:
+            alc_content = 0.0
+            alc = 0
+        #print(type(query))
+        #query = query.decode('utf-8').lower()
+        search_ing = []
+        if not query:
+            #print("Blank space baby")
+            data = []
+            output_message = ''
         else:
-            # inter = gen_jaccard_app.get_results(user_list)
-            # inter1 = [x[1].encode('ascii', 'ignore') for x in inter[:15]]
-            # ingrd1 = []
-            # for drink in inter1:
-            #     drnk_ings = drink_ingredients[drink]
-            #     ingrd1.append(drnk_ings)
-            # ingrd1 = [x[1].encode('ascii', 'ignore') for x in inter[:15]]
-            # data = [inter1, ingrd1]
-            # print(data)
-            #print("data " + str(data))
-            if not (alc_content > 0):
-                jaccard_weight = 0.1
-                ratings_weight = 0.1
-                alc_content_weight = 0.8
+            query = query.lower()
+            #print(query + "wasup")
+            output_message = "Alcohol Content: " + str(query2) + "% | Ingredients: "
+            ings = query.split(',')
+            ings = [item.lstrip(' ') for item in ings]
+
+            data = [] # change data to output list of drinks
+            #search_ing = []
+            for ing in ings:
+                if str(ing) in ingredients:
+                    #print(ing)
+                    search_ing.append(ing)
+            # for ing in search_ing:
+            #     output_message += ing + ',  '
+            for i in range(len(search_ing)):
+                comma_ending = ""
+                if i!=(len(search_ing)-1):
+                    comma_ending = ", "
+                output_message = output_message + str(search_ing[i].encode('ascii', 'ignore').title()) + comma_ending
+            user_list = [x.lower() for x in search_ing]
+            if len(user_list)==0:
+                data=[]
             else:
-                jaccard_weight = 0.400
-                ratings_weight = 0.300
-                alc_content_weight = 0.300
+                # inter = gen_jaccard_app.get_results(user_list)
+                # inter1 = [x[1].encode('ascii', 'ignore') for x in inter[:15]]
+                # ingrd1 = []
+                # for drink in inter1:
+                #     drnk_ings = drink_ingredients[drink]
+                #     ingrd1.append(drnk_ings)
+                # ingrd1 = [x[1].encode('ascii', 'ignore') for x in inter[:15]]
+                # data = [inter1, ingrd1]
+                # print(data)
+                #print("data " + str(data))
+                if not (alc_content > 0):
+                    jaccard_weight = 0.1
+                    ratings_weight = 0.1
+                    alc_content_weight = 0.8
+                else:
+                    jaccard_weight = 0.400
+                    ratings_weight = 0.300
+                    alc_content_weight = 0.300
 
-            content_results = alcohol_suggestions.get_results(alc_content, alc_content_weight)
-            jaccard_results = gen_jaccard_app.get_results(user_list, jaccard_weight)
-            rating_results = ratings.get_results(ratings_weight)
-            results_dict = {}
-            #print(len(content_results))
-            #print(len(jaccard_results))
-            for drink in content_results:
-                results_dict[drink] = math.sqrt(jaccard_results[drink] + content_results[drink]) + rating_results[drink]
+                content_results = alcohol_suggestions.get_results(alc_content, alc_content_weight)
+                jaccard_results = gen_jaccard_app.get_results(user_list, jaccard_weight)
+                rating_results = ratings.get_results(ratings_weight)
+                results_dict = {}
+                #print(len(content_results))
+                #print(len(jaccard_results))
+                for drink in content_results:
+                    results_dict[drink] = math.sqrt(jaccard_results[drink] + content_results[drink]) + rating_results[drink]
 
-            inter = sorted(results_dict, key=lambda x:results_dict[x], reverse=True)
-            results = []
-            results_mixing = []
-            print (alc_contents)
-            for drink in inter[:15]:
-                name = drink.encode('ascii', 'ignore')
-                ingredients_list = drinks_dict[drink]
-                mixing_instructions = instructions[drink]
-                content_percent = round(alc_contents[drink]*100)
-                results.append([name, ingredients_list, mixing_instructions, content_percent])
-            for i in inter[:20]:
-                print(i + str(results_dict[i]))
-            data = (results)
-            print(data)
-
-        #drink_list = [x.encode('ascii', 'ignore') for x in search_ing]
-
-        # ranked_list = helpers.drink_jaccard_sim(user_list)
-        # #ranked_list = json_extraction.drink_jaccard_sim(user_list)
-        # for i in range(10):
-        #   print(ranked_list[i])
-
-        #data=(helpers.get_top_k_drinks(ranked_list, 10))
-        #data= json_extraction.get_top_k_drinks(ranked_list, 10)
-        #data = [('Pineberry', 0.3333333333333333), ('CT', 0.3333333333333333), ("Tinyee's Orange Smoothie", 0.25), ('Fruit Cooler', 0.25), ("Laura's Surprise", 0.25), ('Hennyville Slugger', 0.2222222222222222), ('Belfast Bomber', 0.2222222222222222)]
-        #data = [('Ice Pick #2', 0.3333333333333333), ('Christer Petterson', 0.3333333333333333), ('The Vaitkus', 0.3333333333333333), ('Naked Navel', 0.3333333333333333), ('Purple Cow', 0.3333333333333333), ('Zimartini', 0.3333333333333333), ('Frisky Witch', 0.3333333333333333), ('Vodka Russian', 0.3333333333333333), ('Copperhead', 0.3333333333333333), ('Ersh', 0.3333333333333333)]
-        #data = [('Caribbean Orange Liqueur', 0.75), ('Saurian Brandy', 0.6), ('Stockholm "75"', 0.5), ('The Power of Milk', 0.4), ('Piggelin #1', 0.4), ('Top Banana', 0.4), ('Lemon Shooters', 0.4), ('St. Petersburg', 0.4), ('Sjarsk', 0.4), ('Raspberry Cordial', 0.4)]
-        #data = [('Pine-Sol Shooter', 0.0), ('Black Army', 0.0), ('Cactus Juice', 0.0), ('Tidal Wave', 0.0), ('Drunk Watermelon', 0.0), ('The Seminole', 0.0), ('Dr. Pepper #1', 0.0), ('Pixie Stick', 0.0), ('Candy Corn #2', 0.0), ('Dark and Stormy #2', 0.0)]
-        #print(data)
+                inter = sorted(results_dict, key=lambda x:results_dict[x], reverse=True)
+                results = []
+                results_mixing = []
+                print (alc_contents)
+                for drink in inter[:15]:
+                    name = drink.encode('ascii', 'ignore')
+                    ingredients_list = drinks_dict[drink]
+                    mixing_instructions = instructions[drink]
+                    content_percent = round(alc_contents[drink]*100)
+                    top_few_drinks = clustering2.get_top_k_similar(drink, 3)
+                    results.append([name, ingredients_list, mixing_instructions, content_percent, top_few_drinks])
+                for i in inter[:20]:
+                    print(i + str(results_dict[i]))
+                data = (results)
+    else:
+        pass
+            #we need to add a section into "data" that will call clustering to get the top few similar drinks
+            #might wanna do this in gen jaccard, or do another loop here where you append to each list, we'll decide later
+            #will return a list of the top k drinks
+            #top_k_drinks = clustering2.get_top_k_similar(drink_name, top_k)
 
     return render_template('search.html', name=project_name, netid=net_id, alc=alc, output_message=output_message, data=data, ingr=json.dumps(ingr))
