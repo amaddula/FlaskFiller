@@ -52,9 +52,11 @@ ingredients = [item.lower().encode('utf-8') for item in ingr]
 
 @irsystem.route('/', methods=['GET'])
 def search():
-    query3 = request.form.get('switch')
+    
     query = request.args.get('search')
     query2 = request.args.get('but')
+    query3 = request.args.get('switch')
+    #'switch' in request.form
 
     print("~~~~~~~~~~~~~~~~")
     print(query3)
@@ -142,9 +144,9 @@ def search():
                 data = (results)
     else:
         drink = query.encode('ascii', 'ignore')
-        print (drink)
+        #print (drink)
         ingredients_list = drinks_dict[drink]
-        print(ingredients_list)
+        #print(ingredients_list)
         mixing_instructions = instructions[drink]
         content_percent = round(alc_contents[drink]*100)
         top_few_drinks = clustering2.get_top_k_similar(drink, 3)
