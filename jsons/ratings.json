@@ -1,0 +1,9254 @@
+{
+    "Celebration #2": {
+        "rating": 5.8,
+        "weight": 5
+    },
+    "Carolina Iced Tea": {
+        "rating": 8.2,
+        "weight": 30
+    },
+    "Owen's Grandmother's Revenge": {
+        "rating": 4.9,
+        "weight": 14
+    },
+    "Jeannie's Dream": {
+        "rating": 8.9,
+        "weight": 10
+    },
+    "Strawberry Blond": {
+        "rating": 10.0,
+        "weight": 5
+    },
+    "Whiskey Orange the Jesperian Way": {
+        "rating": 5.8,
+        "weight": 9
+    },
+    "Buffalo Sweat": {
+        "rating": 5.8,
+        "weight": 30
+    },
+    "Dewing the Captain": {
+        "rating": 5.6,
+        "weight": 47
+    },
+    "Green Orange": {
+        "rating": 7.0,
+        "weight": 14
+    },
+    "Blonde Bombshell": {
+        "rating": 6.7,
+        "weight": 7
+    },
+    "Dr. Raspberry": {
+        "rating": 7.4,
+        "weight": 11
+    },
+    "Zinger": {
+        "rating": 8.2,
+        "weight": 6
+    },
+    "Splurge": {
+        "rating": 7.8,
+        "weight": 4
+    },
+    "Spanish Fly": {
+        "rating": 8.4,
+        "weight": 7
+    },
+    "Blue Sunset": {
+        "rating": 8.3,
+        "weight": 10
+    },
+    "Blue Whale": {
+        "rating": 6.6,
+        "weight": 61
+    },
+    "Vixen": {
+        "rating": 7.8,
+        "weight": 19
+    },
+    "Sit On My Face Mary Jane": {
+        "rating": 6.1,
+        "weight": 15
+    },
+    "China White": {
+        "rating": 5.2,
+        "weight": 98
+    },
+    "Cubano Coffee": {
+        "rating": 5.2,
+        "weight": 564
+    },
+    "Soda Cracker": {
+        "rating": 6.9,
+        "weight": 11
+    },
+    "Wild Peppertini": {
+        "rating": 7.8,
+        "weight": 17
+    },
+    "City Slicker": {
+        "rating": 4.4,
+        "weight": 13
+    },
+    "Gooseberry Jam": {
+        "rating": 6.8,
+        "weight": 8
+    },
+    "Hawaiian Sunset": {
+        "rating": 8.1,
+        "weight": 22
+    },
+    "Frisky": {
+        "rating": 7.7,
+        "weight": 7
+    },
+    "Jennifer's Orgasm": {
+        "rating": 6.6,
+        "weight": 47
+    },
+    "Grapeschlager": {
+        "rating": 9.4,
+        "weight": 9
+    },
+    "Stone Cocktail": {
+        "rating": 2.0,
+        "weight": 2
+    },
+    "Frozen Blue Daiquiri": {
+        "rating": 6.1,
+        "weight": 17
+    },
+    "Jimtini": {
+        "rating": 8.6,
+        "weight": 7
+    },
+    "Vanilla Vargas": {
+        "rating": 6.3,
+        "weight": 6
+    },
+    "Doucet devil": {
+        "rating": 9.4,
+        "weight": 15
+    },
+    "Caribbean Bliss": {
+        "rating": 6.4,
+        "weight": 38
+    },
+    "Sol Y Sombra": {
+        "rating": 7.1,
+        "weight": 9
+    },
+    "Scooter": {
+        "rating": 8.0,
+        "weight": 6
+    },
+    "Shark Tank": {
+        "rating": 7.9,
+        "weight": 17
+    },
+    "Extra Fuzzy Navel": {
+        "rating": 7.8,
+        "weight": 5
+    },
+    "Green Dinosaur #2": {
+        "rating": 8.1,
+        "weight": 14
+    },
+    "Black Forest": {
+        "rating": 6.4,
+        "weight": 183
+    },
+    "Mutated Mothers Milk": {
+        "rating": 5.0,
+        "weight": 1
+    },
+    "Listerine": {
+        "rating": 6.0,
+        "weight": 1
+    },
+    "White Tornado": {
+        "rating": 8.3,
+        "weight": 11
+    },
+    "Lynchburg Lemonade": {
+        "rating": 6.1,
+        "weight": 696
+    },
+    "Sip and go naked": {
+        "rating": 6.2,
+        "weight": 39
+    },
+    "Rum Runner": {
+        "rating": 6.5,
+        "weight": 82
+    },
+    "Kiddie Cocktail": {
+        "rating": 8.9,
+        "weight": 25
+    },
+    "Windex": {
+        "rating": 6.4,
+        "weight": 76
+    },
+    "Royal Peach": {
+        "rating": 7.8,
+        "weight": 29
+    },
+    "Black and Blue": {
+        "rating": 6.8,
+        "weight": 20
+    },
+    "Blue Blazer #2": {
+        "rating": 6.0,
+        "weight": 4
+    },
+    "Hudson Bay": {
+        "rating": 0.0,
+        "weight": 0
+    },
+    "Fluffy Dog": {
+        "rating": 7.5,
+        "weight": 15
+    },
+    "Captain Do": {
+        "rating": 6.5,
+        "weight": 55
+    },
+    "Status Quo": {
+        "rating": 8.9,
+        "weight": 10
+    },
+    "Cinnamon Caramel Apple": {
+        "rating": 6.3,
+        "weight": 6
+    },
+    "Creamy Kiss": {
+        "rating": 6.7,
+        "weight": 14
+    },
+    "Monsoon": {
+        "rating": 9.8,
+        "weight": 13
+    },
+    "Nut Case": {
+        "rating": 7.4,
+        "weight": 5
+    },
+    "Damned if you do": {
+        "rating": 6.0,
+        "weight": 29
+    },
+    "Hubbabubba": {
+        "rating": 8.0,
+        "weight": 1
+    },
+    "Irish Curdling Cow": {
+        "rating": 7.1,
+        "weight": 10
+    },
+    "Rubbermeister": {
+        "rating": 6.2,
+        "weight": 12
+    },
+    "Shakes \"Party To Go\"": {
+        "rating": 8.4,
+        "weight": 7
+    },
+    "Southern Smile": {
+        "rating": 8.0,
+        "weight": 9
+    },
+    "Burning Sun": {
+        "rating": 7.5,
+        "weight": 4
+    },
+    "Frozen Berkeley": {
+        "rating": 7.5,
+        "weight": 2
+    },
+    "Spiced apple": {
+        "rating": 7.5,
+        "weight": 4
+    },
+    "DC": {
+        "rating": 6.9,
+        "weight": 27
+    },
+    "Summertime": {
+        "rating": 8.1,
+        "weight": 14
+    },
+    "Purple Gecko": {
+        "rating": 7.9,
+        "weight": 12
+    },
+    "Carolina": {
+        "rating": 7.0,
+        "weight": 1
+    },
+    "Afterburner #2": {
+        "rating": 5.8,
+        "weight": 180
+    },
+    "California Gold Rush": {
+        "rating": 5.2,
+        "weight": 19
+    },
+    "Golden Delicious": {
+        "rating": 8.2,
+        "weight": 14
+    },
+    "Corpse Reviver": {
+        "rating": 8.3,
+        "weight": 7
+    },
+    "Jack-Hammer II": {
+        "rating": 7.3,
+        "weight": 24
+    },
+    "Irish Monk #2": {
+        "rating": 5.9,
+        "weight": 9
+    },
+    "Sex in the Desert": {
+        "rating": 8.0,
+        "weight": 9
+    },
+    "Viagra Shot": {
+        "rating": 6.4,
+        "weight": 13
+    },
+    "Jim Morrison": {
+        "rating": 5.9,
+        "weight": 43
+    },
+    "Jamaican Cabdriver": {
+        "rating": 6.6,
+        "weight": 97
+    },
+    "Liquid Crack": {
+        "rating": 6.4,
+        "weight": 112
+    },
+    "Love Potion": {
+        "rating": 8.8,
+        "weight": 8
+    },
+    "Aqualung": {
+        "rating": 7.2,
+        "weight": 6
+    },
+    "Juicy Volkheimer": {
+        "rating": 8.2,
+        "weight": 26
+    },
+    "Reality Twist": {
+        "rating": 7.5,
+        "weight": 22
+    },
+    "Blue Blazer": {
+        "rating": 5.4,
+        "weight": 19
+    },
+    "Limona Corona": {
+        "rating": 6.7,
+        "weight": 72
+    },
+    "Nuts 'n Holly": {
+        "rating": 6.3,
+        "weight": 6
+    },
+    "Amaretto Stone Sour #2": {
+        "rating": 6.3,
+        "weight": 161
+    },
+    "Lunch Box": {
+        "rating": 6.3,
+        "weight": 112
+    },
+    "Homecoming": {
+        "rating": 8.0,
+        "weight": 21
+    },
+    "Punch #1": {
+        "rating": 6.7,
+        "weight": 9
+    },
+    "Applejack": {
+        "rating": 6.2,
+        "weight": 24
+    },
+    "The Original Margarita": {
+        "rating": 9.2,
+        "weight": 13
+    },
+    "Donkey Semmen": {
+        "rating": 7.6,
+        "weight": 8
+    },
+    "Dea Lea": {
+        "rating": 4.8,
+        "weight": 4
+    },
+    "Caruso": {
+        "rating": 5.0,
+        "weight": 9
+    },
+    "Peach Smoothie": {
+        "rating": 5.5,
+        "weight": 4
+    },
+    "Jungle Juice #3": {
+        "rating": 7.3,
+        "weight": 12
+    },
+    "Ice bolts": {
+        "rating": 8.3,
+        "weight": 7
+    },
+    "Pine-Sol Shooter": {
+        "rating": 7.8,
+        "weight": 9
+    },
+    "Caramel Apple": {
+        "rating": 6.4,
+        "weight": 119
+    },
+    "Madeleine": {
+        "rating": 9.5,
+        "weight": 6
+    },
+    "South Bank": {
+        "rating": 3.0,
+        "weight": 5
+    },
+    "White Out": {
+        "rating": 5.6,
+        "weight": 7
+    },
+    "Wonder Woman": {
+        "rating": 8.5,
+        "weight": 13
+    },
+    "Golden Margarita": {
+        "rating": 6.3,
+        "weight": 59
+    },
+    "The Great Hercules": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "Screaming Multiple Orgasm On The Beach": {
+        "rating": 7.5,
+        "weight": 26
+    },
+    "Bahama Todd": {
+        "rating": 7.7,
+        "weight": 15
+    },
+    "Kinda Tasty": {
+        "rating": 8.0,
+        "weight": 9
+    },
+    "Machine": {
+        "rating": 6.5,
+        "weight": 46
+    },
+    "Canadian Funky Electric Cider": {
+        "rating": 8.5,
+        "weight": 11
+    },
+    "Black Russian": {
+        "rating": 6.2,
+        "weight": 602
+    },
+    "Blue Meanie": {
+        "rating": 7.2,
+        "weight": 27
+    },
+    "Gorilla Fart #5": {
+        "rating": 5.1,
+        "weight": 10
+    },
+    "Zorro": {
+        "rating": 6.0,
+        "weight": 9
+    },
+    "On the Deck": {
+        "rating": 6.5,
+        "weight": 4
+    },
+    "Green Widow": {
+        "rating": 8.3,
+        "weight": 28
+    },
+    "Italian Stinger": {
+        "rating": 7.2,
+        "weight": 5
+    },
+    "Freddy Kruger": {
+        "rating": 6.7,
+        "weight": 15
+    },
+    "Kahlua Sour": {
+        "rating": 6.0,
+        "weight": 26
+    },
+    "Black Widow": {
+        "rating": 7.8,
+        "weight": 13
+    },
+    "My Wasted Generation": {
+        "rating": 8.2,
+        "weight": 6
+    },
+    "Prarie Fire": {
+        "rating": 6.3,
+        "weight": 105
+    },
+    "Rose Cocktail (French)": {
+        "rating": 7.8,
+        "weight": 4
+    },
+    "Fuzzy Monkey": {
+        "rating": 6.0,
+        "weight": 11
+    },
+    "Jesus is Here": {
+        "rating": 8.0,
+        "weight": 19
+    },
+    "Aggravation": {
+        "rating": 6.5,
+        "weight": 139
+    },
+    "Little Black Devil": {
+        "rating": 7.7,
+        "weight": 7
+    },
+    "Chocolate Shock": {
+        "rating": 8.9,
+        "weight": 22
+    },
+    "Funky Chicken": {
+        "rating": 3.7,
+        "weight": 7
+    },
+    "Amenie Mama": {
+        "rating": 9.4,
+        "weight": 11
+    },
+    "G4": {
+        "rating": 6.2,
+        "weight": 47
+    },
+    "Peach Bunny": {
+        "rating": 8.0,
+        "weight": 3
+    },
+    "The End of the World": {
+        "rating": 7.5,
+        "weight": 17
+    },
+    "American Dream": {
+        "rating": 6.6,
+        "weight": 34
+    },
+    "Neon-Geek": {
+        "rating": 8.0,
+        "weight": 2
+    },
+    "Bananas and Cream": {
+        "rating": 8.2,
+        "weight": 23
+    },
+    "No Problem!": {
+        "rating": 7.0,
+        "weight": 5
+    },
+    "Shark Bite #2": {
+        "rating": 7.3,
+        "weight": 9
+    },
+    "Goldschlager Lemondrop": {
+        "rating": 5.7,
+        "weight": 17
+    },
+    "Mexican Mouthwash": {
+        "rating": 7.1,
+        "weight": 11
+    },
+    "Liquid Asphault": {
+        "rating": 5.1,
+        "weight": 12
+    },
+    "Red Eyed Hell": {
+        "rating": 4.4,
+        "weight": 5
+    },
+    "The Jack Hammer": {
+        "rating": 6.3,
+        "weight": 18
+    },
+    "Catalina Margarita": {
+        "rating": 8.2,
+        "weight": 20
+    },
+    "Naughty Angel": {
+        "rating": 8.3,
+        "weight": 6
+    },
+    "Feel The Burn": {
+        "rating": 9.7,
+        "weight": 11
+    },
+    "After Eight": {
+        "rating": 6.3,
+        "weight": 159
+    },
+    "Paralyzer #1": {
+        "rating": 6.0,
+        "weight": 104
+    },
+    "Green Summer": {
+        "rating": 8.3,
+        "weight": 16
+    },
+    "Boom box": {
+        "rating": 6.5,
+        "weight": 8
+    },
+    "The Power of Milk": {
+        "rating": 6.4,
+        "weight": 52
+    },
+    "Damn Good!": {
+        "rating": 6.5,
+        "weight": 11
+    },
+    "Purple Mexican": {
+        "rating": 7.6,
+        "weight": 12
+    },
+    "Southern Joe": {
+        "rating": 7.1,
+        "weight": 27
+    },
+    "Beam Me Up Scotty": {
+        "rating": 5.5,
+        "weight": 76
+    },
+    "Fatkid on the Rocks": {
+        "rating": 5.8,
+        "weight": 24
+    },
+    "Gege": {
+        "rating": 7.3,
+        "weight": 6
+    },
+    "Honolulu Cocktail No. 2": {
+        "rating": 0.0,
+        "weight": 0
+    },
+    "Royal Butt": {
+        "rating": 5.4,
+        "weight": 47
+    },
+    "Sexual Harrasement": {
+        "rating": 7.1,
+        "weight": 15
+    },
+    "Moon Quake Shake": {
+        "rating": 10.0,
+        "weight": 1
+    },
+    "Crack Pipe": {
+        "rating": 5.4,
+        "weight": 17
+    },
+    "Veterinary": {
+        "rating": 2.7,
+        "weight": 6
+    },
+    "The Green Mile": {
+        "rating": 7.9,
+        "weight": 7
+    },
+    "Nutty Banana": {
+        "rating": 7.9,
+        "weight": 9
+    },
+    "Sweet Tarts": {
+        "rating": 8.6,
+        "weight": 20
+    },
+    "Mandarine Bourbon": {
+        "rating": 5.0,
+        "weight": 2
+    },
+    "Stabilizer": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "Thorazine": {
+        "rating": 6.3,
+        "weight": 6
+    },
+    "Shogun": {
+        "rating": 6.2,
+        "weight": 6
+    },
+    "Nutty Irishman (without milk)": {
+        "rating": 6.4,
+        "weight": 188
+    },
+    "Kongepjolter": {
+        "rating": 8.9,
+        "weight": 8
+    },
+    "The Green Wave": {
+        "rating": 4.3,
+        "weight": 10
+    },
+    "White Splash": {
+        "rating": 4.3,
+        "weight": 7
+    },
+    "Mexican Mountie": {
+        "rating": 4.2,
+        "weight": 4
+    },
+    "Pouce Coupe Puddle": {
+        "rating": 9.9,
+        "weight": 9
+    },
+    "G Bomb": {
+        "rating": 7.7,
+        "weight": 19
+    },
+    "The Saint Lawrence": {
+        "rating": 5.7,
+        "weight": 17
+    },
+    "Miami Vice": {
+        "rating": 6.4,
+        "weight": 280
+    },
+    "BonBon": {
+        "rating": 8.8,
+        "weight": 4
+    },
+    "Homewrecker": {
+        "rating": 6.4,
+        "weight": 704
+    },
+    "Pink n' Tart": {
+        "rating": 4.3,
+        "weight": 13
+    },
+    "Green Eyed Blonde": {
+        "rating": 8.9,
+        "weight": 14
+    },
+    "911": {
+        "rating": 6.5,
+        "weight": 77
+    },
+    "Wookie": {
+        "rating": 7.1,
+        "weight": 7
+    },
+    "Smashing Pumpkin": {
+        "rating": 8.3,
+        "weight": 30
+    },
+    "J. R.'s Godfather": {
+        "rating": 8.6,
+        "weight": 24
+    },
+    "Gray Hound": {
+        "rating": 5.8,
+        "weight": 12
+    },
+    "Slugger's Delight": {
+        "rating": 7.5,
+        "weight": 6
+    },
+    "Flaming Blue Jesus": {
+        "rating": 6.3,
+        "weight": 46
+    },
+    "Leprechaun's Gold": {
+        "rating": 5.6,
+        "weight": 47
+    },
+    "Kentucky B And B": {
+        "rating": 8.4,
+        "weight": 8
+    },
+    "Brave Bull Shooter": {
+        "rating": 6.4,
+        "weight": 26
+    },
+    "Pick Me Up Jose": {
+        "rating": 7.2,
+        "weight": 11
+    },
+    "Green-eyed Bi": {
+        "rating": 7.0,
+        "weight": 6
+    },
+    "Fraise de Champagne": {
+        "rating": 9.0,
+        "weight": 2
+    },
+    "Jinx": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "Lady Finger": {
+        "rating": 9.0,
+        "weight": 4
+    },
+    "Dirty Mother": {
+        "rating": 6.4,
+        "weight": 31
+    },
+    "The Bomb": {
+        "rating": 5.0,
+        "weight": 55
+    },
+    "Dr. Shocker": {
+        "rating": 8.6,
+        "weight": 16
+    },
+    "Mountaineer on Acid": {
+        "rating": 7.5,
+        "weight": 14
+    },
+    "Flander's Flake-Out": {
+        "rating": 0.0,
+        "weight": 0
+    },
+    "Clamato Cocktail": {
+        "rating": 8.2,
+        "weight": 10
+    },
+    "Malibu Massage": {
+        "rating": 3.0,
+        "weight": 2
+    },
+    "Maria Theresa": {
+        "rating": 4.6,
+        "weight": 7
+    },
+    "Homemade Kahlua": {
+        "rating": 6.5,
+        "weight": 58
+    },
+    "Tequila Canyon": {
+        "rating": 5.3,
+        "weight": 14
+    },
+    "La Cafe": {
+        "rating": 0.0,
+        "weight": 0
+    },
+    "Piedra Putamadre": {
+        "rating": 4.7,
+        "weight": 3
+    },
+    "Beam Scream": {
+        "rating": 8.4,
+        "weight": 10
+    },
+    "Vibrator": {
+        "rating": 5.8,
+        "weight": 24
+    },
+    "Slow Screw up against a Red Wall": {
+        "rating": 6.7,
+        "weight": 3
+    },
+    "Hillinator": {
+        "rating": 6.5,
+        "weight": 2
+    },
+    "Flaming Moz": {
+        "rating": 8.5,
+        "weight": 10
+    },
+    "Bourbon County Cowboy": {
+        "rating": 6.6,
+        "weight": 8
+    },
+    "Mexican Hillbilly": {
+        "rating": 5.8,
+        "weight": 10
+    },
+    "Tropical Peach Martini": {
+        "rating": 6.1,
+        "weight": 7
+    },
+    "Lady Be Good": {
+        "rating": 5.0,
+        "weight": 1
+    },
+    "Summit County Suicide": {
+        "rating": 6.8,
+        "weight": 4
+    },
+    "Mexican stand-off": {
+        "rating": 9.1,
+        "weight": 10
+    },
+    "Cramit": {
+        "rating": 7.4,
+        "weight": 19
+    },
+    "Silk Panties": {
+        "rating": 6.5,
+        "weight": 79
+    },
+    "Brush Fire": {
+        "rating": 3.4,
+        "weight": 8
+    },
+    "Ooo": {
+        "rating": 7.9,
+        "weight": 8
+    },
+    "Spudgun": {
+        "rating": 4.0,
+        "weight": 5
+    },
+    "Double Intention": {
+        "rating": 6.2,
+        "weight": 4
+    },
+    "Melon Jones": {
+        "rating": 7.2,
+        "weight": 4
+    },
+    "Hawaiian Cocktail": {
+        "rating": 5.9,
+        "weight": 11
+    },
+    "Gumball Hummer": {
+        "rating": 8.5,
+        "weight": 10
+    },
+    "Milk Shake 43": {
+        "rating": 9.4,
+        "weight": 25
+    },
+    "Fruit and Sherbet Punch": {
+        "rating": 8.5,
+        "weight": 2
+    },
+    "Hot Dick #1": {
+        "rating": 9.6,
+        "weight": 20
+    },
+    "Comfortable Screw": {
+        "rating": 6.3,
+        "weight": 58
+    },
+    "Mellow Hiker": {
+        "rating": 7.3,
+        "weight": 6
+    },
+    "Fig": {
+        "rating": 8.7,
+        "weight": 10
+    },
+    "The Vaitkus": {
+        "rating": 8.2,
+        "weight": 16
+    },
+    "Grandmom's slipper": {
+        "rating": 8.6,
+        "weight": 9
+    },
+    "Thorny Mexican": {
+        "rating": 6.6,
+        "weight": 5
+    },
+    "David Caradine": {
+        "rating": 7.0,
+        "weight": 5
+    },
+    "Cina Polada": {
+        "rating": 7.2,
+        "weight": 8
+    },
+    "Springtime": {
+        "rating": 4.0,
+        "weight": 2
+    },
+    "Gingerbread Man": {
+        "rating": 6.5,
+        "weight": 46
+    },
+    "Green Ocean": {
+        "rating": 9.0,
+        "weight": 2
+    },
+    "Victor": {
+        "rating": 7.3,
+        "weight": 6
+    },
+    "Alice in Wonderland": {
+        "rating": 6.4,
+        "weight": 130
+    },
+    "Three Day Weekend": {
+        "rating": 8.2,
+        "weight": 12
+    },
+    "Dead Nazi": {
+        "rating": 6.3,
+        "weight": 148
+    },
+    "Taco-Mancer": {
+        "rating": 7.8,
+        "weight": 4
+    },
+    "Vik 'n' Rum": {
+        "rating": 8.1,
+        "weight": 19
+    },
+    "Brandy And Soda": {
+        "rating": 6.1,
+        "weight": 16
+    },
+    "Grape Crush": {
+        "rating": 5.9,
+        "weight": 156
+    },
+    "Cocoboodo": {
+        "rating": 5.0,
+        "weight": 6
+    },
+    "Hot Brown Lizard": {
+        "rating": 6.0,
+        "weight": 7
+    },
+    "Flying Tiger": {
+        "rating": 4.8,
+        "weight": 59
+    },
+    "Casablanca #2": {
+        "rating": 6.4,
+        "weight": 17
+    },
+    "Apple Grande": {
+        "rating": 6.4,
+        "weight": 17
+    },
+    "Carlitos": {
+        "rating": 7.1,
+        "weight": 8
+    },
+    "Hokkaido Cocktail": {
+        "rating": 6.2,
+        "weight": 10
+    },
+    "The Fucking Shit": {
+        "rating": 5.8,
+        "weight": 143
+    },
+    "Back-up Goalie": {
+        "rating": 10.0,
+        "weight": 4
+    },
+    "Palm Beach Cocktail": {
+        "rating": 7.4,
+        "weight": 7
+    },
+    "Antifreeze #2": {
+        "rating": 5.9,
+        "weight": 9
+    },
+    "747": {
+        "rating": 6.5,
+        "weight": 44
+    },
+    "Blueberry Daiquiri": {
+        "rating": 8.7,
+        "weight": 3
+    },
+    "Arizona Antifreeze": {
+        "rating": 6.4,
+        "weight": 4460
+    },
+    "Falix": {
+        "rating": 4.4,
+        "weight": 5
+    },
+    "Nuclear Rainbow": {
+        "rating": 6.4,
+        "weight": 46
+    },
+    "Liquid Jello": {
+        "rating": 6.8,
+        "weight": 13
+    },
+    "Thriller": {
+        "rating": 7.8,
+        "weight": 4
+    },
+    "Kir Martini": {
+        "rating": 6.3,
+        "weight": 221
+    },
+    "Rooster Piss": {
+        "rating": 4.5,
+        "weight": 15
+    },
+    "Moscow Mule": {
+        "rating": 6.7,
+        "weight": 95
+    },
+    "Torombolo": {
+        "rating": 8.2,
+        "weight": 5
+    },
+    "White Russian #2": {
+        "rating": 6.4,
+        "weight": 95
+    },
+    "Peach Tea Cooler": {
+        "rating": 8.5,
+        "weight": 16
+    },
+    "Green Hell": {
+        "rating": 7.7,
+        "weight": 14
+    },
+    "Tropical Pear Fizz": {
+        "rating": 5.0,
+        "weight": 3
+    },
+    "The Two": {
+        "rating": 6.3,
+        "weight": 3
+    },
+    "Petite Fleur": {
+        "rating": 8.4,
+        "weight": 7
+    },
+    "Flaming Lamborghini": {
+        "rating": 6.4,
+        "weight": 383
+    },
+    "Tropical Hooter": {
+        "rating": 5.0,
+        "weight": 3
+    },
+    "Royal Flush #2": {
+        "rating": 6.7,
+        "weight": 76
+    },
+    "Witch's Clit": {
+        "rating": 5.4,
+        "weight": 126
+    },
+    "Daydream": {
+        "rating": 6.3,
+        "weight": 3
+    },
+    "The Texas Mudslide": {
+        "rating": 6.7,
+        "weight": 16
+    },
+    "Royal Flush": {
+        "rating": 6.3,
+        "weight": 121
+    },
+    "Negroni": {
+        "rating": 6.5,
+        "weight": 457
+    },
+    "Gin Blossam": {
+        "rating": 7.6,
+        "weight": 11
+    },
+    "Winter Tropic": {
+        "rating": 7.1,
+        "weight": 9
+    },
+    "Sir Francis": {
+        "rating": 5.7,
+        "weight": 3
+    },
+    "Bloated Bag of Monkey Spunk": {
+        "rating": 7.3,
+        "weight": 19
+    },
+    "Mussolini": {
+        "rating": 7.0,
+        "weight": 3
+    },
+    "Fuzzy Blue Gobbler": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "Dark Nightmare": {
+        "rating": 8.5,
+        "weight": 15
+    },
+    "Lager & Lime": {
+        "rating": 7.9,
+        "weight": 25
+    },
+    "Boot Blaster": {
+        "rating": 7.0,
+        "weight": 2
+    },
+    "Mountain Sex": {
+        "rating": 5.8,
+        "weight": 37
+    },
+    "Four Horsemen #2": {
+        "rating": 6.4,
+        "weight": 62
+    },
+    "Lamb Brothers": {
+        "rating": 2.5,
+        "weight": 2
+    },
+    "Tokyo Rose": {
+        "rating": 7.2,
+        "weight": 12
+    },
+    "Shit on the Grass": {
+        "rating": 7.4,
+        "weight": 30
+    },
+    "Dumbfuck": {
+        "rating": 6.4,
+        "weight": 9
+    },
+    "Dog Biscuit": {
+        "rating": 6.4,
+        "weight": 8
+    },
+    "Wild Thing": {
+        "rating": 3.2,
+        "weight": 8
+    },
+    "Coconut Cream Pie": {
+        "rating": 6.0,
+        "weight": 2756
+    },
+    "Skull": {
+        "rating": 6.7,
+        "weight": 7
+    },
+    "Venom": {
+        "rating": 2.6,
+        "weight": 9
+    },
+    "Almond Joy": {
+        "rating": 6.0,
+        "weight": 102
+    },
+    "Hyper-Active Apple": {
+        "rating": 10.0,
+        "weight": 1
+    },
+    "Robitussin": {
+        "rating": 7.0,
+        "weight": 8
+    },
+    "Wile E Coyote": {
+        "rating": 7.0,
+        "weight": 6
+    },
+    "Sit on my face": {
+        "rating": 6.3,
+        "weight": 40
+    },
+    "A Splash of Nash": {
+        "rating": 6.6,
+        "weight": 95
+    },
+    "Irish Cactus": {
+        "rating": 6.0,
+        "weight": 27
+    },
+    "Strawberry Shortcake": {
+        "rating": 5.9,
+        "weight": 87
+    },
+    "Moonlight Drive": {
+        "rating": 7.8,
+        "weight": 8
+    },
+    "Ultimate June Bug": {
+        "rating": 6.4,
+        "weight": 87
+    },
+    "Kentucky Wildcat": {
+        "rating": 7.0,
+        "weight": 11
+    },
+    "Butterball": {
+        "rating": 6.6,
+        "weight": 79
+    },
+    "Moose Fart": {
+        "rating": 7.6,
+        "weight": 13
+    },
+    "Suicide The Shot": {
+        "rating": 5.6,
+        "weight": 13
+    },
+    "Mocha Maria": {
+        "rating": 8.5,
+        "weight": 4
+    },
+    "Aperol '86": {
+        "rating": 4.7,
+        "weight": 3
+    },
+    "Metropolis": {
+        "rating": 0.0,
+        "weight": 0
+    },
+    "The Bianca Pop": {
+        "rating": 7.3,
+        "weight": 11
+    },
+    "Diablo's Blood": {
+        "rating": 5.3,
+        "weight": 40
+    },
+    "Southern Sunrise": {
+        "rating": 8.6,
+        "weight": 9
+    },
+    "Fubar Kool-Aid": {
+        "rating": 8.0,
+        "weight": 10
+    },
+    "Nut and Honey": {
+        "rating": 10.0,
+        "weight": 6
+    },
+    "Jamaica Hop": {
+        "rating": 5.0,
+        "weight": 1
+    },
+    "Freddie's Naughty Neopolitan": {
+        "rating": 8.4,
+        "weight": 16
+    },
+    "Lesbian Lover": {
+        "rating": 7.4,
+        "weight": 10
+    },
+    "Ponderosa": {
+        "rating": 6.7,
+        "weight": 6
+    },
+    "North Polar": {
+        "rating": 5.8,
+        "weight": 8
+    },
+    "Mint Chocolate": {
+        "rating": 8.1,
+        "weight": 15
+    },
+    "Scarlet Fever": {
+        "rating": 4.0,
+        "weight": 5
+    },
+    "Applecar": {
+        "rating": 6.2,
+        "weight": 6
+    },
+    "Brimstone": {
+        "rating": 6.5,
+        "weight": 2
+    },
+    "Raspberry Cordial": {
+        "rating": 9.0,
+        "weight": 2
+    },
+    "Killer Kool-Aid": {
+        "rating": 5.8,
+        "weight": 124
+    },
+    "Mocha Martini": {
+        "rating": 7.9,
+        "weight": 16
+    },
+    "Burning Worm": {
+        "rating": 2.8,
+        "weight": 5
+    },
+    "Crap Schnapps": {
+        "rating": 7.0,
+        "weight": 1
+    },
+    "Long Island Iced Tea #4": {
+        "rating": 5.9,
+        "weight": 913
+    },
+    "Hilde's Special": {
+        "rating": 7.7,
+        "weight": 6
+    },
+    "Fernet con Coca": {
+        "rating": 6.4,
+        "weight": 467
+    },
+    "Toronto Maple Leafs": {
+        "rating": 5.8,
+        "weight": 48
+    },
+    "Queen Elizabeth": {
+        "rating": 4.5,
+        "weight": 2
+    },
+    "Scotch And Water": {
+        "rating": 6.7,
+        "weight": 100
+    },
+    "The Finnely": {
+        "rating": 1.0,
+        "weight": 1
+    },
+    "Bongs Anfield Slammer": {
+        "rating": 5.3,
+        "weight": 11
+    },
+    "Sicilian Kiss": {
+        "rating": 6.5,
+        "weight": 200
+    },
+    "Bonsai Pipeline": {
+        "rating": 7.5,
+        "weight": 4
+    },
+    "Peanut Butter and Jelly": {
+        "rating": 6.9,
+        "weight": 61
+    },
+    "81 Camaro": {
+        "rating": 6.2,
+        "weight": 36
+    },
+    "Dragon's Breath": {
+        "rating": 8.6,
+        "weight": 23
+    },
+    "Lifesaver": {
+        "rating": 7.9,
+        "weight": 16
+    },
+    "Tully's Nuts & Berries": {
+        "rating": 5.7,
+        "weight": 6
+    },
+    "French Connection": {
+        "rating": 8.5,
+        "weight": 28
+    },
+    "Snake Venom": {
+        "rating": 6.2,
+        "weight": 13
+    },
+    "Joey F's Grape Ape": {
+        "rating": 5.4,
+        "weight": 5
+    },
+    "Cable Guide": {
+        "rating": 9.6,
+        "weight": 5
+    },
+    "Caramilk": {
+        "rating": 7.6,
+        "weight": 18
+    },
+    "The James Robert Dean": {
+        "rating": 10.0,
+        "weight": 1
+    },
+    "Drunk-N-ade": {
+        "rating": 6.5,
+        "weight": 2
+    },
+    "Four Twenty": {
+        "rating": 5.2,
+        "weight": 5
+    },
+    "Frooty Biznitch": {
+        "rating": 8.9,
+        "weight": 15
+    },
+    "Sweet Patootie Cocktail": {
+        "rating": 4.8,
+        "weight": 13
+    },
+    "Elephant Lips": {
+        "rating": 7.0,
+        "weight": 9
+    },
+    "Vodka Grasshopper": {
+        "rating": 6.3,
+        "weight": 136
+    },
+    "Tangaz\u00e9": {
+        "rating": 6.8,
+        "weight": 6
+    },
+    "Surfer On Acid #2": {
+        "rating": 6.1,
+        "weight": 50
+    },
+    "Absolutely Fruity": {
+        "rating": 7.4,
+        "weight": 173
+    },
+    "Alien Nipple": {
+        "rating": 6.1,
+        "weight": 110
+    },
+    "Sex on the Pool Table": {
+        "rating": 6.4,
+        "weight": 36
+    },
+    "Spooge": {
+        "rating": 7.0,
+        "weight": 11
+    },
+    "3rd Street Promanade": {
+        "rating": 7.5,
+        "weight": 21
+    },
+    "Felix's feast": {
+        "rating": 10.0,
+        "weight": 21
+    },
+    "Tie Me To The Bedpost, Baby": {
+        "rating": 8.4,
+        "weight": 20
+    },
+    "Moon Pie": {
+        "rating": 9.2,
+        "weight": 6
+    },
+    "Sex On The Beach #6": {
+        "rating": 7.3,
+        "weight": 11
+    },
+    "Green Dinosaur #1": {
+        "rating": 6.2,
+        "weight": 34
+    },
+    "Peach Tart": {
+        "rating": 9.4,
+        "weight": 17
+    },
+    "Sand In Your Crack": {
+        "rating": 8.4,
+        "weight": 7
+    },
+    "Chastity Belt": {
+        "rating": 6.8,
+        "weight": 5
+    },
+    "Nutty Irishman": {
+        "rating": 6.3,
+        "weight": 200
+    },
+    "Strawberry Shivers": {
+        "rating": 5.4,
+        "weight": 7
+    },
+    "Flaming Dragon": {
+        "rating": 9.2,
+        "weight": 18
+    },
+    "Surputte": {
+        "rating": 4.8,
+        "weight": 4
+    },
+    "Cherried Cream Rum": {
+        "rating": 1.0,
+        "weight": 3
+    },
+    "Buttery Nipple #2": {
+        "rating": 6.0,
+        "weight": 351
+    },
+    "Skinny Dipper": {
+        "rating": 6.5,
+        "weight": 15
+    },
+    "B-53": {
+        "rating": 6.9,
+        "weight": 18
+    },
+    "Big Time": {
+        "rating": 7.8,
+        "weight": 8
+    },
+    "Polar Bear #3": {
+        "rating": 6.1,
+        "weight": 162
+    },
+    "Stevie Wonder": {
+        "rating": 6.1,
+        "weight": 8
+    },
+    "Mint Gin Cocktail": {
+        "rating": 0.0,
+        "weight": 0
+    },
+    "Coral Reef": {
+        "rating": 6.3,
+        "weight": 7
+    },
+    "Tweetie Bird": {
+        "rating": 5.2,
+        "weight": 10
+    },
+    "Cocaine Lady #2": {
+        "rating": 6.6,
+        "weight": 58
+    },
+    "Island Jack": {
+        "rating": 9.0,
+        "weight": 6
+    },
+    "Red Ruby": {
+        "rating": 7.2,
+        "weight": 4
+    },
+    "Smut": {
+        "rating": 4.4,
+        "weight": 12
+    },
+    "Feel like holiday": {
+        "rating": 6.3,
+        "weight": 3
+    },
+    "Captain Cook": {
+        "rating": 7.2,
+        "weight": 4
+    },
+    "Cinnamon Stick": {
+        "rating": 8.6,
+        "weight": 21
+    },
+    "Burnt Embers": {
+        "rating": 5.7,
+        "weight": 6
+    },
+    "3 Wise Men": {
+        "rating": 6.2,
+        "weight": 185
+    },
+    "Appled Rum Cooler": {
+        "rating": 4.7,
+        "weight": 3
+    },
+    "Wynonna's Strawberry Delight": {
+        "rating": 6.0,
+        "weight": 4
+    },
+    "Generation X": {
+        "rating": 7.4,
+        "weight": 11
+    },
+    "Zimaretto": {
+        "rating": 5.8,
+        "weight": 5
+    },
+    "Big Stick": {
+        "rating": 6.7,
+        "weight": 10
+    },
+    "Three Wise Men #2": {
+        "rating": 5.4,
+        "weight": 52
+    },
+    "Kahlua #4": {
+        "rating": 8.1,
+        "weight": 7
+    },
+    "Bumble Bee #1": {
+        "rating": 7.8,
+        "weight": 13
+    },
+    "Killer Kool-Aid #2": {
+        "rating": 6.5,
+        "weight": 14
+    },
+    "The N8er T8er": {
+        "rating": 8.1,
+        "weight": 17
+    },
+    "Devil's Advocate": {
+        "rating": 8.9,
+        "weight": 11
+    },
+    "Lemon Lift": {
+        "rating": 8.7,
+        "weight": 3
+    },
+    "Jim's Nuts": {
+        "rating": 7.4,
+        "weight": 14
+    },
+    "Zima Blaster": {
+        "rating": 7.5,
+        "weight": 8
+    },
+    "Gorilla's Tit": {
+        "rating": 8.1,
+        "weight": 7
+    },
+    "Cranberry Apple Martini": {
+        "rating": 9.8,
+        "weight": 4
+    },
+    "L'aird Of Summer Isle": {
+        "rating": 7.0,
+        "weight": 1
+    },
+    "Double Omega": {
+        "rating": 4.8,
+        "weight": 143
+    },
+    "Bumble Bee #2": {
+        "rating": 9.4,
+        "weight": 7
+    },
+    "Golden Blizzard": {
+        "rating": 7.8,
+        "weight": 4
+    },
+    "Poison Apple": {
+        "rating": 4.4,
+        "weight": 12
+    },
+    "Ludvika Walker": {
+        "rating": 8.0,
+        "weight": 6
+    },
+    "Berry-Berry": {
+        "rating": 7.4,
+        "weight": 12
+    },
+    "Gangreen": {
+        "rating": 6.2,
+        "weight": 6
+    },
+    "Planter's Punch": {
+        "rating": 6.7,
+        "weight": 48
+    },
+    "Jack Voigt": {
+        "rating": 9.1,
+        "weight": 22
+    },
+    "Green Apple Cider": {
+        "rating": 8.5,
+        "weight": 6
+    },
+    "Super Allez": {
+        "rating": 6.1,
+        "weight": 179
+    },
+    "Formula 3": {
+        "rating": 6.5,
+        "weight": 4
+    },
+    "110 in the shade": {
+        "rating": 5.2,
+        "weight": 20
+    },
+    "Russian Shamrock": {
+        "rating": 7.4,
+        "weight": 15
+    },
+    "The Moby": {
+        "rating": 7.6,
+        "weight": 14
+    },
+    "Shot-gun": {
+        "rating": 7.2,
+        "weight": 20
+    },
+    "Bob Marley": {
+        "rating": 6.4,
+        "weight": 79
+    },
+    "The Colombian": {
+        "rating": 8.1,
+        "weight": 8
+    },
+    "Deep Valley": {
+        "rating": 7.0,
+        "weight": 6
+    },
+    "B-57": {
+        "rating": 6.1,
+        "weight": 80
+    },
+    "Frozen Strawberry Margarita": {
+        "rating": 9.5,
+        "weight": 4
+    },
+    "The Green One": {
+        "rating": 7.1,
+        "weight": 7
+    },
+    "The Bootlegger": {
+        "rating": 8.0,
+        "weight": 1
+    },
+    "Hot Damn": {
+        "rating": 6.0,
+        "weight": 43
+    },
+    "Light and Dark": {
+        "rating": 5.0,
+        "weight": 4
+    },
+    "Rick": {
+        "rating": 5.8,
+        "weight": 13
+    },
+    "Bitter lime": {
+        "rating": 5.2,
+        "weight": 9
+    },
+    "Raspberry Sherbet Punch": {
+        "rating": 7.9,
+        "weight": 7
+    },
+    "Cement Mixer": {
+        "rating": 5.7,
+        "weight": 235
+    },
+    "Malibu Snapper": {
+        "rating": 7.5,
+        "weight": 8
+    },
+    "Spice Cake": {
+        "rating": 7.8,
+        "weight": 12
+    },
+    "Snake Bite (UK)": {
+        "rating": 6.2,
+        "weight": 154
+    },
+    "Lucky Driver": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "Afterburner #1": {
+        "rating": 5.7,
+        "weight": 133
+    },
+    "Red Hurricane": {
+        "rating": 8.2,
+        "weight": 12
+    },
+    "Prickly Pear": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "Double Brit": {
+        "rating": 5.8,
+        "weight": 4
+    },
+    "Dr. Pepper #5": {
+        "rating": 6.4,
+        "weight": 217
+    },
+    "Applecake": {
+        "rating": 10.0,
+        "weight": 4
+    },
+    "Paddy's Caffeine": {
+        "rating": 7.2,
+        "weight": 4
+    },
+    "Curtain Call": {
+        "rating": 5.7,
+        "weight": 12
+    },
+    "Jager Vacation": {
+        "rating": 9.0,
+        "weight": 10
+    },
+    "Pit Bull on Crack #2": {
+        "rating": 7.8,
+        "weight": 9
+    },
+    "Strawberry Surprise": {
+        "rating": 6.2,
+        "weight": 6
+    },
+    "Mortuary Mix": {
+        "rating": 8.0,
+        "weight": 6
+    },
+    "Red Velvet": {
+        "rating": 8.6,
+        "weight": 8
+    },
+    "Banderas": {
+        "rating": 8.8,
+        "weight": 16
+    },
+    "Anime Freak": {
+        "rating": 7.5,
+        "weight": 8
+    },
+    "Slushy": {
+        "rating": 9.3,
+        "weight": 26
+    },
+    "Smooth Sailin'": {
+        "rating": 5.0,
+        "weight": 4
+    },
+    "Hurlyburly": {
+        "rating": 4.0,
+        "weight": 2
+    },
+    "Bakkus": {
+        "rating": 7.9,
+        "weight": 11
+    },
+    "Brown Bomber": {
+        "rating": 5.0,
+        "weight": 2
+    },
+    "Blue Monkey": {
+        "rating": 6.4,
+        "weight": 49
+    },
+    "Grizzly Bear": {
+        "rating": 7.2,
+        "weight": 32
+    },
+    "Bazooka Joe": {
+        "rating": 6.4,
+        "weight": 308
+    },
+    "Candy Corn": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "Southern Suicide": {
+        "rating": 7.3,
+        "weight": 15
+    },
+    "Olympia": {
+        "rating": 4.0,
+        "weight": 4
+    },
+    "Emerald Eye": {
+        "rating": 8.1,
+        "weight": 13
+    },
+    "Brain Damage": {
+        "rating": 5.7,
+        "weight": 26
+    },
+    "Fuzzy Melonberry": {
+        "rating": 8.8,
+        "weight": 24
+    },
+    "Liquid Cocaine #6": {
+        "rating": 6.8,
+        "weight": 10
+    },
+    "Ice Cappuccino": {
+        "rating": 7.5,
+        "weight": 4
+    },
+    "Warsaw Waffle": {
+        "rating": 6.3,
+        "weight": 792
+    },
+    "Between The Sheets": {
+        "rating": 6.5,
+        "weight": 88
+    },
+    "Passed Out Naked on the Bathroom Floor": {
+        "rating": 7.1,
+        "weight": 24
+    },
+    "Low Lattitude Lust": {
+        "rating": 4.8,
+        "weight": 5
+    },
+    "151 Florida Bushwacker": {
+        "rating": 6.4,
+        "weight": 109
+    },
+    "Peppermint Stick": {
+        "rating": 10.0,
+        "weight": 3
+    },
+    "Jihad": {
+        "rating": 6.3,
+        "weight": 17
+    },
+    "Butterballs": {
+        "rating": 8.9,
+        "weight": 14
+    },
+    "Red Rudolph": {
+        "rating": 9.0,
+        "weight": 3
+    },
+    "Vanilla Coke": {
+        "rating": 5.6,
+        "weight": 7
+    },
+    "Adios Motherfucker #3": {
+        "rating": 6.6,
+        "weight": 441
+    },
+    "Harakiri shot": {
+        "rating": 7.1,
+        "weight": 24
+    },
+    "The Big-V": {
+        "rating": 7.8,
+        "weight": 5
+    },
+    "Brain Eraser #1": {
+        "rating": 6.1,
+        "weight": 40
+    },
+    "Orgasm #2": {
+        "rating": 6.0,
+        "weight": 49
+    },
+    "EDO Cocktail": {
+        "rating": 9.4,
+        "weight": 12
+    },
+    "Pio's Beating Stick": {
+        "rating": 9.2,
+        "weight": 10
+    },
+    "Lemonade Lush": {
+        "rating": 8.9,
+        "weight": 21
+    },
+    "Apple Pie Shot #3": {
+        "rating": 7.6,
+        "weight": 8
+    },
+    "Klondyke": {
+        "rating": 5.8,
+        "weight": 46
+    },
+    "Flying Moose": {
+        "rating": 8.0,
+        "weight": 7
+    },
+    "Evil Slider": {
+        "rating": 6.2,
+        "weight": 13
+    },
+    "Entwistle's Error": {
+        "rating": 6.8,
+        "weight": 6
+    },
+    "Penguino": {
+        "rating": 8.3,
+        "weight": 10
+    },
+    "Greek Sex On The Beach": {
+        "rating": 6.1,
+        "weight": 11
+    },
+    "Hurricane": {
+        "rating": 6.0,
+        "weight": 360
+    },
+    "Dutch turbo": {
+        "rating": 9.0,
+        "weight": 5
+    },
+    "Miss Belle": {
+        "rating": 5.7,
+        "weight": 3
+    },
+    "Mother's Milk": {
+        "rating": 6.3,
+        "weight": 7
+    },
+    "Rococo": {
+        "rating": 6.4,
+        "weight": 5
+    },
+    "Tequila Gimlet": {
+        "rating": 5.8,
+        "weight": 9
+    },
+    "Speedy Gonzales": {
+        "rating": 8.5,
+        "weight": 15
+    },
+    "PB&J;": {
+        "rating": 9.5,
+        "weight": 17
+    },
+    "Golddigger": {
+        "rating": 6.6,
+        "weight": 12
+    },
+    "Full Moon": {
+        "rating": 7.8,
+        "weight": 13
+    },
+    "Five dollar shake": {
+        "rating": 6.2,
+        "weight": 10
+    },
+    "Jamaican Qualude": {
+        "rating": 9.1,
+        "weight": 18
+    },
+    "Flyin' Hawaiian": {
+        "rating": 8.6,
+        "weight": 19
+    },
+    "Foreplay": {
+        "rating": 5.8,
+        "weight": 37
+    },
+    "Caribbean Boilermaker": {
+        "rating": 5.2,
+        "weight": 11
+    },
+    "Seaweed": {
+        "rating": 9.5,
+        "weight": 10
+    },
+    "Grapefruit and Orange Cocktail": {
+        "rating": 3.2,
+        "weight": 4
+    },
+    "Ethel Duffy Cocktail": {
+        "rating": 5.0,
+        "weight": 1
+    },
+    "Purple Heart": {
+        "rating": 9.7,
+        "weight": 23
+    },
+    "Slam Dunk": {
+        "rating": 6.8,
+        "weight": 12
+    },
+    "Lemon Celebration": {
+        "rating": 6.6,
+        "weight": 5
+    },
+    "Dirtiest Ernie": {
+        "rating": 5.3,
+        "weight": 9
+    },
+    "Kris Kringle": {
+        "rating": 7.5,
+        "weight": 2
+    },
+    "Japanese Slipper #2": {
+        "rating": 7.8,
+        "weight": 18
+    },
+    "Liquid Cocaine #3": {
+        "rating": 6.1,
+        "weight": 113
+    },
+    "Beth's Own": {
+        "rating": 4.5,
+        "weight": 17
+    },
+    "Crystal Virgin": {
+        "rating": 6.6,
+        "weight": 7
+    },
+    "Chocolate Chip": {
+        "rating": 9.1,
+        "weight": 17
+    },
+    "Blueberry Tea #2": {
+        "rating": 9.7,
+        "weight": 20
+    },
+    "Irish Float": {
+        "rating": 5.2,
+        "weight": 47
+    },
+    "Romulan Ale #3": {
+        "rating": 10.0,
+        "weight": 2
+    },
+    "Nazi Taco": {
+        "rating": 5.0,
+        "weight": 40
+    },
+    "Rolling Green Elixer": {
+        "rating": 4.0,
+        "weight": 3
+    },
+    "Rootbeer Floatie": {
+        "rating": 9.0,
+        "weight": 8
+    },
+    "Junior Mint": {
+        "rating": 8.0,
+        "weight": 9
+    },
+    "Claridge Cocktail": {
+        "rating": 8.8,
+        "weight": 9
+    },
+    "Blackjack #2": {
+        "rating": 7.0,
+        "weight": 4
+    },
+    "Mansion Margarita": {
+        "rating": 8.3,
+        "weight": 13
+    },
+    "Incredible Hulk #3": {
+        "rating": 6.4,
+        "weight": 600
+    },
+    "Banana Strawberry Shake Daiquiri-type": {
+        "rating": 6.9,
+        "weight": 15
+    },
+    "Kevin's special blend": {
+        "rating": 8.3,
+        "weight": 20
+    },
+    "Black Cactus": {
+        "rating": 5.0,
+        "weight": 4
+    },
+    "Poison Milk": {
+        "rating": 7.4,
+        "weight": 14
+    },
+    "Small Bomb": {
+        "rating": 6.1,
+        "weight": 26
+    },
+    "Cuban Crime of Passion (CCP)": {
+        "rating": 9.2,
+        "weight": 29
+    },
+    "Undertow": {
+        "rating": 7.8,
+        "weight": 11
+    },
+    "Blitz": {
+        "rating": 5.8,
+        "weight": 36
+    },
+    "Peach Daiquiri": {
+        "rating": 8.3,
+        "weight": 3
+    },
+    "Indiana Jones": {
+        "rating": 3.8,
+        "weight": 5
+    },
+    "Sparkplug": {
+        "rating": 6.7,
+        "weight": 6
+    },
+    "Kenny": {
+        "rating": 9.1,
+        "weight": 8
+    },
+    "Maria's Delight": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "B And B": {
+        "rating": 6.7,
+        "weight": 51
+    },
+    "Captain Pepper": {
+        "rating": 5.9,
+        "weight": 111
+    },
+    "Oatmeal Cookie": {
+        "rating": 6.3,
+        "weight": 718
+    },
+    "Mutual Orgasm": {
+        "rating": 7.7,
+        "weight": 7
+    },
+    "The Better Fuzzy Navel": {
+        "rating": 9.5,
+        "weight": 6
+    },
+    "Zippy's Revenge": {
+        "rating": 5.7,
+        "weight": 11
+    },
+    "Cry Baby Blues": {
+        "rating": 8.8,
+        "weight": 5
+    },
+    "Old Pal Cocktail": {
+        "rating": 5.6,
+        "weight": 5
+    },
+    "Flaming Dr. Pepper": {
+        "rating": 6.2,
+        "weight": 159
+    },
+    "Barracuda": {
+        "rating": 6.5,
+        "weight": 24
+    },
+    "Sacrilicious": {
+        "rating": 9.7,
+        "weight": 12
+    },
+    "Horny Bull #1": {
+        "rating": 4.4,
+        "weight": 28
+    },
+    "Manhattan Sweet #2": {
+        "rating": 5.6,
+        "weight": 45
+    },
+    "The \"Liquerice\" Dream": {
+        "rating": 7.7,
+        "weight": 18
+    },
+    "Chocolate Raspberry Martini": {
+        "rating": 9.0,
+        "weight": 21
+    },
+    "Monkey Spam": {
+        "rating": 4.7,
+        "weight": 3
+    },
+    "Circus Peanut Margarita": {
+        "rating": 4.0,
+        "weight": 4
+    },
+    "Green Quencher": {
+        "rating": 6.8,
+        "weight": 6
+    },
+    "Iguana #2": {
+        "rating": 6.3,
+        "weight": 19
+    },
+    "Hairball": {
+        "rating": 7.0,
+        "weight": 6
+    },
+    "Alien Secretion #2": {
+        "rating": 6.6,
+        "weight": 95
+    },
+    "Sweet Sunset": {
+        "rating": 7.0,
+        "weight": 3
+    },
+    "Cerebellum": {
+        "rating": 6.2,
+        "weight": 37
+    },
+    "Russian Apple": {
+        "rating": 6.7,
+        "weight": 70
+    },
+    "Kiltlifter": {
+        "rating": 9.2,
+        "weight": 32
+    },
+    "B-54": {
+        "rating": 5.8,
+        "weight": 12
+    },
+    "B-52 #6": {
+        "rating": 5.0,
+        "weight": 75
+    },
+    "Simpson Bronco": {
+        "rating": 7.4,
+        "weight": 10
+    },
+    "Royal Bitch": {
+        "rating": 6.1,
+        "weight": 15
+    },
+    "Godiva Polar Bear": {
+        "rating": 5.7,
+        "weight": 54
+    },
+    "Vodka Orange": {
+        "rating": 6.8,
+        "weight": 60
+    },
+    "Alien Urine": {
+        "rating": 6.5,
+        "weight": 94
+    },
+    "Haywire": {
+        "rating": 6.7,
+        "weight": 6
+    },
+    "Naked Navel": {
+        "rating": 7.5,
+        "weight": 21
+    },
+    "Campbell F. Craig": {
+        "rating": 7.3,
+        "weight": 3
+    },
+    "KiBa": {
+        "rating": 8.0,
+        "weight": 11
+    },
+    "Blue Nut": {
+        "rating": 8.7,
+        "weight": 21
+    },
+    "Belle Melon": {
+        "rating": 5.6,
+        "weight": 7
+    },
+    "Afganistany Whore": {
+        "rating": 6.6,
+        "weight": 147
+    },
+    "Cristianne": {
+        "rating": 5.5,
+        "weight": 4
+    },
+    "Pimp & Hoe": {
+        "rating": 6.6,
+        "weight": 7
+    },
+    "Milky Way Martini": {
+        "rating": 6.6,
+        "weight": 52
+    },
+    "Cioccolato e cocco": {
+        "rating": 8.8,
+        "weight": 4
+    },
+    "Wadliegh": {
+        "rating": 6.6,
+        "weight": 12
+    },
+    "Concrete": {
+        "rating": 3.6,
+        "weight": 23
+    },
+    "Charlie Coke": {
+        "rating": 6.5,
+        "weight": 33
+    },
+    "London Fog #2": {
+        "rating": 8.3,
+        "weight": 7
+    },
+    "Orange Climax": {
+        "rating": 8.8,
+        "weight": 8
+    },
+    "Stanley Senior": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "Black Cow #3": {
+        "rating": 2.9,
+        "weight": 48
+    },
+    "Golden Apple": {
+        "rating": 8.9,
+        "weight": 18
+    },
+    "Batida Mango": {
+        "rating": 8.5,
+        "weight": 6
+    },
+    "Finnish Passion": {
+        "rating": 10.0,
+        "weight": 10
+    },
+    "Alexander (Original)": {
+        "rating": 6.5,
+        "weight": 106
+    },
+    "I Love Rosa": {
+        "rating": 7.4,
+        "weight": 10
+    },
+    "Soul Kiss Cocktail": {
+        "rating": 1.0,
+        "weight": 1
+    },
+    "Crazy Monkey": {
+        "rating": 9.0,
+        "weight": 8
+    },
+    "Blue Banana": {
+        "rating": 7.1,
+        "weight": 19
+    },
+    "Arctic Kiss": {
+        "rating": 8.4,
+        "weight": 19
+    },
+    "Southern Raspberry Tart": {
+        "rating": 6.5,
+        "weight": 8
+    },
+    "Pimp Punch": {
+        "rating": 6.6,
+        "weight": 60
+    },
+    "Horny Bull #2": {
+        "rating": 5.3,
+        "weight": 9
+    },
+    "Good Fortune": {
+        "rating": 6.4,
+        "weight": 5
+    },
+    "Poison Ivy": {
+        "rating": 7.0,
+        "weight": 7
+    },
+    "Franziska": {
+        "rating": 0.0,
+        "weight": 0
+    },
+    "Juicy Tiger": {
+        "rating": 7.2,
+        "weight": 12
+    },
+    "Aloha Fruit punch": {
+        "rating": 6.6,
+        "weight": 1436
+    },
+    "Lone Tree Cocktail": {
+        "rating": 5.0,
+        "weight": 5
+    },
+    "Highlander": {
+        "rating": 8.9,
+        "weight": 23
+    },
+    "Kryptonite kooler": {
+        "rating": 7.9,
+        "weight": 10
+    },
+    "Girl Scout Cookie": {
+        "rating": 6.6,
+        "weight": 61
+    },
+    "Bottlecap": {
+        "rating": 5.7,
+        "weight": 57
+    },
+    "Southern Chase": {
+        "rating": 8.7,
+        "weight": 9
+    },
+    "Vit Ryss": {
+        "rating": 8.5,
+        "weight": 28
+    },
+    "Slippery Nipple #2": {
+        "rating": 6.1,
+        "weight": 104
+    },
+    "Kilted Black Leprechaun": {
+        "rating": 7.0,
+        "weight": 7
+    },
+    "Desert Water": {
+        "rating": 4.0,
+        "weight": 10
+    },
+    "Robson Cocktail": {
+        "rating": 8.2,
+        "weight": 10
+    },
+    "Surgedriver": {
+        "rating": 7.8,
+        "weight": 6
+    },
+    "Blue Caboose": {
+        "rating": 7.2,
+        "weight": 18
+    },
+    "Y2K Shot #2": {
+        "rating": 7.1,
+        "weight": 7
+    },
+    "Asphalt Road": {
+        "rating": 7.0,
+        "weight": 3
+    },
+    "Freight Train": {
+        "rating": 6.9,
+        "weight": 15
+    },
+    "Lava": {
+        "rating": 7.4,
+        "weight": 7
+    },
+    "Black Martini #1": {
+        "rating": 5.6,
+        "weight": 8
+    },
+    "Orange Bomb": {
+        "rating": 3.0,
+        "weight": 2
+    },
+    "JTDelight": {
+        "rating": 8.5,
+        "weight": 2
+    },
+    "Seaside-Summerbliss": {
+        "rating": 5.8,
+        "weight": 6
+    },
+    "The Lady in Red": {
+        "rating": 7.5,
+        "weight": 8
+    },
+    "Princeton Cocktail": {
+        "rating": 6.7,
+        "weight": 14
+    },
+    "Green Ferrit": {
+        "rating": 4.5,
+        "weight": 2
+    },
+    "Milk Tooth": {
+        "rating": 8.2,
+        "weight": 5
+    },
+    "Cherry Godet": {
+        "rating": 3.0,
+        "weight": 1
+    },
+    "Flaming Gorilla": {
+        "rating": 8.2,
+        "weight": 12
+    },
+    "Poor Man's Mommosa": {
+        "rating": 4.9,
+        "weight": 41
+    },
+    "Banana Dream": {
+        "rating": 6.9,
+        "weight": 12
+    },
+    "Orangatang": {
+        "rating": 5.3,
+        "weight": 16
+    },
+    "Tropical Martini": {
+        "rating": 5.7,
+        "weight": 25
+    },
+    "Cherry Blow Pop": {
+        "rating": 6.2,
+        "weight": 53
+    },
+    "Greasy Swede": {
+        "rating": 9.0,
+        "weight": 3
+    },
+    "Hangover": {
+        "rating": 5.4,
+        "weight": 5
+    },
+    "Red Horn": {
+        "rating": 0.0,
+        "weight": 0
+    },
+    "Texas Rose": {
+        "rating": 8.1,
+        "weight": 9
+    },
+    "Bloody Brit": {
+        "rating": 7.1,
+        "weight": 11
+    },
+    "Orange Kiss": {
+        "rating": 10.0,
+        "weight": 2
+    },
+    "Xanthia Cocktail": {
+        "rating": 2.0,
+        "weight": 5
+    },
+    "Carmel Apple": {
+        "rating": 6.4,
+        "weight": 59
+    },
+    "Choad": {
+        "rating": 7.4,
+        "weight": 8
+    },
+    "Sun Of A Beach": {
+        "rating": 7.0,
+        "weight": 11
+    },
+    "Voodoo": {
+        "rating": 6.4,
+        "weight": 22
+    },
+    "Merete": {
+        "rating": 1.0,
+        "weight": 1
+    },
+    "Absolute HB": {
+        "rating": 7.6,
+        "weight": 166
+    },
+    "Jenny's Concoction": {
+        "rating": 2.0,
+        "weight": 5
+    },
+    "Super Sprite": {
+        "rating": 7.3,
+        "weight": 12
+    },
+    "Little Princess Cocktail": {
+        "rating": 3.0,
+        "weight": 5
+    },
+    "Black Tartan": {
+        "rating": 8.3,
+        "weight": 11
+    },
+    "Hurts You Right Here!": {
+        "rating": 7.5,
+        "weight": 13
+    },
+    "Green Hope": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "KoolShock": {
+        "rating": 5.7,
+        "weight": 9
+    },
+    "Ebola": {
+        "rating": 6.5,
+        "weight": 34
+    },
+    "Captain Morgan's Steamy Applecolada Dream": {
+        "rating": 8.2,
+        "weight": 6
+    },
+    "69 Special": {
+        "rating": 6.3,
+        "weight": 126
+    },
+    "Blue Diamond": {
+        "rating": 9.2,
+        "weight": 14
+    },
+    "8 Seconds": {
+        "rating": 5.1,
+        "weight": 48
+    },
+    "Lemon Drop #6": {
+        "rating": 6.4,
+        "weight": 20
+    },
+    "Scanex": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "Lemon Lightning": {
+        "rating": 6.0,
+        "weight": 47
+    },
+    "Horny Bull #3": {
+        "rating": 4.8,
+        "weight": 12
+    },
+    "Alternate Root": {
+        "rating": 6.5,
+        "weight": 82
+    },
+    "Si Kami Ki": {
+        "rating": 4.3,
+        "weight": 3
+    },
+    "Up all night": {
+        "rating": 6.4,
+        "weight": 390
+    },
+    "Lewinsky": {
+        "rating": 6.5,
+        "weight": 88
+    },
+    "Sneaky Pete": {
+        "rating": 7.9,
+        "weight": 15
+    },
+    "Liquid Love": {
+        "rating": 9.3,
+        "weight": 11
+    },
+    "Carbomb #2": {
+        "rating": 6.2,
+        "weight": 669
+    },
+    "The Lynchmob": {
+        "rating": 6.8,
+        "weight": 6
+    },
+    "Sizzler": {
+        "rating": 4.3,
+        "weight": 6
+    },
+    "Love Juice (LJ)": {
+        "rating": 7.0,
+        "weight": 6
+    },
+    "Gravedigger": {
+        "rating": 5.7,
+        "weight": 21
+    },
+    "Jagnog": {
+        "rating": 8.7,
+        "weight": 15
+    },
+    "Forgive Me": {
+        "rating": 9.2,
+        "weight": 4
+    },
+    "Igloo Sue": {
+        "rating": 8.1,
+        "weight": 9
+    },
+    "Dr. Pepper #4": {
+        "rating": 5.1,
+        "weight": 8
+    },
+    "Cappucino Cocktail": {
+        "rating": 6.6,
+        "weight": 5
+    },
+    "Gorilla's Fart": {
+        "rating": 5.2,
+        "weight": 41
+    },
+    "Russian Qualude": {
+        "rating": 6.6,
+        "weight": 56
+    },
+    "Pink Lemonade": {
+        "rating": 9.2,
+        "weight": 18
+    },
+    "Seabreeze": {
+        "rating": 6.3,
+        "weight": 323
+    },
+    "A joy of Almond": {
+        "rating": 6.5,
+        "weight": 108
+    },
+    "Harry Denton Martini": {
+        "rating": 8.8,
+        "weight": 12
+    },
+    "Egg Cream": {
+        "rating": 8.0,
+        "weight": 7
+    },
+    "Mad Cow": {
+        "rating": 6.1,
+        "weight": 36
+    },
+    "Tropical": {
+        "rating": 1.0,
+        "weight": 1
+    },
+    "Stone Sour": {
+        "rating": 8.3,
+        "weight": 10
+    },
+    "Cul-De-Sac": {
+        "rating": 4.3,
+        "weight": 3
+    },
+    "Soul Taker": {
+        "rating": 6.0,
+        "weight": 22
+    },
+    "Forest Fire": {
+        "rating": 5.4,
+        "weight": 18
+    },
+    "The Original Singapore Sling": {
+        "rating": 6.7,
+        "weight": 18
+    },
+    "Baby Aspirin": {
+        "rating": 6.3,
+        "weight": 111
+    },
+    "Bermuda Triangle": {
+        "rating": 6.1,
+        "weight": 372
+    },
+    "Stevie Ray Vaughn": {
+        "rating": 6.5,
+        "weight": 69
+    },
+    "Choclate Banana Martini": {
+        "rating": 8.3,
+        "weight": 23
+    },
+    "The Evil Blue Thing": {
+        "rating": 6.5,
+        "weight": 21
+    },
+    "Indian Summer": {
+        "rating": 7.1,
+        "weight": 21
+    },
+    "Mangan Coffee": {
+        "rating": 9.0,
+        "weight": 2
+    },
+    "Juniata Juice": {
+        "rating": 3.2,
+        "weight": 5
+    },
+    "El Bastardo": {
+        "rating": 6.2,
+        "weight": 110
+    },
+    "Sour Apple #2": {
+        "rating": 7.6,
+        "weight": 10
+    },
+    "Creamy Tan": {
+        "rating": 7.3,
+        "weight": 3
+    },
+    "Black Samurai": {
+        "rating": 5.5,
+        "weight": 37
+    },
+    "Arizona Stingers": {
+        "rating": 6.5,
+        "weight": 99
+    },
+    "The Big Robowski": {
+        "rating": 8.3,
+        "weight": 23
+    },
+    "Vernal Equinox": {
+        "rating": 7.0,
+        "weight": 4
+    },
+    "Tiger's Milk": {
+        "rating": 7.4,
+        "weight": 15
+    },
+    "Bullvodka": {
+        "rating": 6.4,
+        "weight": 274
+    },
+    "Pamoyo": {
+        "rating": 8.6,
+        "weight": 5
+    },
+    "Stoned": {
+        "rating": 5.0,
+        "weight": 4
+    },
+    "Bomb": {
+        "rating": 5.1,
+        "weight": 58
+    },
+    "L\u00e4chler": {
+        "rating": 4.1,
+        "weight": 7
+    },
+    "Duck's Ass": {
+        "rating": 8.6,
+        "weight": 15
+    },
+    "Pink Panther #1": {
+        "rating": 7.8,
+        "weight": 21
+    },
+    "The Shiwala": {
+        "rating": 5.7,
+        "weight": 7
+    },
+    "H-Bomb": {
+        "rating": 2.0,
+        "weight": 41
+    },
+    "Black Maria": {
+        "rating": 5.4,
+        "weight": 7
+    },
+    "Droog's Date Cocktail": {
+        "rating": 6.2,
+        "weight": 5
+    },
+    "Buttery Nipple #3": {
+        "rating": 5.5,
+        "weight": 60
+    },
+    "Irish Dawg": {
+        "rating": 8.5,
+        "weight": 8
+    },
+    "Easy does it": {
+        "rating": 7.3,
+        "weight": 9
+    },
+    "Groader": {
+        "rating": 5.0,
+        "weight": 2
+    },
+    "Fuzzy Pierced Navel": {
+        "rating": 8.8,
+        "weight": 26
+    },
+    "Pierced Nipple": {
+        "rating": 8.5,
+        "weight": 10
+    },
+    "Carribean Dream": {
+        "rating": 8.2,
+        "weight": 20
+    },
+    "Watermelon Shooter #4": {
+        "rating": 8.4,
+        "weight": 17
+    },
+    "Golden Miller": {
+        "rating": 7.8,
+        "weight": 4
+    },
+    "Green Puma": {
+        "rating": 6.9,
+        "weight": 12
+    },
+    "Cooter Cork": {
+        "rating": 8.2,
+        "weight": 8
+    },
+    "Banshee": {
+        "rating": 6.5,
+        "weight": 50
+    },
+    "Piper At The Gates Of Dawn": {
+        "rating": 8.8,
+        "weight": 4
+    },
+    "Comfort Dry Manhattan": {
+        "rating": 7.3,
+        "weight": 24
+    },
+    "Green Beaver": {
+        "rating": 8.9,
+        "weight": 29
+    },
+    "Robin's Nest": {
+        "rating": 6.6,
+        "weight": 9
+    },
+    "Upper Cut": {
+        "rating": 6.5,
+        "weight": 4
+    },
+    "Gunfire": {
+        "rating": 6.7,
+        "weight": 9
+    },
+    "Sweet Heart": {
+        "rating": 5.0,
+        "weight": 2
+    },
+    "Flamingo Punch": {
+        "rating": 7.7,
+        "weight": 7
+    },
+    "Coconut Frappe": {
+        "rating": 6.1,
+        "weight": 54
+    },
+    "Scope #2": {
+        "rating": 4.6,
+        "weight": 5
+    },
+    "Strawgasm": {
+        "rating": 4.0,
+        "weight": 10
+    },
+    "Citrus Coke": {
+        "rating": 6.4,
+        "weight": 115
+    },
+    "Sex on the Beach #11": {
+        "rating": 6.3,
+        "weight": 596
+    },
+    "Lara's Russian Qualude": {
+        "rating": 8.4,
+        "weight": 18
+    },
+    "Chill Out Shock (C.O.S)": {
+        "rating": 1.0,
+        "weight": 1
+    },
+    "Hot Apple Pie": {
+        "rating": 6.6,
+        "weight": 54
+    },
+    "Lube Job": {
+        "rating": 6.5,
+        "weight": 65
+    },
+    "Jagerbeer Bomb": {
+        "rating": 5.9,
+        "weight": 112
+    },
+    "Creme de Spooge": {
+        "rating": 7.3,
+        "weight": 11
+    },
+    "Mikey Mike": {
+        "rating": 8.6,
+        "weight": 14
+    },
+    "Flaming Huscroft": {
+        "rating": 6.4,
+        "weight": 5
+    },
+    "Fuzzy Screw": {
+        "rating": 8.0,
+        "weight": 18
+    },
+    "Black Unicorn": {
+        "rating": 8.4,
+        "weight": 28
+    },
+    "The Real June Bug": {
+        "rating": 4.4,
+        "weight": 8
+    },
+    "Toreador": {
+        "rating": 4.0,
+        "weight": 3
+    },
+    "Poire Fantastic": {
+        "rating": 4.0,
+        "weight": 3
+    },
+    "Risk": {
+        "rating": 7.0,
+        "weight": 1
+    },
+    "Hand-Shaken Margarita on the Rocks": {
+        "rating": 6.4,
+        "weight": 47
+    },
+    "Butterbee": {
+        "rating": 6.0,
+        "weight": 75
+    },
+    "Red Beard": {
+        "rating": 8.8,
+        "weight": 5
+    },
+    "Vodkalenius": {
+        "rating": 4.4,
+        "weight": 10
+    },
+    "Nightboat to Recife": {
+        "rating": 8.2,
+        "weight": 5
+    },
+    "Irish Mint": {
+        "rating": 6.5,
+        "weight": 52
+    },
+    "Nutty Irishman #2": {
+        "rating": 8.3,
+        "weight": 3
+    },
+    "Grenadine Cocktail": {
+        "rating": 5.1,
+        "weight": 8
+    },
+    "Tropical Teaser": {
+        "rating": 2.7,
+        "weight": 3
+    },
+    "Ma\u00e8ek": {
+        "rating": 6.7,
+        "weight": 3
+    },
+    "Man In A Man Suit": {
+        "rating": 8.8,
+        "weight": 4
+    },
+    "Manhasset": {
+        "rating": 7.0,
+        "weight": 4
+    },
+    "Batida de Coco": {
+        "rating": 8.5,
+        "weight": 8
+    },
+    "Sweet Tart - Loyalist Rez": {
+        "rating": 8.2,
+        "weight": 11
+    },
+    "Magic's Tornado": {
+        "rating": 8.5,
+        "weight": 6
+    },
+    "Killer Kool-Aid (Rhode Island)": {
+        "rating": 6.5,
+        "weight": 51
+    },
+    "Italian Ice": {
+        "rating": 8.0,
+        "weight": 7
+    },
+    "Purple Lei": {
+        "rating": 9.5,
+        "weight": 8
+    },
+    "Verno": {
+        "rating": 7.4,
+        "weight": 5
+    },
+    "Goombay Smash #2": {
+        "rating": 6.6,
+        "weight": 86
+    },
+    "Sweet Pea": {
+        "rating": 6.6,
+        "weight": 9
+    },
+    "Blue Thrill": {
+        "rating": 8.5,
+        "weight": 21
+    },
+    "Freddy Fudpucker": {
+        "rating": 8.5,
+        "weight": 17
+    },
+    "Zimamazing": {
+        "rating": 8.7,
+        "weight": 16
+    },
+    "The Rollercoaster": {
+        "rating": 9.1,
+        "weight": 14
+    },
+    "Hakkespett": {
+        "rating": 8.9,
+        "weight": 9
+    },
+    "Salisbury Special": {
+        "rating": 5.3,
+        "weight": 3
+    },
+    "Raspberry Cream": {
+        "rating": 6.2,
+        "weight": 9
+    },
+    "Flaming Dr. Pepper (alternative)": {
+        "rating": 6.0,
+        "weight": 289
+    },
+    "Water Moccasin": {
+        "rating": 6.2,
+        "weight": 307
+    },
+    "Black and Blue Shark": {
+        "rating": 8.2,
+        "weight": 6
+    },
+    "Rum Screwdriver": {
+        "rating": 6.7,
+        "weight": 18
+    },
+    "Dirty Bong Water": {
+        "rating": 6.6,
+        "weight": 85
+    },
+    "ATP": {
+        "rating": 7.6,
+        "weight": 18
+    },
+    "Screwdriver (modified)": {
+        "rating": 6.3,
+        "weight": 39
+    },
+    "Turkey Trot": {
+        "rating": 7.3,
+        "weight": 9
+    },
+    "Honey Lemonade": {
+        "rating": 2.8,
+        "weight": 5
+    },
+    "Brass Balls": {
+        "rating": 8.5,
+        "weight": 22
+    },
+    "Caribbean Screwdriver": {
+        "rating": 9.3,
+        "weight": 20
+    },
+    "Christer Petterson": {
+        "rating": 7.8,
+        "weight": 27
+    },
+    "Green K": {
+        "rating": 9.1,
+        "weight": 12
+    },
+    "Raspberry Kamakazie": {
+        "rating": 6.3,
+        "weight": 99
+    },
+    "Grateful Dead": {
+        "rating": 6.3,
+        "weight": 190
+    },
+    "Flying Dutchman": {
+        "rating": 4.7,
+        "weight": 30
+    },
+    "Spiked Cherry": {
+        "rating": 4.0,
+        "weight": 1
+    },
+    "Dew": {
+        "rating": 6.0,
+        "weight": 53
+    },
+    "Godfather": {
+        "rating": 6.2,
+        "weight": 212
+    },
+    "Gold Baron": {
+        "rating": 9.2,
+        "weight": 10
+    },
+    "Pink Fizzy": {
+        "rating": 8.5,
+        "weight": 13
+    },
+    "Southern Peach": {
+        "rating": 6.5,
+        "weight": 6
+    },
+    "Hologram": {
+        "rating": 9.3,
+        "weight": 9
+    },
+    "Shark Attack": {
+        "rating": 3.7,
+        "weight": 14
+    },
+    "Sour Apple Martini": {
+        "rating": 10.0,
+        "weight": 2
+    },
+    "Wet Crotch": {
+        "rating": 5.9,
+        "weight": 44
+    },
+    "Desiree": {
+        "rating": 8.6,
+        "weight": 11
+    },
+    "Royal Temptation": {
+        "rating": 6.7,
+        "weight": 6
+    },
+    "Pink Squirrel #2": {
+        "rating": 8.2,
+        "weight": 18
+    },
+    "Toblerone #1": {
+        "rating": 5.8,
+        "weight": 55
+    },
+    "Hot Summer Breeze": {
+        "rating": 6.1,
+        "weight": 8
+    },
+    "Coffee Grinder": {
+        "rating": 6.7,
+        "weight": 12
+    },
+    "Malibu Express": {
+        "rating": 8.8,
+        "weight": 13
+    },
+    "Fourth of July": {
+        "rating": 9.1,
+        "weight": 18
+    },
+    "Dizzy Damage": {
+        "rating": 9.5,
+        "weight": 14
+    },
+    "Cowboy Roy": {
+        "rating": 6.3,
+        "weight": 9
+    },
+    "Greek Lightning": {
+        "rating": 6.2,
+        "weight": 35
+    },
+    "Frenchie": {
+        "rating": 8.2,
+        "weight": 10
+    },
+    "Irish Pirate": {
+        "rating": 6.8,
+        "weight": 4
+    },
+    "Czech Collaborator": {
+        "rating": 7.2,
+        "weight": 5
+    },
+    "Black and White": {
+        "rating": 5.7,
+        "weight": 104
+    },
+    "Dutch Flag": {
+        "rating": 0.0,
+        "weight": 0
+    },
+    "Tom Collins ala Olsen": {
+        "rating": 6.2,
+        "weight": 42
+    },
+    "Bourble": {
+        "rating": 4.9,
+        "weight": 15
+    },
+    "Maiden's Prayer": {
+        "rating": 5.3,
+        "weight": 10
+    },
+    "Dirty Mexican Lemonade": {
+        "rating": 8.6,
+        "weight": 20
+    },
+    "The Liver Transplant": {
+        "rating": 6.8,
+        "weight": 12
+    },
+    "Stiff Pounder": {
+        "rating": 8.9,
+        "weight": 24
+    },
+    "Atomic Watermelon": {
+        "rating": 6.3,
+        "weight": 54
+    },
+    "Retribution": {
+        "rating": 7.0,
+        "weight": 6
+    },
+    "Peachy Comfort": {
+        "rating": 7.7,
+        "weight": 18
+    },
+    "The Berserker": {
+        "rating": 8.8,
+        "weight": 11
+    },
+    "The Hurtado": {
+        "rating": 6.3,
+        "weight": 22
+    },
+    "'57 Chevy with a White License Plate": {
+        "rating": 6.2,
+        "weight": 94
+    },
+    "Greenham's Grotto": {
+        "rating": 1.0,
+        "weight": 1
+    },
+    "Shirley Temple": {
+        "rating": 6.4,
+        "weight": 278
+    },
+    "Platina Blonde": {
+        "rating": 5.2,
+        "weight": 5
+    },
+    "The Feckin Bolox": {
+        "rating": 8.6,
+        "weight": 5
+    },
+    "Cactus Bowl": {
+        "rating": 6.3,
+        "weight": 562
+    },
+    "Nasty Bitch": {
+        "rating": 5.5,
+        "weight": 11
+    },
+    "Gorilla Fart #3": {
+        "rating": 7.6,
+        "weight": 16
+    },
+    "Cranberry Zamboni": {
+        "rating": 7.0,
+        "weight": 1
+    },
+    "Lemon Highlander": {
+        "rating": 4.7,
+        "weight": 3
+    },
+    "Tia-Maria": {
+        "rating": 8.3,
+        "weight": 10
+    },
+    "Just Shoot Me": {
+        "rating": 8.7,
+        "weight": 18
+    },
+    "Polarbear #1": {
+        "rating": 6.4,
+        "weight": 13
+    },
+    "Lombomba": {
+        "rating": 6.6,
+        "weight": 17
+    },
+    "Mango Mint": {
+        "rating": 5.9,
+        "weight": 9
+    },
+    "Kalabreeze": {
+        "rating": 8.6,
+        "weight": 8
+    },
+    "Weakness": {
+        "rating": 4.5,
+        "weight": 6
+    },
+    "Rumple Shock": {
+        "rating": 7.4,
+        "weight": 5
+    },
+    "Fontainebleau Special": {
+        "rating": 7.0,
+        "weight": 1
+    },
+    "All Night Long": {
+        "rating": 6.5,
+        "weight": 84
+    },
+    "Centipede": {
+        "rating": 7.0,
+        "weight": 1
+    },
+    "Southern Pride": {
+        "rating": 7.5,
+        "weight": 11
+    },
+    "Kir Royale": {
+        "rating": 6.4,
+        "weight": 378
+    },
+    "Fruity Vodka Beverage": {
+        "rating": 8.6,
+        "weight": 11
+    },
+    "Winky": {
+        "rating": 8.0,
+        "weight": 9
+    },
+    "Super Qell": {
+        "rating": 3.6,
+        "weight": 5
+    },
+    "Karsk": {
+        "rating": 6.0,
+        "weight": 813
+    },
+    "Jewel Of The Nile": {
+        "rating": 6.4,
+        "weight": 5
+    },
+    "Warp Core Breach": {
+        "rating": 4.1,
+        "weight": 9
+    },
+    "Urine": {
+        "rating": 6.3,
+        "weight": 25
+    },
+    "Kamakazie #1": {
+        "rating": 6.1,
+        "weight": 976
+    },
+    "Angel Face": {
+        "rating": 8.6,
+        "weight": 5
+    },
+    "Karlsson": {
+        "rating": 7.3,
+        "weight": 3
+    },
+    "Dirty Diaper": {
+        "rating": 6.2,
+        "weight": 384
+    },
+    "Apple Judy": {
+        "rating": 5.6,
+        "weight": 18
+    },
+    "Kiss-In-The-Dark": {
+        "rating": 6.7,
+        "weight": 7
+    },
+    "Power Sangria": {
+        "rating": 9.6,
+        "weight": 10
+    },
+    "Sour Death": {
+        "rating": 6.0,
+        "weight": 6
+    },
+    "Fart In the Ocean": {
+        "rating": 3.7,
+        "weight": 17
+    },
+    "Christmas Cheer": {
+        "rating": 7.1,
+        "weight": 12
+    },
+    "Real Romulan Ale": {
+        "rating": 5.8,
+        "weight": 52
+    },
+    "Resaca Water": {
+        "rating": 10.0,
+        "weight": 1
+    },
+    "The Game": {
+        "rating": 8.9,
+        "weight": 10
+    },
+    "Super Bloody Screwdriver": {
+        "rating": 5.6,
+        "weight": 9
+    },
+    "Screaming Blue Messiah": {
+        "rating": 8.8,
+        "weight": 10
+    },
+    "Photon Torpedo": {
+        "rating": 7.4,
+        "weight": 23
+    },
+    "Electric Screwdriver": {
+        "rating": 8.7,
+        "weight": 24
+    },
+    "Almond Chocolate Coffee": {
+        "rating": 6.5,
+        "weight": 86
+    },
+    "Apple Cobbler": {
+        "rating": 5.1,
+        "weight": 19
+    },
+    "Lucky Stiff": {
+        "rating": 5.0,
+        "weight": 6
+    },
+    "Tipperary Cocktail": {
+        "rating": 3.0,
+        "weight": 2
+    },
+    "Montana Tornado": {
+        "rating": 7.8,
+        "weight": 5
+    },
+    "Jack Daniel's Lynchburg Lemonade": {
+        "rating": 6.4,
+        "weight": 278
+    },
+    "Leg spreader": {
+        "rating": 4.6,
+        "weight": 118
+    },
+    "G. T. O.": {
+        "rating": 7.3,
+        "weight": 16
+    },
+    "The Three Wise Men": {
+        "rating": 6.2,
+        "weight": 45
+    },
+    "Fuzzy Logic": {
+        "rating": 6.1,
+        "weight": 61
+    },
+    "Bolduc On The Beach": {
+        "rating": 7.8,
+        "weight": 18
+    },
+    "Canadian Hunter": {
+        "rating": 8.2,
+        "weight": 6
+    },
+    "Sackville Surprise": {
+        "rating": 8.5,
+        "weight": 2
+    },
+    "Strawberry Sombrero": {
+        "rating": 4.4,
+        "weight": 5
+    },
+    "Tequila Bom-Bom": {
+        "rating": 7.2,
+        "weight": 12
+    },
+    "Hot Spot": {
+        "rating": 5.4,
+        "weight": 21
+    },
+    "Tubboocki": {
+        "rating": 6.2,
+        "weight": 194
+    },
+    "Kryptonite": {
+        "rating": 6.0,
+        "weight": 65
+    },
+    "24k nightmare": {
+        "rating": 6.1,
+        "weight": 147
+    },
+    "Long Sigh": {
+        "rating": 8.0,
+        "weight": 1
+    },
+    "Black Pagoda": {
+        "rating": 6.8,
+        "weight": 12
+    },
+    "AJ's Bubbling Brew": {
+        "rating": 6.5,
+        "weight": 117
+    },
+    "Popper": {
+        "rating": 6.1,
+        "weight": 59
+    },
+    "Apple Slammer": {
+        "rating": 7.0,
+        "weight": 15
+    },
+    "Green Spider": {
+        "rating": 7.6,
+        "weight": 5
+    },
+    "Blue Peach": {
+        "rating": 6.2,
+        "weight": 16
+    },
+    "Frozen Bird": {
+        "rating": 6.2,
+        "weight": 6
+    },
+    "Cough Medicine": {
+        "rating": 7.1,
+        "weight": 22
+    },
+    "Raging Indian": {
+        "rating": 6.6,
+        "weight": 12
+    },
+    "B-52 #1": {
+        "rating": 6.1,
+        "weight": 521
+    },
+    "Copper Camel": {
+        "rating": 6.4,
+        "weight": 160
+    },
+    "PB&J; #2": {
+        "rating": 8.7,
+        "weight": 16
+    },
+    "Blue Lady": {
+        "rating": 5.5,
+        "weight": 4
+    },
+    "Apricot Smoothie": {
+        "rating": 7.8,
+        "weight": 6
+    },
+    "B-52 #3": {
+        "rating": 6.1,
+        "weight": 251
+    },
+    "Suburban Warhead": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "Great Grapes": {
+        "rating": 4.0,
+        "weight": 2
+    },
+    "Black Orgasm": {
+        "rating": 7.4,
+        "weight": 21
+    },
+    "Hawaii Five-O": {
+        "rating": 7.8,
+        "weight": 14
+    },
+    "Doctor": {
+        "rating": 5.8,
+        "weight": 6
+    },
+    "Hoots Mon": {
+        "rating": 2.5,
+        "weight": 2
+    },
+    "The Celt": {
+        "rating": 5.3,
+        "weight": 3
+    },
+    "Gold Coast": {
+        "rating": 5.0,
+        "weight": 2
+    },
+    "Screw-Up": {
+        "rating": 6.6,
+        "weight": 45
+    },
+    "Orange Demon": {
+        "rating": 5.4,
+        "weight": 5
+    },
+    "Wisconsin Lunchbucket": {
+        "rating": 6.1,
+        "weight": 67
+    },
+    "Umbrella Man Special": {
+        "rating": 8.3,
+        "weight": 18
+    },
+    "Pitbull on Crack #1": {
+        "rating": 6.7,
+        "weight": 42
+    },
+    "Flaming Cornholio": {
+        "rating": 5.5,
+        "weight": 6
+    },
+    "Pond water": {
+        "rating": 3.7,
+        "weight": 44
+    },
+    "Pear Martini": {
+        "rating": 8.6,
+        "weight": 8
+    },
+    "Three Wise Men (vodka)": {
+        "rating": 5.7,
+        "weight": 11
+    },
+    "My Johnson is Ten Inches Long": {
+        "rating": 8.8,
+        "weight": 17
+    },
+    "Fuck Me Up": {
+        "rating": 5.7,
+        "weight": 22
+    },
+    "Funky Filly": {
+        "rating": 6.5,
+        "weight": 2
+    },
+    "Bahama Mama #2": {
+        "rating": 6.4,
+        "weight": 105
+    },
+    "Woo Woo": {
+        "rating": 6.4,
+        "weight": 641
+    },
+    "Vodka Passion": {
+        "rating": 6.4,
+        "weight": 5
+    },
+    "Orange Lion": {
+        "rating": 5.7,
+        "weight": 3
+    },
+    "Butter Nut Scotch": {
+        "rating": 6.8,
+        "weight": 8
+    },
+    "Voodoo Juice": {
+        "rating": 8.0,
+        "weight": 84
+    },
+    "Chocolatier": {
+        "rating": 7.7,
+        "weight": 3
+    },
+    "Red Snapper": {
+        "rating": 6.1,
+        "weight": 132
+    },
+    "8th Birthday": {
+        "rating": 5.2,
+        "weight": 16
+    },
+    "Duke's Nightmare": {
+        "rating": 8.0,
+        "weight": 13
+    },
+    "Pussy Foot": {
+        "rating": 6.2,
+        "weight": 19
+    },
+    "Executive Sunrise": {
+        "rating": 7.6,
+        "weight": 5
+    },
+    "Bourbon and sprite": {
+        "rating": 8.1,
+        "weight": 27
+    },
+    "The Sabino Special": {
+        "rating": 8.6,
+        "weight": 15
+    },
+    "Godchild": {
+        "rating": 5.8,
+        "weight": 6
+    },
+    "Faust": {
+        "rating": 4.0,
+        "weight": 2
+    },
+    "Alpine Sprite": {
+        "rating": 6.5,
+        "weight": 94
+    },
+    "Opera Cocktail": {
+        "rating": 6.0,
+        "weight": 1
+    },
+    "Casey Special": {
+        "rating": 7.6,
+        "weight": 16
+    },
+    "Royal Laundry": {
+        "rating": 3.5,
+        "weight": 2
+    },
+    "DeRosier": {
+        "rating": 8.0,
+        "weight": 4
+    },
+    "Spiced Cherry": {
+        "rating": 8.7,
+        "weight": 17
+    },
+    "Smooth Dog": {
+        "rating": 7.6,
+        "weight": 21
+    },
+    "Frozen Mudslide #2": {
+        "rating": 6.3,
+        "weight": 146
+    },
+    "Afterglow": {
+        "rating": 7.2,
+        "weight": 333
+    },
+    "A. J.": {
+        "rating": 6.6,
+        "weight": 88
+    },
+    "Blindside": {
+        "rating": 6.7,
+        "weight": 3
+    },
+    "Mellow Tennessee": {
+        "rating": 7.7,
+        "weight": 7
+    },
+    "Yellow Cake": {
+        "rating": 6.4,
+        "weight": 60
+    },
+    "DewRunRum": {
+        "rating": 5.7,
+        "weight": 53
+    },
+    "Orange Velvet": {
+        "rating": 8.7,
+        "weight": 6
+    },
+    "Imperial Cocktail": {
+        "rating": 8.8,
+        "weight": 6
+    },
+    "Pina Colada Punch": {
+        "rating": 7.6,
+        "weight": 21
+    },
+    "Trojan Horse": {
+        "rating": 3.5,
+        "weight": 12
+    },
+    "Midori Mimosa": {
+        "rating": 7.9,
+        "weight": 8
+    },
+    "I go to Purdue": {
+        "rating": 6.4,
+        "weight": 5
+    },
+    "Smartie": {
+        "rating": 7.5,
+        "weight": 8
+    },
+    "Rensselaer Slam": {
+        "rating": 3.3,
+        "weight": 3
+    },
+    "Queen Bee": {
+        "rating": 2.0,
+        "weight": 2
+    },
+    "Mean Green Machine": {
+        "rating": 7.4,
+        "weight": 7
+    },
+    "Harvey Cowpuncher": {
+        "rating": 7.4,
+        "weight": 13
+    },
+    "Grasshopper": {
+        "rating": 6.3,
+        "weight": 633
+    },
+    "Southern Death Cult": {
+        "rating": 8.9,
+        "weight": 24
+    },
+    "Kalimotxo": {
+        "rating": 6.4,
+        "weight": 118
+    },
+    "Iced Coffee": {
+        "rating": 6.7,
+        "weight": 18
+    },
+    "Electric Lemonade": {
+        "rating": 8.8,
+        "weight": 17
+    },
+    "Fruit Flip-Flop": {
+        "rating": 2.3,
+        "weight": 3
+    },
+    "Sloe Comfortable Screw #1": {
+        "rating": 8.2,
+        "weight": 28
+    },
+    "Fairytale": {
+        "rating": 7.9,
+        "weight": 19
+    },
+    "Flaming Yager": {
+        "rating": 5.7,
+        "weight": 41
+    },
+    "Gentleman's Club": {
+        "rating": 7.9,
+        "weight": 8
+    },
+    "Jimmy's special": {
+        "rating": 8.0,
+        "weight": 1
+    },
+    "Block and Fall": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "Cruz Azul (Blue Cross)": {
+        "rating": 9.2,
+        "weight": 19
+    },
+    "Otter Pop": {
+        "rating": 8.3,
+        "weight": 12
+    },
+    "Shit On Grass": {
+        "rating": 5.3,
+        "weight": 29
+    },
+    "Half & Half": {
+        "rating": 1.7,
+        "weight": 459
+    },
+    "Tequillya": {
+        "rating": 6.0,
+        "weight": 6
+    },
+    "Nutty Russian": {
+        "rating": 8.1,
+        "weight": 10
+    },
+    "Straight Law Cocktail": {
+        "rating": 3.5,
+        "weight": 4
+    },
+    "Seduction on the Rocks": {
+        "rating": 5.9,
+        "weight": 8
+    },
+    "Oatmeal Raisin Cookie": {
+        "rating": 6.7,
+        "weight": 60
+    },
+    "Star Wars": {
+        "rating": 6.4,
+        "weight": 102
+    },
+    "Teal Squeal": {
+        "rating": 4.8,
+        "weight": 5
+    },
+    "Bellini #2": {
+        "rating": 6.4,
+        "weight": 4482
+    },
+    "Adios Motherfucker #2": {
+        "rating": 6.6,
+        "weight": 532
+    },
+    "Smurfs Up": {
+        "rating": 6.3,
+        "weight": 7
+    },
+    "Raspberry Stupid": {
+        "rating": 8.0,
+        "weight": 5
+    },
+    "Russian Boilermaker": {
+        "rating": 6.6,
+        "weight": 30
+    },
+    "Amaretto Stone Sour": {
+        "rating": 6.7,
+        "weight": 319
+    },
+    "Pine Cone": {
+        "rating": 8.5,
+        "weight": 6
+    },
+    "Urine Sample": {
+        "rating": 6.8,
+        "weight": 16
+    },
+    "Nay-Nay Strohmeyer": {
+        "rating": 7.1,
+        "weight": 7
+    },
+    "Mind Eraser": {
+        "rating": 6.1,
+        "weight": 495
+    },
+    "Fire And Ice": {
+        "rating": 8.8,
+        "weight": 11
+    },
+    "Liberace": {
+        "rating": 7.3,
+        "weight": 7
+    },
+    "Gary's Poison": {
+        "rating": 7.6,
+        "weight": 11
+    },
+    "Crackhouse": {
+        "rating": 9.2,
+        "weight": 22
+    },
+    "Cranberry Frog": {
+        "rating": 6.3,
+        "weight": 11
+    },
+    "J. R.'s Godchild": {
+        "rating": 9.7,
+        "weight": 3
+    },
+    "JEE Sweet": {
+        "rating": 0.0,
+        "weight": 0
+    },
+    "Applejack (Jack Daniel's original recipe)": {
+        "rating": 9.4,
+        "weight": 18
+    },
+    "Flaming Dr.": {
+        "rating": 5.4,
+        "weight": 7
+    },
+    "Black Death": {
+        "rating": 7.5,
+        "weight": 24
+    },
+    "Minttini": {
+        "rating": 8.0,
+        "weight": 2
+    },
+    "Jim Beam's Redneck Friend": {
+        "rating": 7.7,
+        "weight": 12
+    },
+    "Cossack Charge": {
+        "rating": 5.8,
+        "weight": 5
+    },
+    "Oatmeal Cookie with Raisins": {
+        "rating": 6.7,
+        "weight": 94
+    },
+    "Nuts and Berries #2": {
+        "rating": 6.3,
+        "weight": 61
+    },
+    "Jaq'ed Up Screwdriver": {
+        "rating": 6.2,
+        "weight": 19
+    },
+    "Malibu Twister": {
+        "rating": 7.3,
+        "weight": 7
+    },
+    "Killer Sniff": {
+        "rating": 7.7,
+        "weight": 6
+    },
+    "Russian Brunch": {
+        "rating": 9.3,
+        "weight": 6
+    },
+    "Caribbean Queen": {
+        "rating": 8.9,
+        "weight": 18
+    },
+    "Italian Stallion": {
+        "rating": 7.3,
+        "weight": 12
+    },
+    "Citron my face": {
+        "rating": 9.1,
+        "weight": 19
+    },
+    "Flaming Rasta": {
+        "rating": 7.0,
+        "weight": 22
+    },
+    "Apocolypse": {
+        "rating": 7.6,
+        "weight": 7
+    },
+    "Blackjack #1": {
+        "rating": 6.2,
+        "weight": 51
+    },
+    "Schnappster": {
+        "rating": 5.0,
+        "weight": 4
+    },
+    "Shark's Bite": {
+        "rating": 7.2,
+        "weight": 11
+    },
+    "Sake Bomb": {
+        "rating": 6.6,
+        "weight": 74
+    },
+    "Three Wise Men (go hunting)": {
+        "rating": 8.2,
+        "weight": 20
+    },
+    "Catfish": {
+        "rating": 7.5,
+        "weight": 15
+    },
+    "Opening Cocktail": {
+        "rating": 2.3,
+        "weight": 3
+    },
+    "Lighthouse": {
+        "rating": 7.3,
+        "weight": 9
+    },
+    "FU2": {
+        "rating": 8.8,
+        "weight": 12
+    },
+    "Zooom!": {
+        "rating": 7.8,
+        "weight": 5
+    },
+    "Three-Legged Monkey": {
+        "rating": 8.5,
+        "weight": 26
+    },
+    "Kish Wacker": {
+        "rating": 8.5,
+        "weight": 11
+    },
+    "Melon Margarita": {
+        "rating": 9.1,
+        "weight": 24
+    },
+    "Laser Beam": {
+        "rating": 6.6,
+        "weight": 40
+    },
+    "Ersh": {
+        "rating": 5.1,
+        "weight": 15
+    },
+    "A Dixon Thing": {
+        "rating": 6.0,
+        "weight": 151
+    },
+    "A Gilligan's Island": {
+        "rating": 6.5,
+        "weight": 238
+    },
+    "Is Paris Burning": {
+        "rating": 8.3,
+        "weight": 13
+    },
+    "Glitch": {
+        "rating": 8.0,
+        "weight": 10
+    },
+    "Aztec Punch": {
+        "rating": 6.8,
+        "weight": 47
+    },
+    "Rumka": {
+        "rating": 4.2,
+        "weight": 13
+    },
+    "Dirty Mop": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "Mudslinger": {
+        "rating": 7.3,
+        "weight": 12
+    },
+    "Party Slush Punch #2": {
+        "rating": 9.1,
+        "weight": 10
+    },
+    "L.A.P.D. Nightshift": {
+        "rating": 6.3,
+        "weight": 21
+    },
+    "Trial of the Century": {
+        "rating": 5.8,
+        "weight": 5
+    },
+    "Chocolate Buzz": {
+        "rating": 9.3,
+        "weight": 20
+    },
+    "Charlie Chaplin": {
+        "rating": 6.8,
+        "weight": 9
+    },
+    "Whistling Gypsy": {
+        "rating": 8.5,
+        "weight": 16
+    },
+    "Dirty Irish Whiskey": {
+        "rating": 9.1,
+        "weight": 21
+    },
+    "Malibu Tequichi": {
+        "rating": 7.6,
+        "weight": 9
+    },
+    "Chocolate-Mint Martini": {
+        "rating": 8.2,
+        "weight": 20
+    },
+    "Fuzzy Comfort": {
+        "rating": 8.0,
+        "weight": 9
+    },
+    "Zombie #1": {
+        "rating": 6.4,
+        "weight": 126
+    },
+    "Ganggreen": {
+        "rating": 7.0,
+        "weight": 4
+    },
+    "Villa Park": {
+        "rating": 2.0,
+        "weight": 2
+    },
+    "Watermelon shooter #1": {
+        "rating": 4.0,
+        "weight": 3
+    },
+    "Veteran": {
+        "rating": 4.3,
+        "weight": 6
+    },
+    "Kamel Drivare": {
+        "rating": 8.5,
+        "weight": 11
+    },
+    "Wicked Tasty Treat": {
+        "rating": 7.9,
+        "weight": 11
+    },
+    "Forza FCK": {
+        "rating": 9.0,
+        "weight": 16
+    },
+    "Betonimylly": {
+        "rating": 7.9,
+        "weight": 16
+    },
+    "Montana": {
+        "rating": 6.5,
+        "weight": 2
+    },
+    "Presticles Spectacles Wallet and Watch": {
+        "rating": 6.0,
+        "weight": 42
+    },
+    "Hazelnut Martini": {
+        "rating": 7.1,
+        "weight": 18
+    },
+    "Orgasm a la Denmark": {
+        "rating": 6.9,
+        "weight": 18
+    },
+    "Gorilla Snot #1": {
+        "rating": 6.2,
+        "weight": 9
+    },
+    "Brian's Belief": {
+        "rating": 3.5,
+        "weight": 4
+    },
+    "Coco Channel": {
+        "rating": 8.4,
+        "weight": 18
+    },
+    "Redhead's Nipple": {
+        "rating": 6.3,
+        "weight": 6
+    },
+    "Miami Beach Cocktail": {
+        "rating": 7.0,
+        "weight": 4
+    },
+    "Vampire": {
+        "rating": 6.5,
+        "weight": 65
+    },
+    "Lloyd Special": {
+        "rating": 6.8,
+        "weight": 9
+    },
+    "Dirty Girl Scout": {
+        "rating": 6.5,
+        "weight": 269
+    },
+    "Dallas Stars": {
+        "rating": 5.1,
+        "weight": 17
+    },
+    "Jose Flame-O": {
+        "rating": 6.0,
+        "weight": 5
+    },
+    "Smooth Sailing": {
+        "rating": 7.5,
+        "weight": 4
+    },
+    "Woodward Cocktail": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "Purple VW": {
+        "rating": 4.8,
+        "weight": 12
+    },
+    "Leah's Last Hope #2": {
+        "rating": 5.9,
+        "weight": 8
+    },
+    "Whitecap Margarita": {
+        "rating": 9.0,
+        "weight": 22
+    },
+    "Naked Girl Scout": {
+        "rating": 8.5,
+        "weight": 8
+    },
+    "Beautiful": {
+        "rating": 6.2,
+        "weight": 129
+    },
+    "Angel's Kiss": {
+        "rating": 8.1,
+        "weight": 19
+    },
+    "Gladiator": {
+        "rating": 6.4,
+        "weight": 198
+    },
+    "Navel Caribbean Love": {
+        "rating": 8.8,
+        "weight": 27
+    },
+    "Tropiflipano": {
+        "rating": 7.5,
+        "weight": 16
+    },
+    "Siberian Sunrise": {
+        "rating": 8.3,
+        "weight": 11
+    },
+    "Pucker Sucker": {
+        "rating": 6.0,
+        "weight": 6
+    },
+    "The Dukes Of Hazzard Tonic": {
+        "rating": 5.2,
+        "weight": 12
+    },
+    "Charlie Shaker": {
+        "rating": 7.9,
+        "weight": 22
+    },
+    "Gorilla": {
+        "rating": 4.6,
+        "weight": 5
+    },
+    "Kermit": {
+        "rating": 7.2,
+        "weight": 13
+    },
+    "Waikiki Beachcomber": {
+        "rating": 6.4,
+        "weight": 2804
+    },
+    "Melon Pousse Cafe": {
+        "rating": 2.3,
+        "weight": 3
+    },
+    "Midnight Oil": {
+        "rating": 7.7,
+        "weight": 26
+    },
+    "Malibu Screw": {
+        "rating": 8.5,
+        "weight": 24
+    },
+    "Horny Mohican": {
+        "rating": 7.8,
+        "weight": 9
+    },
+    "Cran-Collins": {
+        "rating": 8.4,
+        "weight": 13
+    },
+    "Klingon Disrupter": {
+        "rating": 6.2,
+        "weight": 12
+    },
+    "Closed Casket": {
+        "rating": 9.1,
+        "weight": 7
+    },
+    "Irish Flag": {
+        "rating": 6.6,
+        "weight": 77
+    },
+    "Antoine Special": {
+        "rating": 6.7,
+        "weight": 6
+    },
+    "Funnel Cloud #1": {
+        "rating": 7.0,
+        "weight": 3
+    },
+    "Monkey Spanker": {
+        "rating": 8.4,
+        "weight": 20
+    },
+    "Mafia's Kiss": {
+        "rating": 8.8,
+        "weight": 31
+    },
+    "Martian Hard On": {
+        "rating": 7.1,
+        "weight": 11
+    },
+    "Hudson": {
+        "rating": 5.6,
+        "weight": 5
+    },
+    "Lady-Killer": {
+        "rating": 8.1,
+        "weight": 10
+    },
+    "Sex on the Beach #2": {
+        "rating": 6.1,
+        "weight": 97
+    },
+    "Ahhhhhh....": {
+        "rating": 6.9,
+        "weight": 350
+    },
+    "Sunding Over the top": {
+        "rating": 9.0,
+        "weight": 2
+    },
+    "Lemonade Bomb": {
+        "rating": 6.4,
+        "weight": 45
+    },
+    "Black Army": {
+        "rating": 5.7,
+        "weight": 35
+    },
+    "Raspberry kamikaze": {
+        "rating": 6.5,
+        "weight": 54
+    },
+    "Green Dinosaur #3": {
+        "rating": 6.1,
+        "weight": 10
+    },
+    "Chocolate Martini": {
+        "rating": 6.3,
+        "weight": 261
+    },
+    "Modified Duck Fart": {
+        "rating": 7.9,
+        "weight": 20
+    },
+    "Honey-Dew-Me": {
+        "rating": 9.9,
+        "weight": 8
+    },
+    "Emerald Isle #2": {
+        "rating": 5.8,
+        "weight": 15
+    },
+    "Death From Above": {
+        "rating": 4.9,
+        "weight": 57
+    },
+    "Norling Special": {
+        "rating": 8.7,
+        "weight": 3
+    },
+    "Zoo Station": {
+        "rating": 7.8,
+        "weight": 6
+    },
+    "Christmas Pudding": {
+        "rating": 4.4,
+        "weight": 9
+    },
+    "Dressed Up Like A Dogs Dinner": {
+        "rating": 5.0,
+        "weight": 1
+    },
+    "Blue Dragon": {
+        "rating": 7.8,
+        "weight": 26
+    },
+    "King of Denmark": {
+        "rating": 6.8,
+        "weight": 8
+    },
+    "An Arif": {
+        "rating": 7.9,
+        "weight": 15
+    },
+    "Thug Passion #1": {
+        "rating": 6.0,
+        "weight": 199
+    },
+    "Warm and Fuzzy": {
+        "rating": 6.8,
+        "weight": 8
+    },
+    "Lemon Cocktail": {
+        "rating": 3.6,
+        "weight": 16
+    },
+    "Submarine (Mexican)": {
+        "rating": 7.9,
+        "weight": 20
+    },
+    "Kameleon": {
+        "rating": 7.0,
+        "weight": 6
+    },
+    "Golden Sunrise": {
+        "rating": 8.5,
+        "weight": 2
+    },
+    "This-n-That": {
+        "rating": 5.5,
+        "weight": 4
+    },
+    "Soviet Sunset": {
+        "rating": 5.9,
+        "weight": 9
+    },
+    "Zorbatini": {
+        "rating": 3.3,
+        "weight": 10
+    },
+    "Sabra": {
+        "rating": 9.2,
+        "weight": 6
+    },
+    "Spring Feeling Cocktail": {
+        "rating": 1.0,
+        "weight": 2
+    },
+    "Sour Mix": {
+        "rating": 7.0,
+        "weight": 22
+    },
+    "Espresso Martini": {
+        "rating": 5.7,
+        "weight": 133
+    },
+    "Mexican three wise men": {
+        "rating": 5.1,
+        "weight": 40
+    },
+    "Panther": {
+        "rating": 6.4,
+        "weight": 10
+    },
+    "Bushwacker #1": {
+        "rating": 6.4,
+        "weight": 124
+    },
+    "Breast Milk": {
+        "rating": 8.8,
+        "weight": 17
+    },
+    "Green Iguana Margarita": {
+        "rating": 8.7,
+        "weight": 9
+    },
+    "After Dark": {
+        "rating": 7.0,
+        "weight": 107
+    },
+    "Earthquake Cocktail": {
+        "rating": 5.2,
+        "weight": 5
+    },
+    "Kumoniwannalaya": {
+        "rating": 4.9,
+        "weight": 9
+    },
+    "Black Velvet": {
+        "rating": 6.5,
+        "weight": 48
+    },
+    "Turlock Bulldog": {
+        "rating": 7.2,
+        "weight": 21
+    },
+    "Big Red": {
+        "rating": 7.0,
+        "weight": 14
+    },
+    "The Dangerous Dave": {
+        "rating": 6.5,
+        "weight": 42
+    },
+    "Green Eyes": {
+        "rating": 8.3,
+        "weight": 19
+    },
+    "Spicy Buttery Nipple": {
+        "rating": 7.5,
+        "weight": 13
+    },
+    "Foxy Lady": {
+        "rating": 7.8,
+        "weight": 8
+    },
+    "Skip And Go Naked #2": {
+        "rating": 6.9,
+        "weight": 12
+    },
+    "Baked Apple": {
+        "rating": 7.0,
+        "weight": 6
+    },
+    "Pearl Harbour": {
+        "rating": 6.6,
+        "weight": 92
+    },
+    "BlackJack Margarita": {
+        "rating": 6.5,
+        "weight": 51
+    },
+    "Rosita": {
+        "rating": 7.0,
+        "weight": 2
+    },
+    "The Swamp Water": {
+        "rating": 8.4,
+        "weight": 20
+    },
+    "Sunsplash": {
+        "rating": 8.9,
+        "weight": 16
+    },
+    "The Betty Ford": {
+        "rating": 8.5,
+        "weight": 18
+    },
+    "Voodoo Lady": {
+        "rating": 6.4,
+        "weight": 12
+    },
+    "Citronade": {
+        "rating": 8.0,
+        "weight": 24
+    },
+    "LaPaglia's Punch": {
+        "rating": 8.5,
+        "weight": 11
+    },
+    "Midnight Cowboy": {
+        "rating": 7.7,
+        "weight": 7
+    },
+    "Eroticolada": {
+        "rating": 7.6,
+        "weight": 13
+    },
+    "Orange Crush": {
+        "rating": 6.2,
+        "weight": 54
+    },
+    "Green Creeper": {
+        "rating": 5.3,
+        "weight": 10
+    },
+    "Martian Martini": {
+        "rating": 5.4,
+        "weight": 19
+    },
+    "Clousseau": {
+        "rating": 6.4,
+        "weight": 1276
+    },
+    "Strawberry Storm": {
+        "rating": 6.7,
+        "weight": 6
+    },
+    "Chocolate Mint Rum": {
+        "rating": 5.2,
+        "weight": 4
+    },
+    "Barbary Coast": {
+        "rating": 6.3,
+        "weight": 10
+    },
+    "Panther Sweat": {
+        "rating": 5.2,
+        "weight": 5
+    },
+    "Mind Game": {
+        "rating": 6.4,
+        "weight": 7
+    },
+    "Well Greased Dwarf": {
+        "rating": 8.3,
+        "weight": 9
+    },
+    "Girl Scout Thin Mint Cookie": {
+        "rating": 8.7,
+        "weight": 22
+    },
+    "Suitor": {
+        "rating": 5.8,
+        "weight": 4
+    },
+    "Nappy Dugout": {
+        "rating": 6.6,
+        "weight": 7
+    },
+    "Cinco de Mayo": {
+        "rating": 7.8,
+        "weight": 20
+    },
+    "Bambus": {
+        "rating": 6.3,
+        "weight": 35
+    },
+    "T-52": {
+        "rating": 5.6,
+        "weight": 5
+    },
+    "Flamming Gorrilla Titties": {
+        "rating": 6.4,
+        "weight": 39
+    },
+    "D+d lay": {
+        "rating": 7.0,
+        "weight": 5
+    },
+    "Wet Snatch": {
+        "rating": 7.4,
+        "weight": 13
+    },
+    "Purple Jesus": {
+        "rating": 6.5,
+        "weight": 75
+    },
+    "Melzinho": {
+        "rating": 8.7,
+        "weight": 11
+    },
+    "Wild Wild West": {
+        "rating": 5.5,
+        "weight": 14
+    },
+    "Bearded Boy": {
+        "rating": 5.2,
+        "weight": 4
+    },
+    "Rythym & Blues": {
+        "rating": 6.2,
+        "weight": 5
+    },
+    "Zombie #4": {
+        "rating": 6.0,
+        "weight": 6
+    },
+    "Rain Man": {
+        "rating": 8.7,
+        "weight": 12
+    },
+    "Schnider": {
+        "rating": 8.5,
+        "weight": 6
+    },
+    "Cockteaser": {
+        "rating": 7.0,
+        "weight": 22
+    },
+    "Jack Rose": {
+        "rating": 9.3,
+        "weight": 15
+    },
+    "Cerebral Hemorage": {
+        "rating": 8.9,
+        "weight": 16
+    },
+    "Tootsie Roll": {
+        "rating": 6.5,
+        "weight": 42
+    },
+    "Cyber Smoke": {
+        "rating": 6.3,
+        "weight": 3
+    },
+    "Raging Bull": {
+        "rating": 7.3,
+        "weight": 7
+    },
+    "Hurricane Laura": {
+        "rating": 8.3,
+        "weight": 7
+    },
+    "Brainteaser": {
+        "rating": 7.3,
+        "weight": 6
+    },
+    "Kahlua #3": {
+        "rating": 8.2,
+        "weight": 11
+    },
+    "Black Russian #2": {
+        "rating": 6.3,
+        "weight": 83
+    },
+    "Gagliardo": {
+        "rating": 9.5,
+        "weight": 8
+    },
+    "Gingerbread Man #2": {
+        "rating": 6.1,
+        "weight": 51
+    },
+    "Backdraft": {
+        "rating": 6.0,
+        "weight": 74
+    },
+    "Dogg piss": {
+        "rating": 3.8,
+        "weight": 54
+    },
+    "Bearsicle": {
+        "rating": 5.0,
+        "weight": 1
+    },
+    "Slippery Dick": {
+        "rating": 5.1,
+        "weight": 47
+    },
+    "Rontini": {
+        "rating": 6.4,
+        "weight": 108
+    },
+    "Muppet": {
+        "rating": 6.4,
+        "weight": 51
+    },
+    "Breath Stealer": {
+        "rating": 6.9,
+        "weight": 9
+    },
+    "Fire Engine With Alarm": {
+        "rating": 8.4,
+        "weight": 16
+    },
+    "Pirate's Punch": {
+        "rating": 10.0,
+        "weight": 12
+    },
+    "Strawberry Soak": {
+        "rating": 8.7,
+        "weight": 3
+    },
+    "Nazi Helmet": {
+        "rating": 8.1,
+        "weight": 18
+    },
+    "Iced Lemonade Tea": {
+        "rating": 8.5,
+        "weight": 2
+    },
+    "Jack your melon": {
+        "rating": 8.8,
+        "weight": 17
+    },
+    "Golden Comfort": {
+        "rating": 6.5,
+        "weight": 6
+    },
+    "Louie Louie": {
+        "rating": 7.8,
+        "weight": 12
+    },
+    "Joy-To-The-World": {
+        "rating": 3.3,
+        "weight": 3
+    },
+    "Buzz Inducer": {
+        "rating": 9.0,
+        "weight": 8
+    },
+    "Mellon Collie and The Infinite Gladness": {
+        "rating": 6.7,
+        "weight": 37
+    },
+    "Baduizm": {
+        "rating": 9.6,
+        "weight": 19
+    },
+    "Candy Bar": {
+        "rating": 8.9,
+        "weight": 21
+    },
+    "Harsh": {
+        "rating": 4.8,
+        "weight": 18
+    },
+    "Quick Fox": {
+        "rating": 8.7,
+        "weight": 9
+    },
+    "Pink Limon": {
+        "rating": 9.2,
+        "weight": 20
+    },
+    "Blue Suede Shoes": {
+        "rating": 8.2,
+        "weight": 4
+    },
+    "Greyhound": {
+        "rating": 6.2,
+        "weight": 74
+    },
+    "Daylon's Bedtime": {
+        "rating": 5.8,
+        "weight": 5
+    },
+    "Bahama Mama Sunrise": {
+        "rating": 6.2,
+        "weight": 109
+    },
+    "Insomniac": {
+        "rating": 8.0,
+        "weight": 4
+    },
+    "Outrigger": {
+        "rating": 8.0,
+        "weight": 1
+    },
+    "Richards family": {
+        "rating": 7.8,
+        "weight": 5
+    },
+    "Red Royal Shot": {
+        "rating": 9.2,
+        "weight": 36
+    },
+    "Thug Heaven": {
+        "rating": 6.8,
+        "weight": 12
+    },
+    "Milwaukee Stop Light": {
+        "rating": 9.3,
+        "weight": 10
+    },
+    "Raspberry Long Island Ice Tea": {
+        "rating": 8.5,
+        "weight": 31
+    },
+    "Capri": {
+        "rating": 7.0,
+        "weight": 2
+    },
+    "Fog Cutter": {
+        "rating": 9.4,
+        "weight": 31
+    },
+    "Absolut Symphony": {
+        "rating": 8.4,
+        "weight": 185
+    },
+    "Hot Jose": {
+        "rating": 8.7,
+        "weight": 12
+    },
+    "Captain's Cream Soda": {
+        "rating": 6.1,
+        "weight": 73
+    },
+    "Joe Blow": {
+        "rating": 7.7,
+        "weight": 24
+    },
+    "Mountain Dew #1": {
+        "rating": 5.4,
+        "weight": 7
+    },
+    "Four Horsemen": {
+        "rating": 6.1,
+        "weight": 110
+    },
+    "Green Zone": {
+        "rating": 8.3,
+        "weight": 6
+    },
+    "Lasky Cocktail": {
+        "rating": 6.0,
+        "weight": 3
+    },
+    "Go Girl!": {
+        "rating": 8.4,
+        "weight": 7
+    },
+    "Gremlin": {
+        "rating": 8.3,
+        "weight": 14
+    },
+    "Peltikatto": {
+        "rating": 6.4,
+        "weight": 38
+    },
+    "The Player": {
+        "rating": 8.5,
+        "weight": 13
+    },
+    "Button Hook Cocktail": {
+        "rating": 2.0,
+        "weight": 1
+    },
+    "Guinness Shandy": {
+        "rating": 4.5,
+        "weight": 14
+    },
+    "Nutty Belgian": {
+        "rating": 7.0,
+        "weight": 4
+    },
+    "Transmission Overhaul": {
+        "rating": 8.1,
+        "weight": 13
+    },
+    "Skylab Fallout": {
+        "rating": 6.1,
+        "weight": 49
+    },
+    "Liquid Desert": {
+        "rating": 2.7,
+        "weight": 3
+    },
+    "Boilermaker": {
+        "rating": 6.5,
+        "weight": 170
+    },
+    "Canadian Cherry": {
+        "rating": 8.4,
+        "weight": 10
+    },
+    "Boomerang Shot": {
+        "rating": 8.9,
+        "weight": 13
+    },
+    "Green Cookie Monster": {
+        "rating": 6.1,
+        "weight": 8
+    },
+    "Blue Moon Martini": {
+        "rating": 6.4,
+        "weight": 59
+    },
+    "San Diego Silver Bullet": {
+        "rating": 7.0,
+        "weight": 8
+    },
+    "Chiquita": {
+        "rating": 4.8,
+        "weight": 5
+    },
+    "Reptile": {
+        "rating": 8.0,
+        "weight": 18
+    },
+    "Pink Banana": {
+        "rating": 6.0,
+        "weight": 3
+    },
+    "More Orgasms": {
+        "rating": 6.3,
+        "weight": 14
+    },
+    "Panama Deluxe": {
+        "rating": 6.7,
+        "weight": 6
+    },
+    "Sex on the Beach #10": {
+        "rating": 6.3,
+        "weight": 46
+    },
+    "Park Avenue": {
+        "rating": 6.0,
+        "weight": 2
+    },
+    "Elmer Fudpucker": {
+        "rating": 8.1,
+        "weight": 17
+    },
+    "Hurricane flint": {
+        "rating": 7.2,
+        "weight": 10
+    },
+    "Schnapp It Up": {
+        "rating": 6.3,
+        "weight": 6
+    },
+    "Cheesecake": {
+        "rating": 7.1,
+        "weight": 44
+    },
+    "Jamaican Dust-Buster": {
+        "rating": 5.9,
+        "weight": 22
+    },
+    "Water your melon": {
+        "rating": 6.7,
+        "weight": 36
+    },
+    "Kickstand": {
+        "rating": 6.6,
+        "weight": 11
+    },
+    "Casa Blanca": {
+        "rating": 9.1,
+        "weight": 7
+    },
+    "Gorilla Snot #2": {
+        "rating": 7.5,
+        "weight": 6
+    },
+    "Pinky": {
+        "rating": 7.0,
+        "weight": 2
+    },
+    "Tumbleweed": {
+        "rating": 7.6,
+        "weight": 8
+    },
+    "Memachau": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "Picon Biere": {
+        "rating": 9.7,
+        "weight": 13
+    },
+    "Firetruck": {
+        "rating": 7.8,
+        "weight": 13
+    },
+    "Sloe Tequila": {
+        "rating": 5.2,
+        "weight": 4
+    },
+    "Lewd Lewinsky": {
+        "rating": 9.2,
+        "weight": 6
+    },
+    "Backfire": {
+        "rating": 6.1,
+        "weight": 49
+    },
+    "Tie Me To The Bedpost #2": {
+        "rating": 7.7,
+        "weight": 20
+    },
+    "Texas Apple Delight": {
+        "rating": 6.2,
+        "weight": 9
+    },
+    "Electric Margarita": {
+        "rating": 6.6,
+        "weight": 9
+    },
+    "Cajun Martini": {
+        "rating": 5.4,
+        "weight": 13
+    },
+    "A Day at the Beach": {
+        "rating": 6.5,
+        "weight": 226
+    },
+    "Rocky Mountain Bear Fucker": {
+        "rating": 6.4,
+        "weight": 135
+    },
+    "Godmother": {
+        "rating": 6.3,
+        "weight": 59
+    },
+    "Tropical Lullaby": {
+        "rating": 6.8,
+        "weight": 6
+    },
+    "Brass Funky": {
+        "rating": 10.0,
+        "weight": 8
+    },
+    "Neutron Bomb": {
+        "rating": 5.4,
+        "weight": 69
+    },
+    "Flageln": {
+        "rating": 8.8,
+        "weight": 14
+    },
+    "Liquid Snickers": {
+        "rating": 8.1,
+        "weight": 21
+    },
+    "Bad Habit": {
+        "rating": 5.6,
+        "weight": 42
+    },
+    "Banshe": {
+        "rating": 8.1,
+        "weight": 8
+    },
+    "Chocolate Raspberry Delight": {
+        "rating": 5.8,
+        "weight": 31
+    },
+    "Tootsy Pop": {
+        "rating": 7.4,
+        "weight": 14
+    },
+    "Green Motherfucker": {
+        "rating": 8.9,
+        "weight": 22
+    },
+    "Santa Monica Pier": {
+        "rating": 6.5,
+        "weight": 2
+    },
+    "The Crown Cherry": {
+        "rating": 9.2,
+        "weight": 5
+    },
+    "Adios Motherfucker (A.M.F.)": {
+        "rating": 6.7,
+        "weight": 923
+    },
+    "Tequila Twilight": {
+        "rating": 7.6,
+        "weight": 8
+    },
+    "Rugmuncher": {
+        "rating": 6.0,
+        "weight": 1
+    },
+    "Canadian Rum Punch": {
+        "rating": 7.7,
+        "weight": 32
+    },
+    "Black Fruit Tree": {
+        "rating": 7.0,
+        "weight": 9
+    },
+    "B-51": {
+        "rating": 6.4,
+        "weight": 151
+    },
+    "Peppermint Beach": {
+        "rating": 7.0,
+        "weight": 5
+    },
+    "Duck Shit Inn": {
+        "rating": 5.6,
+        "weight": 40
+    },
+    "Iron Butterfly": {
+        "rating": 6.9,
+        "weight": 59
+    },
+    "Blackula": {
+        "rating": 5.3,
+        "weight": 3
+    },
+    "Phillips Screwdriver": {
+        "rating": 8.3,
+        "weight": 22
+    },
+    "Chocolate Otis": {
+        "rating": 8.8,
+        "weight": 4
+    },
+    "Hawaiian Punch": {
+        "rating": 6.3,
+        "weight": 534
+    },
+    "Bali Dream": {
+        "rating": 7.1,
+        "weight": 8
+    },
+    "Fuquay Friday Night": {
+        "rating": 6.8,
+        "weight": 4
+    },
+    "Peekaboo": {
+        "rating": 5.3,
+        "weight": 3
+    },
+    "Fifty-fifty Cocktail": {
+        "rating": 4.9,
+        "weight": 11
+    },
+    "The Seminole": {
+        "rating": 8.3,
+        "weight": 24
+    },
+    "Fuzzy Peachclari": {
+        "rating": 7.2,
+        "weight": 16
+    },
+    "Magic Dew": {
+        "rating": 8.8,
+        "weight": 11
+    },
+    "Grog": {
+        "rating": 6.0,
+        "weight": 23
+    },
+    "Red Baron": {
+        "rating": 3.8,
+        "weight": 6
+    },
+    "Trashcan Punch": {
+        "rating": 6.3,
+        "weight": 115
+    },
+    "Dakota": {
+        "rating": 6.1,
+        "weight": 16
+    },
+    "Bruised Heart": {
+        "rating": 7.6,
+        "weight": 8
+    },
+    "Yellow Bird": {
+        "rating": 6.4,
+        "weight": 127
+    },
+    "49er Gold Rush": {
+        "rating": 6.5,
+        "weight": 40
+    },
+    "Frisky Witch": {
+        "rating": 6.9,
+        "weight": 7
+    },
+    "Shiny Nail": {
+        "rating": 1.0,
+        "weight": 1
+    },
+    "Unabomber": {
+        "rating": 7.5,
+        "weight": 26
+    },
+    "Nuclear Waste": {
+        "rating": 4.8,
+        "weight": 70
+    },
+    "Izayoi": {
+        "rating": 6.5,
+        "weight": 2
+    },
+    "Lambada": {
+        "rating": 8.5,
+        "weight": 12
+    },
+    "Columbia Gold": {
+        "rating": 9.7,
+        "weight": 3
+    },
+    "Wu Wu": {
+        "rating": 7.4,
+        "weight": 27
+    },
+    "Apple and Cinnamon Joy": {
+        "rating": 7.5,
+        "weight": 22
+    },
+    "Pineapple Bomb": {
+        "rating": 7.2,
+        "weight": 13
+    },
+    "St. Clement's": {
+        "rating": 7.5,
+        "weight": 4
+    },
+    "Flat Tire": {
+        "rating": 5.4,
+        "weight": 5
+    },
+    "Electric Storm": {
+        "rating": 6.8,
+        "weight": 6
+    },
+    "Pink Pitch": {
+        "rating": 9.0,
+        "weight": 1
+    },
+    "Southern Ireland": {
+        "rating": 6.3,
+        "weight": 21
+    },
+    "Thunderclap": {
+        "rating": 6.8,
+        "weight": 9
+    },
+    "Jamaican Sunset": {
+        "rating": 4.0,
+        "weight": 2
+    },
+    "Horny Girlscout": {
+        "rating": 6.9,
+        "weight": 26
+    },
+    "Motor Oil": {
+        "rating": 7.0,
+        "weight": 12
+    },
+    "Triple Sec Sunrise": {
+        "rating": 7.5,
+        "weight": 13
+    },
+    "Red Lion": {
+        "rating": 7.3,
+        "weight": 73
+    },
+    "No Regrets": {
+        "rating": 6.5,
+        "weight": 8
+    },
+    "Three Stages of Friendship": {
+        "rating": 5.7,
+        "weight": 16
+    },
+    "The Marv Alberts": {
+        "rating": 5.5,
+        "weight": 6
+    },
+    "Welcome delight": {
+        "rating": 7.2,
+        "weight": 6
+    },
+    "607 Special": {
+        "rating": 6.1,
+        "weight": 48
+    },
+    "ACID": {
+        "rating": 7.0,
+        "weight": 153
+    },
+    "Gin And It": {
+        "rating": 4.8,
+        "weight": 17
+    },
+    "Cherry Martinsen": {
+        "rating": 8.2,
+        "weight": 16
+    },
+    "Chocolate Paradise": {
+        "rating": 8.3,
+        "weight": 10
+    },
+    "Neuralizer": {
+        "rating": 7.7,
+        "weight": 10
+    },
+    "Gimlet #2": {
+        "rating": 6.3,
+        "weight": 93
+    },
+    "Simpson Solution": {
+        "rating": 8.9,
+        "weight": 20
+    },
+    "Candy": {
+        "rating": 8.2,
+        "weight": 16
+    },
+    "Terror From the Deep": {
+        "rating": 8.2,
+        "weight": 19
+    },
+    "Woot's Butter Cream Shot": {
+        "rating": 6.9,
+        "weight": 9
+    },
+    "The Lindy": {
+        "rating": 5.7,
+        "weight": 3
+    },
+    "Bourbon Slush": {
+        "rating": 5.9,
+        "weight": 107
+    },
+    "George & Ginger": {
+        "rating": 4.8,
+        "weight": 4
+    },
+    "Camel Hump": {
+        "rating": 8.4,
+        "weight": 16
+    },
+    "Champibble": {
+        "rating": 7.0,
+        "weight": 7
+    },
+    "Something Peachie #2": {
+        "rating": 6.0,
+        "weight": 4
+    },
+    "Californian Hurricane": {
+        "rating": 6.0,
+        "weight": 44
+    },
+    "Golden Cadillac": {
+        "rating": 6.1,
+        "weight": 113
+    },
+    "Double Jack": {
+        "rating": 6.4,
+        "weight": 45
+    },
+    "Bloody Coochie": {
+        "rating": 7.0,
+        "weight": 63
+    },
+    "Burning Nazi": {
+        "rating": 6.3,
+        "weight": 50
+    },
+    "Blue Bomber": {
+        "rating": 4.8,
+        "weight": 60
+    },
+    "Peppermint Pattie": {
+        "rating": 7.8,
+        "weight": 17
+    },
+    "Oil Spill": {
+        "rating": 6.7,
+        "weight": 18
+    },
+    "French Martini": {
+        "rating": 6.7,
+        "weight": 93
+    },
+    "Patriotic Blow": {
+        "rating": 6.6,
+        "weight": 5
+    },
+    "Frisco": {
+        "rating": 6.7,
+        "weight": 7
+    },
+    "The Incredible Hulk": {
+        "rating": 6.1,
+        "weight": 31
+    },
+    "Zool": {
+        "rating": 4.9,
+        "weight": 15
+    },
+    "McTavish": {
+        "rating": 7.3,
+        "weight": 10
+    },
+    "Carjacker": {
+        "rating": 4.0,
+        "weight": 3
+    },
+    "Black Gold": {
+        "rating": 6.6,
+        "weight": 59
+    },
+    "Harvey Wallbanger": {
+        "rating": 6.5,
+        "weight": 601
+    },
+    "Fuck You": {
+        "rating": 6.2,
+        "weight": 216
+    },
+    "Skid Marks": {
+        "rating": 6.3,
+        "weight": 20
+    },
+    "Thunder and Lighting": {
+        "rating": 7.3,
+        "weight": 11
+    },
+    "T.K.O.": {
+        "rating": 6.7,
+        "weight": 15
+    },
+    "Irish Gold": {
+        "rating": 7.5,
+        "weight": 24
+    },
+    "Brittle Fracture": {
+        "rating": 7.0,
+        "weight": 1
+    },
+    "Sex On Acid": {
+        "rating": 6.4,
+        "weight": 34
+    },
+    "Lucky Lemon": {
+        "rating": 4.3,
+        "weight": 3
+    },
+    "Pajama Jackhammer": {
+        "rating": 7.8,
+        "weight": 6
+    },
+    "Vodka Sunrise": {
+        "rating": 5.9,
+        "weight": 47
+    },
+    "Eye of the Storm": {
+        "rating": 8.6,
+        "weight": 12
+    },
+    "Spearmint Lifesaver": {
+        "rating": 6.6,
+        "weight": 17
+    },
+    "Purple Motherfucker": {
+        "rating": 6.4,
+        "weight": 302
+    },
+    "Chelsea Hotel": {
+        "rating": 7.2,
+        "weight": 23
+    },
+    "Freson": {
+        "rating": 8.2,
+        "weight": 9
+    },
+    "Nadal furia": {
+        "rating": 6.8,
+        "weight": 4
+    },
+    "French Whore": {
+        "rating": 6.0,
+        "weight": 70
+    },
+    "Wahoo": {
+        "rating": 7.1,
+        "weight": 10
+    },
+    "Barbie Shot": {
+        "rating": 5.6,
+        "weight": 47
+    },
+    "Terminator": {
+        "rating": 5.0,
+        "weight": 8
+    },
+    "Green Beret": {
+        "rating": 7.2,
+        "weight": 13
+    },
+    "Topaz": {
+        "rating": 5.5,
+        "weight": 4
+    },
+    "Acid Rain": {
+        "rating": 7.2,
+        "weight": 114
+    },
+    "Afterbirth": {
+        "rating": 6.3,
+        "weight": 116
+    },
+    "Strawberry Punch #2": {
+        "rating": 4.4,
+        "weight": 10
+    },
+    "The Big Banana!": {
+        "rating": 8.9,
+        "weight": 19
+    },
+    "Kahlua Madness": {
+        "rating": 7.4,
+        "weight": 8
+    },
+    "Aztec Gold": {
+        "rating": 6.4,
+        "weight": 7
+    },
+    "Rum Snapp": {
+        "rating": 7.3,
+        "weight": 6
+    },
+    "Big Unit": {
+        "rating": 4.5,
+        "weight": 11
+    },
+    "Luftschlange": {
+        "rating": 8.2,
+        "weight": 6
+    },
+    "The Classic": {
+        "rating": 1.0,
+        "weight": 1
+    },
+    "Pineapple Bomber": {
+        "rating": 9.0,
+        "weight": 25
+    },
+    "Tuaca Nutter": {
+        "rating": 5.2,
+        "weight": 6
+    },
+    "Donkey Punch": {
+        "rating": 8.6,
+        "weight": 28
+    },
+    "Pink Fix": {
+        "rating": 8.4,
+        "weight": 23
+    },
+    "Italian Margarita": {
+        "rating": 6.5,
+        "weight": 105
+    },
+    "Headhunter": {
+        "rating": 9.2,
+        "weight": 9
+    },
+    "Flaming Fruit Trees": {
+        "rating": 6.3,
+        "weight": 9
+    },
+    "Jamaican Dust": {
+        "rating": 8.5,
+        "weight": 4
+    },
+    "Swimming Pool": {
+        "rating": 6.7,
+        "weight": 43
+    },
+    "Grand Marnier": {
+        "rating": 8.1,
+        "weight": 15
+    },
+    "Red Hot": {
+        "rating": 8.6,
+        "weight": 13
+    },
+    "Bouzo": {
+        "rating": 8.8,
+        "weight": 8
+    },
+    "Tattooed Smurf": {
+        "rating": 7.2,
+        "weight": 12
+    },
+    "Y2K shot": {
+        "rating": 5.4,
+        "weight": 9
+    },
+    "Green Hell #2": {
+        "rating": 5.4,
+        "weight": 17
+    },
+    "Lime Time": {
+        "rating": 7.5,
+        "weight": 4
+    },
+    "Wedding Anniversary": {
+        "rating": 8.4,
+        "weight": 8
+    },
+    "Purple Haze #3": {
+        "rating": 4.0,
+        "weight": 10
+    },
+    "Rum and Coke": {
+        "rating": 6.1,
+        "weight": 612
+    },
+    "Cherry Rum": {
+        "rating": 7.5,
+        "weight": 2
+    },
+    "The King Of Denmark": {
+        "rating": 3.3,
+        "weight": 3
+    },
+    "Kamakazie Razzberry": {
+        "rating": 6.4,
+        "weight": 34
+    },
+    "Coffee Grasshopper": {
+        "rating": 5.2,
+        "weight": 6
+    },
+    "Butternut Rum Lifesaver": {
+        "rating": 7.6,
+        "weight": 18
+    },
+    "Bob Dylan": {
+        "rating": 6.4,
+        "weight": 66
+    },
+    "Flaming Kevin": {
+        "rating": 4.9,
+        "weight": 19
+    },
+    "Bay Breeze": {
+        "rating": 6.0,
+        "weight": 154
+    },
+    "Pink Elephants On Parade": {
+        "rating": 8.5,
+        "weight": 11
+    },
+    "Sweet Maria": {
+        "rating": 4.5,
+        "weight": 2
+    },
+    "Red Rock": {
+        "rating": 7.1,
+        "weight": 7
+    },
+    "Dick Wells": {
+        "rating": 7.4,
+        "weight": 10
+    },
+    "Scurvy #2": {
+        "rating": 5.0,
+        "weight": 1
+    },
+    "360 degress": {
+        "rating": 6.0,
+        "weight": 45
+    },
+    "Purple Hooter #1": {
+        "rating": 6.3,
+        "weight": 162
+    },
+    "Mexican Flag": {
+        "rating": 6.3,
+        "weight": 63
+    },
+    "Frozen Margarita #2": {
+        "rating": 5.8,
+        "weight": 83
+    },
+    "Coronation Cocktail": {
+        "rating": 0.0,
+        "weight": 0
+    },
+    "Purple Yummy": {
+        "rating": 6.6,
+        "weight": 18
+    },
+    "Stoner On Acid": {
+        "rating": 8.6,
+        "weight": 14
+    },
+    "Electric Banana": {
+        "rating": 8.2,
+        "weight": 14
+    },
+    "Andalusia": {
+        "rating": 6.7,
+        "weight": 7
+    },
+    "Tiger Tail": {
+        "rating": 4.3,
+        "weight": 3
+    },
+    "Hot Afternoon": {
+        "rating": 7.6,
+        "weight": 20
+    },
+    "Black Bird Cider": {
+        "rating": 5.5,
+        "weight": 4
+    },
+    "Oxymoron": {
+        "rating": 6.4,
+        "weight": 49
+    },
+    "Green Meanie": {
+        "rating": 8.9,
+        "weight": 18
+    },
+    "Bannister": {
+        "rating": 7.8,
+        "weight": 4
+    },
+    "Rocket Fuel #3": {
+        "rating": 8.8,
+        "weight": 21
+    },
+    "Landed Gentry": {
+        "rating": 4.7,
+        "weight": 3
+    },
+    "Fuzzy Logic #2": {
+        "rating": 8.5,
+        "weight": 2
+    },
+    "Duck Fart": {
+        "rating": 6.2,
+        "weight": 222
+    },
+    "Voodoo Dew": {
+        "rating": 7.5,
+        "weight": 18
+    },
+    "Sailor's Delight": {
+        "rating": 7.9,
+        "weight": 8
+    },
+    "Nipple on Fire": {
+        "rating": 6.6,
+        "weight": 11
+    },
+    "Brown Cocktail": {
+        "rating": 3.4,
+        "weight": 5
+    },
+    "Aranov": {
+        "rating": 5.7,
+        "weight": 21
+    },
+    "Fluxuation Cocktail": {
+        "rating": 8.4,
+        "weight": 5
+    },
+    "Joan Mir\u00f3": {
+        "rating": 8.8,
+        "weight": 4
+    },
+    "Cinnamon Toast Crunch": {
+        "rating": 6.5,
+        "weight": 22
+    },
+    "Something Peachie #1": {
+        "rating": 7.5,
+        "weight": 8
+    },
+    "Raspberry Release": {
+        "rating": 8.5,
+        "weight": 6
+    },
+    "Dick Deming Martini": {
+        "rating": 4.3,
+        "weight": 7
+    },
+    "Tirade": {
+        "rating": 5.8,
+        "weight": 10
+    },
+    "Alabama Riot": {
+        "rating": 6.5,
+        "weight": 115
+    },
+    "Scarlett O'Hara": {
+        "rating": 6.0,
+        "weight": 49
+    },
+    "Napalm-Death": {
+        "rating": 8.5,
+        "weight": 23
+    },
+    "Jeweler's Hammer": {
+        "rating": 8.2,
+        "weight": 18
+    },
+    "Whisky Martini": {
+        "rating": 5.9,
+        "weight": 8
+    },
+    "Dreamsicle #4": {
+        "rating": 5.7,
+        "weight": 52
+    },
+    "Kamikaze #2": {
+        "rating": 6.3,
+        "weight": 136
+    },
+    "Danbooka": {
+        "rating": 3.7,
+        "weight": 11
+    },
+    "Bitchin' Apple Cider": {
+        "rating": 7.0,
+        "weight": 47
+    },
+    "YoYo Blow Out": {
+        "rating": 4.9,
+        "weight": 8
+    },
+    "Rhino": {
+        "rating": 9.5,
+        "weight": 15
+    },
+    "Carmel Candy Apple": {
+        "rating": 6.5,
+        "weight": 83
+    },
+    "Scooby Snack #3": {
+        "rating": 6.9,
+        "weight": 61
+    },
+    "Crimson Tide": {
+        "rating": 7.3,
+        "weight": 10
+    },
+    "Death in the afternoon": {
+        "rating": 8.5,
+        "weight": 12
+    },
+    "Sloe Vermouth": {
+        "rating": 3.7,
+        "weight": 3
+    },
+    "Dolphin's Foam": {
+        "rating": 6.7,
+        "weight": 6
+    },
+    "Fruit of the Loom": {
+        "rating": 8.0,
+        "weight": 6
+    },
+    "Liquid Heroine": {
+        "rating": 5.7,
+        "weight": 58
+    },
+    "Italian Sunrise": {
+        "rating": 7.2,
+        "weight": 16
+    },
+    "Player's Passion": {
+        "rating": 8.2,
+        "weight": 24
+    },
+    "Calypso": {
+        "rating": 9.4,
+        "weight": 9
+    },
+    "The Valentine": {
+        "rating": 6.5,
+        "weight": 10
+    },
+    "Knockout Punch": {
+        "rating": 3.9,
+        "weight": 8
+    },
+    "Hunka Hunka Burnin Luv": {
+        "rating": 5.9,
+        "weight": 18
+    },
+    "True Alabama Slammer": {
+        "rating": 5.7,
+        "weight": 184
+    },
+    "Fiery Blue Mustang": {
+        "rating": 4.9,
+        "weight": 55
+    },
+    "Shamrock Juice": {
+        "rating": 6.4,
+        "weight": 12
+    },
+    "Irish Whip": {
+        "rating": 8.8,
+        "weight": 12
+    },
+    "Chocolate Almond": {
+        "rating": 7.6,
+        "weight": 9
+    },
+    "Che Guevara": {
+        "rating": 7.1,
+        "weight": 14
+    },
+    "Key Largo Kooler": {
+        "rating": 9.1,
+        "weight": 9
+    },
+    "Jim Kroener": {
+        "rating": 9.1,
+        "weight": 7
+    },
+    "Jackhammer": {
+        "rating": 6.2,
+        "weight": 145
+    },
+    "Sonoma": {
+        "rating": 6.7,
+        "weight": 11
+    },
+    "Pirate Float": {
+        "rating": 8.0,
+        "weight": 6
+    },
+    "B-53 #2": {
+        "rating": 7.8,
+        "weight": 16
+    },
+    "Mad Hatter": {
+        "rating": 7.1,
+        "weight": 9
+    },
+    "Van Vleet": {
+        "rating": 4.9,
+        "weight": 8
+    },
+    "Slime": {
+        "rating": 6.8,
+        "weight": 4
+    },
+    "Bonfire": {
+        "rating": 6.4,
+        "weight": 48
+    },
+    "Beadlestone Cocktail": {
+        "rating": 3.6,
+        "weight": 8
+    },
+    "Fuzzy Russian": {
+        "rating": 7.1,
+        "weight": 14
+    },
+    "North Mymms Mirage": {
+        "rating": 4.6,
+        "weight": 5
+    },
+    "Donnington Brainstorm": {
+        "rating": 6.0,
+        "weight": 8
+    },
+    "Millionare's Coffee": {
+        "rating": 8.4,
+        "weight": 17
+    },
+    "Absolut Tooch": {
+        "rating": 7.9,
+        "weight": 231
+    },
+    "Suicide #1": {
+        "rating": 4.8,
+        "weight": 6
+    },
+    "French Monkey": {
+        "rating": 6.7,
+        "weight": 10
+    },
+    "Passion Beach": {
+        "rating": 9.3,
+        "weight": 3
+    },
+    "Southern Fruity Passion": {
+        "rating": 6.4,
+        "weight": 10
+    },
+    "Shrewsbury Slammer": {
+        "rating": 4.5,
+        "weight": 4
+    },
+    "Alien Secretion": {
+        "rating": 6.5,
+        "weight": 191
+    },
+    "Fuzzy Screw Shot": {
+        "rating": 8.2,
+        "weight": 20
+    },
+    "Kavorkien": {
+        "rating": 6.0,
+        "weight": 3
+    },
+    "Shocking Chocolate": {
+        "rating": 6.0,
+        "weight": 7
+    },
+    "Silverado": {
+        "rating": 5.8,
+        "weight": 6
+    },
+    "Toolkit": {
+        "rating": 6.5,
+        "weight": 4
+    },
+    "Dong": {
+        "rating": 5.4,
+        "weight": 5
+    },
+    "Liquid Bubble Gum": {
+        "rating": 5.8,
+        "weight": 24
+    },
+    "Kill Me Now": {
+        "rating": 5.9,
+        "weight": 42
+    },
+    "AT&T;": {
+        "rating": 6.3,
+        "weight": 24
+    },
+    "Paris Paradise": {
+        "rating": 6.2,
+        "weight": 47
+    },
+    "Mudslide #5": {
+        "rating": 6.5,
+        "weight": 39
+    },
+    "Communicator": {
+        "rating": 5.8,
+        "weight": 6
+    },
+    "Butterfinger": {
+        "rating": 6.7,
+        "weight": 87
+    },
+    "Mithering Bastard": {
+        "rating": 7.3,
+        "weight": 20
+    },
+    "Scope": {
+        "rating": 6.0,
+        "weight": 4
+    },
+    "X.Y.Z. Cocktail": {
+        "rating": 5.7,
+        "weight": 15
+    },
+    "Old Crusty": {
+        "rating": 4.5,
+        "weight": 6
+    },
+    "Italian Sombrero": {
+        "rating": 9.0,
+        "weight": 3
+    },
+    "Caribbean Ice Tea": {
+        "rating": 7.5,
+        "weight": 14
+    },
+    "Stinger #2": {
+        "rating": 6.5,
+        "weight": 55
+    },
+    "Under Kurant": {
+        "rating": 8.2,
+        "weight": 13
+    },
+    "Wild Berry Pop-Tart": {
+        "rating": 7.8,
+        "weight": 4
+    },
+    "Rikkertje": {
+        "rating": 0.0,
+        "weight": 0
+    },
+    "Albysj\u00f6n": {
+        "rating": 6.5,
+        "weight": 117
+    },
+    "Rum Runner #2": {
+        "rating": 6.1,
+        "weight": 66
+    },
+    "Bull's sweat": {
+        "rating": 6.4,
+        "weight": 14
+    },
+    "Pink Panty Pulldowns": {
+        "rating": 6.6,
+        "weight": 83
+    },
+    "Tea Punch": {
+        "rating": 3.7,
+        "weight": 3
+    },
+    "Leah's Last Hope": {
+        "rating": 5.1,
+        "weight": 43
+    },
+    "Quick F**K": {
+        "rating": 5.7,
+        "weight": 131
+    },
+    "Bavarian Alps": {
+        "rating": 5.8,
+        "weight": 5
+    },
+    "White Cosmopolitan": {
+        "rating": 8.7,
+        "weight": 14
+    },
+    "Demon Drop": {
+        "rating": 6.1,
+        "weight": 59
+    },
+    "Flaming Lamborgini": {
+        "rating": 6.4,
+        "weight": 90
+    },
+    "Rock Lobster": {
+        "rating": 6.8,
+        "weight": 66
+    },
+    "A Little Dinghy": {
+        "rating": 6.8,
+        "weight": 99
+    },
+    "Liquid Ecstasy": {
+        "rating": 6.2,
+        "weight": 49
+    },
+    "252": {
+        "rating": 6.5,
+        "weight": 57
+    },
+    "Pink Panty Pulldowns #2": {
+        "rating": 8.6,
+        "weight": 13
+    },
+    "Cosmopolitan #2": {
+        "rating": 6.0,
+        "weight": 329
+    },
+    "Cherry Over The Edge": {
+        "rating": 3.8,
+        "weight": 16
+    },
+    "Ultimate Blue Frozen Margarita": {
+        "rating": 6.2,
+        "weight": 27
+    },
+    "Buttery Nipple #1": {
+        "rating": 6.4,
+        "weight": 2073
+    },
+    "Axelrod's Sweet Concoction": {
+        "rating": 7.5,
+        "weight": 10
+    },
+    "Broken Down Golf Cart #2": {
+        "rating": 6.0,
+        "weight": 155
+    },
+    "Brent's Tequila Head Slam": {
+        "rating": 8.3,
+        "weight": 24
+    },
+    "Long Island Iced Tea #5": {
+        "rating": 6.5,
+        "weight": 122
+    },
+    "Three Wise Men (on a farm)": {
+        "rating": 8.7,
+        "weight": 19
+    },
+    "Jay In Your Tummy": {
+        "rating": 5.8,
+        "weight": 6
+    },
+    "Brevann (Springwater)": {
+        "rating": 9.7,
+        "weight": 6
+    },
+    "Barton Special": {
+        "rating": 3.8,
+        "weight": 4
+    },
+    "Jonesey": {
+        "rating": 5.3,
+        "weight": 6
+    },
+    "Thunder Peel": {
+        "rating": 3.0,
+        "weight": 3
+    },
+    "Mona-Lisa": {
+        "rating": 4.2,
+        "weight": 8
+    },
+    "Capital Punishment": {
+        "rating": 6.8,
+        "weight": 20
+    },
+    "Andrea's Colada Collision": {
+        "rating": 6.6,
+        "weight": 19
+    },
+    "Belles Of St. Mary's": {
+        "rating": 6.9,
+        "weight": 10
+    },
+    "Miami Ice": {
+        "rating": 7.6,
+        "weight": 16
+    },
+    "Blue Eye": {
+        "rating": 7.8,
+        "weight": 6
+    },
+    "Orgasmic Fantasy": {
+        "rating": 6.5,
+        "weight": 42
+    },
+    "Cranberry Margarita": {
+        "rating": 8.6,
+        "weight": 18
+    },
+    "Green Milkshake": {
+        "rating": 6.5,
+        "weight": 2
+    },
+    "Green delight": {
+        "rating": 9.2,
+        "weight": 8
+    },
+    "BMW": {
+        "rating": 6.4,
+        "weight": 53
+    },
+    "Sweet Satisfaction": {
+        "rating": 7.9,
+        "weight": 9
+    },
+    "Ghetto Hell": {
+        "rating": 9.2,
+        "weight": 11
+    },
+    "Malibu Seven": {
+        "rating": 8.5,
+        "weight": 31
+    },
+    "Banana Cream Pie #2": {
+        "rating": 6.7,
+        "weight": 3
+    },
+    "Cokaretto": {
+        "rating": 5.9,
+        "weight": 79
+    },
+    "Bora Bora": {
+        "rating": 7.8,
+        "weight": 8
+    },
+    "Amaretto Sunset": {
+        "rating": 6.9,
+        "weight": 12
+    },
+    "Summer Splash": {
+        "rating": 2.8,
+        "weight": 4
+    },
+    "Georgian Sunrise": {
+        "rating": 8.3,
+        "weight": 3
+    },
+    "M&M;": {
+        "rating": 6.4,
+        "weight": 36
+    },
+    "Amaretto Stinger": {
+        "rating": 5.6,
+        "weight": 11
+    },
+    "David Bareface": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "Milky Way": {
+        "rating": 8.4,
+        "weight": 7
+    },
+    "Menage A Trois": {
+        "rating": 6.9,
+        "weight": 9
+    },
+    "Bananaball": {
+        "rating": 5.0,
+        "weight": 61
+    },
+    "Screaming Purple Jesus": {
+        "rating": 6.5,
+        "weight": 63
+    },
+    "Jumanji": {
+        "rating": 9.6,
+        "weight": 10
+    },
+    "Texas Sling": {
+        "rating": 7.6,
+        "weight": 13
+    },
+    "Duchess": {
+        "rating": 6.7,
+        "weight": 3
+    },
+    "Strawberry Zima": {
+        "rating": 7.0,
+        "weight": 10
+    },
+    "Kokopa": {
+        "rating": 7.6,
+        "weight": 20
+    },
+    "White Spider #1": {
+        "rating": 7.0,
+        "weight": 10
+    },
+    "Pink Police": {
+        "rating": 8.1,
+        "weight": 21
+    },
+    "Party Slush Punch #3": {
+        "rating": 9.9,
+        "weight": 7
+    },
+    "Keith Jackson": {
+        "rating": 6.1,
+        "weight": 53
+    },
+    "Sombrero": {
+        "rating": 7.6,
+        "weight": 17
+    },
+    "3rd Wheel": {
+        "rating": 7.7,
+        "weight": 11
+    },
+    "Buddy": {
+        "rating": 5.4,
+        "weight": 54
+    },
+    "Tequila Comfort": {
+        "rating": 3.1,
+        "weight": 19
+    },
+    "Null & Void Punch": {
+        "rating": 6.5,
+        "weight": 44
+    },
+    "Lady Scarlett": {
+        "rating": 7.0,
+        "weight": 5
+    },
+    "Fong Juice": {
+        "rating": 6.2,
+        "weight": 99
+    },
+    "Cinnamon Cream": {
+        "rating": 7.1,
+        "weight": 8
+    },
+    "Incredible Hulk": {
+        "rating": 6.0,
+        "weight": 258
+    },
+    "Nutz 'n Berries": {
+        "rating": 6.0,
+        "weight": 5
+    },
+    "Fifth Avenue": {
+        "rating": 7.2,
+        "weight": 4
+    },
+    "Tripple Pleasure": {
+        "rating": 3.4,
+        "weight": 5
+    },
+    "Yellow Birdie": {
+        "rating": 5.0,
+        "weight": 8
+    },
+    "Campari Beer": {
+        "rating": 4.2,
+        "weight": 6
+    },
+    "Mary Garden Cocktail": {
+        "rating": 4.3,
+        "weight": 3
+    },
+    "Amaretto Sour": {
+        "rating": 6.3,
+        "weight": 3103
+    },
+    "Algae": {
+        "rating": 6.5,
+        "weight": 86
+    },
+    "Brain Eraser #2": {
+        "rating": 7.2,
+        "weight": 13
+    },
+    "Slippery Nipple #1": {
+        "rating": 6.4,
+        "weight": 278
+    },
+    "James D": {
+        "rating": 8.0,
+        "weight": 6
+    },
+    "Lord And Lady": {
+        "rating": 5.0,
+        "weight": 1
+    },
+    "Keremiki": {
+        "rating": 8.2,
+        "weight": 4
+    },
+    "Porky Bone": {
+        "rating": 6.8,
+        "weight": 4
+    },
+    "Lorraine's Delight": {
+        "rating": 8.7,
+        "weight": 3
+    },
+    "Gailwarning": {
+        "rating": 6.5,
+        "weight": 2
+    },
+    "Gorilla Fart #2": {
+        "rating": 8.2,
+        "weight": 19
+    },
+    "Start Me Up": {
+        "rating": 7.0,
+        "weight": 4
+    },
+    "Harlee's Planters Punch": {
+        "rating": 8.9,
+        "weight": 17
+    },
+    "Carolina Kamikaze": {
+        "rating": 7.1,
+        "weight": 21
+    },
+    "Shamrock #2": {
+        "rating": 7.2,
+        "weight": 16
+    },
+    "Puerto Rican Monkey Fuck": {
+        "rating": 5.4,
+        "weight": 41
+    },
+    "Weekend On The Beach": {
+        "rating": 4.1,
+        "weight": 7
+    },
+    "Pr\u00e6rieb\u00e5l (Norwegian version of Prairie Fire)": {
+        "rating": 5.6,
+        "weight": 18
+    },
+    "French Afternoon": {
+        "rating": 6.0,
+        "weight": 6
+    },
+    "Greenback": {
+        "rating": 4.9,
+        "weight": 7
+    },
+    "Cardicas": {
+        "rating": 9.5,
+        "weight": 2
+    },
+    "Creamy Rum Liqueur": {
+        "rating": 6.3,
+        "weight": 3
+    },
+    "Pimp Cocktail": {
+        "rating": 6.4,
+        "weight": 50
+    },
+    "Limon and Ginger": {
+        "rating": 7.3,
+        "weight": 11
+    },
+    "Flori's Hot Tub Heaven": {
+        "rating": 9.0,
+        "weight": 6
+    },
+    "Tequilaville": {
+        "rating": 3.5,
+        "weight": 8
+    },
+    "Malibu Bay Breeze": {
+        "rating": 6.4,
+        "weight": 829
+    },
+    "Baby Guinness": {
+        "rating": 6.2,
+        "weight": 224
+    },
+    "Blue Edisonian": {
+        "rating": 7.0,
+        "weight": 6
+    },
+    "Dreamsicle #1": {
+        "rating": 4.5,
+        "weight": 58
+    },
+    "Cool Kid": {
+        "rating": 4.7,
+        "weight": 28
+    },
+    "Barbarian": {
+        "rating": 7.6,
+        "weight": 9
+    },
+    "The Shanaynay": {
+        "rating": 3.2,
+        "weight": 34
+    },
+    "Woo Woo #2": {
+        "rating": 8.4,
+        "weight": 19
+    },
+    "Chocolate Honeybee": {
+        "rating": 9.7,
+        "weight": 3
+    },
+    "Salt and Pepper Martini": {
+        "rating": 5.5,
+        "weight": 10
+    },
+    "Duck Fart #2": {
+        "rating": 6.5,
+        "weight": 158
+    },
+    "Coco Cognac": {
+        "rating": 8.1,
+        "weight": 12
+    },
+    "Mexican Clit": {
+        "rating": 6.1,
+        "weight": 61
+    },
+    "Leap Year": {
+        "rating": 5.0,
+        "weight": 9
+    },
+    "Sloppy Joe": {
+        "rating": 10.0,
+        "weight": 5
+    },
+    "Rebel Russian": {
+        "rating": 7.9,
+        "weight": 9
+    },
+    "Grog #2": {
+        "rating": 5.1,
+        "weight": 10
+    },
+    "Screaming Orgasm (San Francisco Style)": {
+        "rating": 6.9,
+        "weight": 23
+    },
+    "CoonDogg": {
+        "rating": 6.7,
+        "weight": 7
+    },
+    "Irish Hammer": {
+        "rating": 8.4,
+        "weight": 8
+    },
+    "Radioactive Long Island Iced Tea": {
+        "rating": 5.7,
+        "weight": 54
+    },
+    "Classic Pimms": {
+        "rating": 8.3,
+        "weight": 13
+    },
+    "Ortensia": {
+        "rating": 6.0,
+        "weight": 2
+    },
+    "Watermelon Slice": {
+        "rating": 6.7,
+        "weight": 47
+    },
+    "Green Thing": {
+        "rating": 8.6,
+        "weight": 12
+    },
+    "Glow-Worm": {
+        "rating": 8.0,
+        "weight": 19
+    },
+    "Maiden's Prayer #2": {
+        "rating": 6.8,
+        "weight": 4
+    },
+    "Blue Smurf Piss": {
+        "rating": 6.4,
+        "weight": 83
+    },
+    "Orange Bliss": {
+        "rating": 8.2,
+        "weight": 8
+    },
+    "Purple Margarita": {
+        "rating": 8.5,
+        "weight": 12
+    },
+    "Absolut Stress #2": {
+        "rating": 7.2,
+        "weight": 362
+    },
+    "Utar": {
+        "rating": 6.7,
+        "weight": 11
+    },
+    "Dr. Pepper #3": {
+        "rating": 5.2,
+        "weight": 24
+    },
+    "Pumpkin Eater": {
+        "rating": 3.0,
+        "weight": 1
+    },
+    "Jamaican Ass-Kicker": {
+        "rating": 8.7,
+        "weight": 6
+    },
+    "Schwimmer": {
+        "rating": 8.5,
+        "weight": 6
+    },
+    "Feliz Natal": {
+        "rating": 7.0,
+        "weight": 8
+    },
+    "Hot Scott": {
+        "rating": 9.4,
+        "weight": 14
+    },
+    "Mage's Fire": {
+        "rating": 9.2,
+        "weight": 5
+    },
+    "Ante": {
+        "rating": 6.0,
+        "weight": 3
+    },
+    "Saurian Brandy": {
+        "rating": 9.8,
+        "weight": 4
+    },
+    "Climax": {
+        "rating": 8.0,
+        "weight": 19
+    },
+    "Sammy Slammer": {
+        "rating": 7.2,
+        "weight": 5
+    },
+    "Whiskey Manhattan": {
+        "rating": 6.3,
+        "weight": 47
+    },
+    "Midori Sour": {
+        "rating": 6.2,
+        "weight": 535
+    },
+    "The Fuzzy Pissbomb": {
+        "rating": 6.4,
+        "weight": 36
+    },
+    "Turbo": {
+        "rating": 7.2,
+        "weight": 24
+    },
+    "The Beavis": {
+        "rating": 5.7,
+        "weight": 28
+    },
+    "915 Special": {
+        "rating": 6.3,
+        "weight": 3
+    },
+    "Tempter Cocktail": {
+        "rating": 5.3,
+        "weight": 3
+    },
+    "Tootsie Roll Float": {
+        "rating": 5.7,
+        "weight": 13
+    },
+    "Coco Cabana": {
+        "rating": 9.6,
+        "weight": 20
+    },
+    "Copperhead": {
+        "rating": 7.7,
+        "weight": 15
+    },
+    "Sex at my House": {
+        "rating": 6.5,
+        "weight": 156
+    },
+    "Screaming Nazi #2": {
+        "rating": 6.0,
+        "weight": 78
+    },
+    "Evil Tea": {
+        "rating": 7.5,
+        "weight": 18
+    },
+    "Melonoma": {
+        "rating": 5.8,
+        "weight": 8
+    },
+    "B-69": {
+        "rating": 6.1,
+        "weight": 92
+    },
+    "Rock And Rye Cocktail": {
+        "rating": 6.0,
+        "weight": 5
+    },
+    "Virulent Death": {
+        "rating": 8.3,
+        "weight": 10
+    },
+    "Green Death": {
+        "rating": 4.0,
+        "weight": 10
+    },
+    "Pearl Necklace": {
+        "rating": 8.3,
+        "weight": 11
+    },
+    "Clam Eye": {
+        "rating": 9.2,
+        "weight": 20
+    },
+    "Palmetto": {
+        "rating": 6.0,
+        "weight": 3
+    },
+    "Beam Me Up Scottie Mac": {
+        "rating": 8.9,
+        "weight": 14
+    },
+    "Brass Monkey": {
+        "rating": 6.1,
+        "weight": 498
+    },
+    "Beach Bum": {
+        "rating": 6.2,
+        "weight": 130
+    },
+    "Orange Cocktail": {
+        "rating": 3.0,
+        "weight": 16
+    },
+    "Red, White and Blue": {
+        "rating": 8.7,
+        "weight": 19
+    },
+    "Frangeilico Float": {
+        "rating": 9.9,
+        "weight": 7
+    },
+    "Tummy Blower": {
+        "rating": 4.1,
+        "weight": 9
+    },
+    "Key Largo OJ": {
+        "rating": 8.5,
+        "weight": 4
+    },
+    "The A-Rock": {
+        "rating": 6.5,
+        "weight": 90
+    },
+    "Mocha Mint": {
+        "rating": 7.4,
+        "weight": 5
+    },
+    "To Hell With Swords And Garter": {
+        "rating": 5.7,
+        "weight": 6
+    },
+    "Wet Pussy": {
+        "rating": 5.8,
+        "weight": 246
+    },
+    "Twains Orgasm": {
+        "rating": 4.0,
+        "weight": 20
+    },
+    "Montreal Club Bouncer": {
+        "rating": 7.5,
+        "weight": 4
+    },
+    "J\u00e4germonster": {
+        "rating": 6.5,
+        "weight": 38
+    },
+    "Donna Reed": {
+        "rating": 4.6,
+        "weight": 5
+    },
+    "Banshee Berry": {
+        "rating": 6.0,
+        "weight": 5
+    },
+    "Geeba": {
+        "rating": 5.0,
+        "weight": 2
+    },
+    "Red Mosquito": {
+        "rating": 6.8,
+        "weight": 5
+    },
+    "Working Man's Zinfandel": {
+        "rating": 3.4,
+        "weight": 5
+    },
+    "Affirmative Action": {
+        "rating": 6.8,
+        "weight": 103
+    },
+    "Romona Banana": {
+        "rating": 7.8,
+        "weight": 4
+    },
+    "Serial Killer": {
+        "rating": 8.2,
+        "weight": 5
+    },
+    "Stinger Shot": {
+        "rating": 6.6,
+        "weight": 7
+    },
+    "Buzz Lightyear": {
+        "rating": 6.5,
+        "weight": 39
+    },
+    "Vulcan Mind Meld": {
+        "rating": 7.5,
+        "weight": 22
+    },
+    "Aftershock": {
+        "rating": 6.6,
+        "weight": 112
+    },
+    "Blue Moon": {
+        "rating": 9.1,
+        "weight": 33
+    },
+    "Black Christmas": {
+        "rating": 9.0,
+        "weight": 24
+    },
+    "Chumbawumba": {
+        "rating": 8.2,
+        "weight": 10
+    },
+    "Millennium Knockout": {
+        "rating": 2.0,
+        "weight": 1
+    },
+    "Devastating Body Rocker": {
+        "rating": 8.0,
+        "weight": 6
+    },
+    "Lazy Haze": {
+        "rating": 6.5,
+        "weight": 2
+    },
+    "Quick Fuck": {
+        "rating": 6.4,
+        "weight": 178
+    },
+    "Stinger": {
+        "rating": 5.9,
+        "weight": 344
+    },
+    "Purple Wind": {
+        "rating": 8.4,
+        "weight": 8
+    },
+    "Snowball #3": {
+        "rating": 3.0,
+        "weight": 4
+    },
+    "Mexican Virgin": {
+        "rating": 4.6,
+        "weight": 9
+    },
+    "Southern Blues": {
+        "rating": 8.7,
+        "weight": 20
+    },
+    "Angel's Wing": {
+        "rating": 6.2,
+        "weight": 9
+    },
+    "The Terminator": {
+        "rating": 6.4,
+        "weight": 28
+    },
+    "Velvet Hammer #1": {
+        "rating": 8.5,
+        "weight": 13
+    },
+    "Grappa Gimlet": {
+        "rating": 6.8,
+        "weight": 4
+    },
+    "Amaretto And Cream": {
+        "rating": 6.5,
+        "weight": 90
+    },
+    "Starla's Waver": {
+        "rating": 5.6,
+        "weight": 14
+    },
+    "The Double Team": {
+        "rating": 5.5,
+        "weight": 25
+    },
+    "Shot in the pot": {
+        "rating": 3.8,
+        "weight": 16
+    },
+    "Twinkle My Lights": {
+        "rating": 6.6,
+        "weight": 8
+    },
+    "Crazy Cow": {
+        "rating": 3.3,
+        "weight": 24
+    },
+    "Captain's Treasure": {
+        "rating": 7.7,
+        "weight": 7
+    },
+    "Abilene": {
+        "rating": 7.2,
+        "weight": 358
+    },
+    "F-69": {
+        "rating": 7.4,
+        "weight": 9
+    },
+    "Creamsicle": {
+        "rating": 6.5,
+        "weight": 55
+    },
+    "Lusty Lisa": {
+        "rating": 8.7,
+        "weight": 12
+    },
+    "Fiery Balls of Death": {
+        "rating": 7.6,
+        "weight": 22
+    },
+    "Opera House Special": {
+        "rating": 7.3,
+        "weight": 16
+    },
+    "Creamy Crispy Crunch": {
+        "rating": 8.9,
+        "weight": 14
+    },
+    "Ziemes Martini Apfelsaft": {
+        "rating": 5.8,
+        "weight": 20
+    },
+    "Berrynice": {
+        "rating": 9.1,
+        "weight": 8
+    },
+    "Boozy Maria": {
+        "rating": 7.5,
+        "weight": 19
+    },
+    "The Bartman": {
+        "rating": 7.2,
+        "weight": 4
+    },
+    "Popped cherry": {
+        "rating": 7.7,
+        "weight": 3
+    },
+    "Fuzzy Pusser": {
+        "rating": 8.9,
+        "weight": 12
+    },
+    "Hawaiian Punch #2": {
+        "rating": 9.4,
+        "weight": 17
+    },
+    "Southern Comfort Kamikaze": {
+        "rating": 6.5,
+        "weight": 76
+    },
+    "Purple Pancho": {
+        "rating": 4.8,
+        "weight": 6
+    },
+    "Tootsie Roll #2": {
+        "rating": 7.3,
+        "weight": 36
+    },
+    "D.O.A.": {
+        "rating": 6.8,
+        "weight": 9
+    },
+    "Back Shot": {
+        "rating": 7.5,
+        "weight": 13
+    },
+    "Mind over Marny": {
+        "rating": 6.2,
+        "weight": 4
+    },
+    "Creamy Orange": {
+        "rating": 9.2,
+        "weight": 5
+    },
+    "Talos Coffee": {
+        "rating": 6.8,
+        "weight": 4
+    },
+    "Pink Penocha": {
+        "rating": 9.1,
+        "weight": 9
+    },
+    "Fishbone": {
+        "rating": 9.1,
+        "weight": 14
+    },
+    "Richie Family": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "Deep, Dark Secret": {
+        "rating": 3.5,
+        "weight": 2
+    },
+    "Bob's Moscow Mule": {
+        "rating": 6.2,
+        "weight": 47
+    },
+    "K.G.B. #2": {
+        "rating": 8.5,
+        "weight": 2
+    },
+    "Monk's Martini": {
+        "rating": 6.8,
+        "weight": 4
+    },
+    "Four Fine Friends": {
+        "rating": 8.7,
+        "weight": 14
+    },
+    "Malibu and Soda": {
+        "rating": 6.2,
+        "weight": 123
+    },
+    "Pina Colada #1": {
+        "rating": 6.4,
+        "weight": 779
+    },
+    "Electric Marcucci": {
+        "rating": 7.6,
+        "weight": 12
+    },
+    "Russian Quallude": {
+        "rating": 6.6,
+        "weight": 45
+    },
+    "Vodka Stinger": {
+        "rating": 6.2,
+        "weight": 37
+    },
+    "All Jacked up": {
+        "rating": 6.5,
+        "weight": 86
+    },
+    "The Jaw": {
+        "rating": 6.0,
+        "weight": 2
+    },
+    "Silver Bullet #2": {
+        "rating": 5.6,
+        "weight": 9
+    },
+    "Thug Passion #2": {
+        "rating": 5.9,
+        "weight": 126
+    },
+    "Hershey Squirts": {
+        "rating": 8.1,
+        "weight": 14
+    },
+    "Cossak": {
+        "rating": 9.0,
+        "weight": 9
+    },
+    "Phi Psycho Psycho": {
+        "rating": 7.1,
+        "weight": 8
+    },
+    "Arcadia": {
+        "rating": 4.6,
+        "weight": 5
+    },
+    "Peach Death": {
+        "rating": 4.2,
+        "weight": 32
+    },
+    "Beal's Cocktail": {
+        "rating": 2.5,
+        "weight": 4
+    },
+    "Zimartini": {
+        "rating": 6.2,
+        "weight": 14
+    },
+    "Summer Tea": {
+        "rating": 3.7,
+        "weight": 3
+    },
+    "White Spider #2": {
+        "rating": 7.0,
+        "weight": 8
+    },
+    "Flaming Giraffe": {
+        "rating": 8.6,
+        "weight": 12
+    },
+    "STP (the motor oil of course)": {
+        "rating": 6.2,
+        "weight": 12
+    },
+    "Rye & Pepper": {
+        "rating": 7.3,
+        "weight": 12
+    },
+    "Citrus Surprise": {
+        "rating": 8.4,
+        "weight": 12
+    },
+    "Pink Squirrel": {
+        "rating": 5.9,
+        "weight": 86
+    },
+    "Caruso Blanco": {
+        "rating": 4.0,
+        "weight": 3
+    },
+    "Bloody Passion": {
+        "rating": 7.6,
+        "weight": 11
+    },
+    "Dirty Orgasm": {
+        "rating": 7.6,
+        "weight": 11
+    },
+    "Apple Martini": {
+        "rating": 6.1,
+        "weight": 1482
+    },
+    "Snowshoe": {
+        "rating": 7.8,
+        "weight": 20
+    },
+    "Fin N' Tonic": {
+        "rating": 5.4,
+        "weight": 11
+    },
+    "Mike Tyson": {
+        "rating": 8.2,
+        "weight": 12
+    },
+    "Backseat Boogie #2": {
+        "rating": 7.7,
+        "weight": 10
+    },
+    "Polo Cocktail": {
+        "rating": 8.2,
+        "weight": 19
+    },
+    "Sex under the boardwalk": {
+        "rating": 6.9,
+        "weight": 10
+    },
+    "Aperol Schuhmann": {
+        "rating": 9.8,
+        "weight": 4
+    },
+    "Goombay Smash": {
+        "rating": 6.7,
+        "weight": 66
+    },
+    "PEZ": {
+        "rating": 7.9,
+        "weight": 12
+    },
+    "Tijuana Carbomb": {
+        "rating": 4.3,
+        "weight": 7
+    },
+    "Detroit Red Wing": {
+        "rating": 8.9,
+        "weight": 15
+    },
+    "Strawberry Bomb": {
+        "rating": 8.6,
+        "weight": 14
+    },
+    "Antifreeze": {
+        "rating": 6.5,
+        "weight": 42
+    },
+    "Bailey's Cup of Coffee": {
+        "rating": 6.5,
+        "weight": 117
+    },
+    "Sleigh Ride": {
+        "rating": 5.7,
+        "weight": 3
+    },
+    "The Nog": {
+        "rating": 7.2,
+        "weight": 5
+    },
+    "P.M.F.": {
+        "rating": 6.9,
+        "weight": 8
+    },
+    "Plead the 5th": {
+        "rating": 6.5,
+        "weight": 6
+    },
+    "Chocolate Martini #2": {
+        "rating": 6.0,
+        "weight": 55
+    },
+    "Evil Princess": {
+        "rating": 8.7,
+        "weight": 3
+    },
+    "Double Gold": {
+        "rating": 8.7,
+        "weight": 11
+    },
+    "Pink Poontang": {
+        "rating": 7.4,
+        "weight": 12
+    },
+    "Russian Cocktail": {
+        "rating": 6.0,
+        "weight": 8
+    },
+    "Swift kick in the Ass": {
+        "rating": 6.9,
+        "weight": 19
+    },
+    "Hemingway Daiquiri": {
+        "rating": 9.2,
+        "weight": 31
+    },
+    "Fuzzy F**ker": {
+        "rating": 7.6,
+        "weight": 21
+    },
+    "Golden Daze": {
+        "rating": 9.0,
+        "weight": 2
+    },
+    "Southampton Slam": {
+        "rating": 3.6,
+        "weight": 5
+    },
+    "Sidecar": {
+        "rating": 6.4,
+        "weight": 182
+    },
+    "Dead Hitler": {
+        "rating": 8.4,
+        "weight": 30
+    },
+    "Kick me in the Jimmy": {
+        "rating": 7.3,
+        "weight": 18
+    },
+    "High Voltage": {
+        "rating": 6.6,
+        "weight": 79
+    },
+    "The Graduate": {
+        "rating": 7.6,
+        "weight": 5
+    },
+    "Storm Trooper": {
+        "rating": 5.9,
+        "weight": 35
+    },
+    "Hot Georgia Peach": {
+        "rating": 7.9,
+        "weight": 8
+    },
+    "The Blue Fin": {
+        "rating": 9.8,
+        "weight": 9
+    },
+    "Mt. Fujiyama": {
+        "rating": 6.3,
+        "weight": 3
+    },
+    "Beer Top": {
+        "rating": 5.2,
+        "weight": 55
+    },
+    "Agent Orange": {
+        "rating": 6.4,
+        "weight": 125
+    },
+    "Nightboat to Brasil": {
+        "rating": 8.7,
+        "weight": 10
+    },
+    "Banana Cream Pie": {
+        "rating": 7.8,
+        "weight": 23
+    },
+    "Harley Davidson #2": {
+        "rating": 5.4,
+        "weight": 7
+    },
+    "Brutal Hammer": {
+        "rating": 5.9,
+        "weight": 16
+    },
+    "Whisky Mac": {
+        "rating": 8.2,
+        "weight": 16
+    },
+    "Snake Piss": {
+        "rating": 4.7,
+        "weight": 11
+    },
+    "Mudwrestle": {
+        "rating": 7.8,
+        "weight": 8
+    },
+    "Green Goblin": {
+        "rating": 9.8,
+        "weight": 20
+    },
+    "Kick yer Ass Sas": {
+        "rating": 8.5,
+        "weight": 13
+    },
+    "Asthma Attack": {
+        "rating": 8.1,
+        "weight": 14
+    },
+    "Parisian": {
+        "rating": 7.3,
+        "weight": 16
+    },
+    "Chocolate Orange": {
+        "rating": 6.5,
+        "weight": 14
+    },
+    "Fjellfinn": {
+        "rating": 6.5,
+        "weight": 2
+    },
+    "Combustible Edison": {
+        "rating": 7.5,
+        "weight": 8
+    },
+    "Ladies Sidecar": {
+        "rating": 8.2,
+        "weight": 10
+    },
+    "Protein Smoothie": {
+        "rating": 7.8,
+        "weight": 4
+    },
+    "Mudslide #4": {
+        "rating": 5.5,
+        "weight": 59
+    },
+    "Screaming Orgasm II": {
+        "rating": 5.2,
+        "weight": 56
+    },
+    "Kool-Aid Slammer": {
+        "rating": 6.3,
+        "weight": 39
+    },
+    "Bleacher Creature": {
+        "rating": 7.0,
+        "weight": 16
+    },
+    "Bermuda Rose": {
+        "rating": 7.1,
+        "weight": 8
+    },
+    "Gorilla Fart #1": {
+        "rating": 5.8,
+        "weight": 33
+    },
+    "White Heart": {
+        "rating": 7.4,
+        "weight": 7
+    },
+    "Cherry Comfort": {
+        "rating": 6.0,
+        "weight": 44
+    },
+    "Ugly": {
+        "rating": 6.0,
+        "weight": 33
+    },
+    "Field Of Hearts": {
+        "rating": 9.3,
+        "weight": 3
+    },
+    "R-Float": {
+        "rating": 7.6,
+        "weight": 5
+    },
+    "The 5th Element": {
+        "rating": 6.4,
+        "weight": 41
+    },
+    "Yin-Yang": {
+        "rating": 10.0,
+        "weight": 4
+    },
+    "Uncle Sam": {
+        "rating": 7.8,
+        "weight": 9
+    },
+    "Joe Cocker": {
+        "rating": 7.2,
+        "weight": 12
+    },
+    "Alaskan Pipeline": {
+        "rating": 6.5,
+        "weight": 120
+    },
+    "Port And Starboard": {
+        "rating": 8.0,
+        "weight": 9
+    },
+    "Jamaican Ten Speed": {
+        "rating": 6.5,
+        "weight": 51
+    },
+    "Blue Russian Kiss": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "Whitney": {
+        "rating": 6.6,
+        "weight": 47
+    },
+    "Harvest Moon": {
+        "rating": 6.5,
+        "weight": 14
+    },
+    "Strawberry Starburst": {
+        "rating": 8.5,
+        "weight": 18
+    },
+    "Carrot Cake #2": {
+        "rating": 6.5,
+        "weight": 80
+    },
+    "Raspberry Kiss": {
+        "rating": 8.8,
+        "weight": 12
+    },
+    "Mandy Sea": {
+        "rating": 9.0,
+        "weight": 6
+    },
+    "Russian Qualude #2": {
+        "rating": 9.2,
+        "weight": 29
+    },
+    "Absolut Stress #1": {
+        "rating": 7.2,
+        "weight": 328
+    },
+    "Psycho": {
+        "rating": 6.9,
+        "weight": 8
+    },
+    "Ishav": {
+        "rating": 6.4,
+        "weight": 31
+    },
+    "Far East": {
+        "rating": 6.5,
+        "weight": 2
+    },
+    "Alice Cocktail": {
+        "rating": 7.2,
+        "weight": 325
+    },
+    "Gin Gin": {
+        "rating": 6.2,
+        "weight": 138
+    },
+    "Caleigh": {
+        "rating": 5.8,
+        "weight": 6
+    },
+    "Hot Creamy Bush": {
+        "rating": 8.0,
+        "weight": 10
+    },
+    "Fuzzy Banana": {
+        "rating": 6.4,
+        "weight": 11
+    },
+    "Wedding Belle Cocktail": {
+        "rating": 5.5,
+        "weight": 2
+    },
+    "Tiger Woods": {
+        "rating": 5.4,
+        "weight": 23
+    },
+    "Yaps": {
+        "rating": 6.9,
+        "weight": 9
+    },
+    "Pjolter Bay": {
+        "rating": 10.0,
+        "weight": 1
+    },
+    "French Connection #2": {
+        "rating": 8.9,
+        "weight": 25
+    },
+    "Chocalate Covered Martini": {
+        "rating": 8.5,
+        "weight": 18
+    },
+    "White Way Cocktail": {
+        "rating": 3.5,
+        "weight": 2
+    },
+    "The Eclipse": {
+        "rating": 8.3,
+        "weight": 14
+    },
+    "Trinity Cocktail": {
+        "rating": 6.3,
+        "weight": 3
+    },
+    "Chocolate Cake": {
+        "rating": 6.1,
+        "weight": 51
+    },
+    "Scooby Snack #1": {
+        "rating": 6.3,
+        "weight": 376
+    },
+    "The Green Monster": {
+        "rating": 7.2,
+        "weight": 4
+    },
+    "Friar Tuck": {
+        "rating": 8.8,
+        "weight": 5
+    },
+    "Fat Cat": {
+        "rating": 7.8,
+        "weight": 19
+    },
+    "Traffic Light": {
+        "rating": 4.2,
+        "weight": 6
+    },
+    "The Perfect Margarita #2": {
+        "rating": 6.1,
+        "weight": 116
+    },
+    "Electric Fuzzy": {
+        "rating": 8.8,
+        "weight": 17
+    },
+    "Flaming Asshole": {
+        "rating": 5.3,
+        "weight": 42
+    },
+    "Malibu Jane": {
+        "rating": 8.1,
+        "weight": 10
+    },
+    "Toby's Special": {
+        "rating": 8.3,
+        "weight": 21
+    },
+    "Smeraldo": {
+        "rating": 1.0,
+        "weight": 1
+    },
+    "Chi Phi": {
+        "rating": 7.1,
+        "weight": 81
+    },
+    "Patmcpacke": {
+        "rating": 5.5,
+        "weight": 6
+    },
+    "Angry Chameleon": {
+        "rating": 6.6,
+        "weight": 46
+    },
+    "Crowbar": {
+        "rating": 5.9,
+        "weight": 8
+    },
+    "Dirty Oatmeal": {
+        "rating": 6.5,
+        "weight": 28
+    },
+    "Shimmers": {
+        "rating": 7.7,
+        "weight": 6
+    },
+    "Harry Boy": {
+        "rating": 7.8,
+        "weight": 6
+    },
+    "Cinn's Stop Light": {
+        "rating": 6.3,
+        "weight": 6
+    },
+    "Dead Dog Vomit": {
+        "rating": 3.5,
+        "weight": 34
+    },
+    "Purple Motherfucker #2": {
+        "rating": 6.6,
+        "weight": 46
+    },
+    "Siberian Slider": {
+        "rating": 7.0,
+        "weight": 5
+    },
+    "Roadkill": {
+        "rating": 8.4,
+        "weight": 8
+    },
+    "Zimadori Zinger": {
+        "rating": 7.0,
+        "weight": 12
+    },
+    "P.D.C.": {
+        "rating": 8.0,
+        "weight": 7
+    },
+    "Razzberi Kazi": {
+        "rating": 9.3,
+        "weight": 10
+    },
+    "Carrot Cake #3": {
+        "rating": 3.2,
+        "weight": 4
+    },
+    "Drool": {
+        "rating": 5.8,
+        "weight": 16
+    },
+    "Jamaican Sunrise": {
+        "rating": 7.8,
+        "weight": 14
+    },
+    "Jagershock": {
+        "rating": 8.0,
+        "weight": 13
+    },
+    "8 iron": {
+        "rating": 7.3,
+        "weight": 10
+    },
+    "Hop, Skip, and Go Naked": {
+        "rating": 9.3,
+        "weight": 19
+    },
+    "Cherry Bon Bon": {
+        "rating": 9.5,
+        "weight": 2
+    },
+    "Bushwacker #5": {
+        "rating": 8.9,
+        "weight": 10
+    },
+    "Titty Twister-Rita": {
+        "rating": 8.1,
+        "weight": 11
+    },
+    "Pat Quinn": {
+        "rating": 5.7,
+        "weight": 6
+    },
+    "Golden Cola": {
+        "rating": 6.8,
+        "weight": 8
+    },
+    "Red Frog": {
+        "rating": 8.5,
+        "weight": 4
+    },
+    "Poppy Cocktail": {
+        "rating": 2.4,
+        "weight": 5
+    },
+    "Melonball (Spanish Style)": {
+        "rating": 8.1,
+        "weight": 13
+    },
+    "Standard Cream": {
+        "rating": 5.7,
+        "weight": 3
+    },
+    "Tropical Itching": {
+        "rating": 9.0,
+        "weight": 11
+    },
+    "Chocolate Black Russian": {
+        "rating": 7.9,
+        "weight": 18
+    },
+    "Chocolate Covered Cherries": {
+        "rating": 6.5,
+        "weight": 54
+    },
+    "155 Belmont": {
+        "rating": 6.0,
+        "weight": 11
+    },
+    "Bayou Backwater": {
+        "rating": 8.7,
+        "weight": 19
+    },
+    "Captain's and Creme": {
+        "rating": 9.3,
+        "weight": 21
+    },
+    "White Lightening": {
+        "rating": 7.3,
+        "weight": 10
+    },
+    "Butter Cream": {
+        "rating": 6.7,
+        "weight": 96
+    },
+    "Penalty Shot": {
+        "rating": 7.5,
+        "weight": 13
+    },
+    "Jan's Jello Shots": {
+        "rating": 6.1,
+        "weight": 475
+    },
+    "Abe's Tropical Night in Hell": {
+        "rating": 7.2,
+        "weight": 403
+    },
+    "Lute\u00e5td\u00e6": {
+        "rating": 3.6,
+        "weight": 7
+    },
+    "Radler": {
+        "rating": 5.9,
+        "weight": 329
+    },
+    "Good & Plenty": {
+        "rating": 8.1,
+        "weight": 8
+    },
+    "A Better Melonball": {
+        "rating": 7.4,
+        "weight": 26
+    },
+    "Autumnal Equinox": {
+        "rating": 7.0,
+        "weight": 3
+    },
+    "Southern Comfort Sour": {
+        "rating": 7.8,
+        "weight": 21
+    },
+    "Sip and Get Funky": {
+        "rating": 6.3,
+        "weight": 358
+    },
+    "Booty Juice": {
+        "rating": 6.9,
+        "weight": 14
+    },
+    "Toasted Almond": {
+        "rating": 6.4,
+        "weight": 466
+    },
+    "Shark's Mai Tai": {
+        "rating": 7.7,
+        "weight": 15
+    },
+    "Arkansas Razorback": {
+        "rating": 6.2,
+        "weight": 48
+    },
+    "Lysekil's groggen": {
+        "rating": 8.0,
+        "weight": 11
+    },
+    "Adios Mother": {
+        "rating": 6.8,
+        "weight": 295
+    },
+    "Black Fog": {
+        "rating": 9.1,
+        "weight": 21
+    },
+    "Parappa the Drunk Rappa": {
+        "rating": 6.2,
+        "weight": 527
+    },
+    "Coffee Crisp Shot": {
+        "rating": 7.4,
+        "weight": 16
+    },
+    "Spark In The Night": {
+        "rating": 4.2,
+        "weight": 6
+    },
+    "Fria Cafe Italiano": {
+        "rating": 7.3,
+        "weight": 3
+    },
+    "Carbomb": {
+        "rating": 6.4,
+        "weight": 964
+    },
+    "Surf City Lifesaver": {
+        "rating": 1.0,
+        "weight": 1
+    },
+    "Fuzzless Navel": {
+        "rating": 8.3,
+        "weight": 7
+    },
+    "Navy Grog": {
+        "rating": 6.4,
+        "weight": 3071
+    },
+    "Yellow Parrot": {
+        "rating": 4.8,
+        "weight": 4
+    },
+    "Five Star General": {
+        "rating": 5.5,
+        "weight": 60
+    },
+    "Quick-sand": {
+        "rating": 5.5,
+        "weight": 11
+    },
+    "Flaming Nazi": {
+        "rating": 6.3,
+        "weight": 24
+    },
+    "Chocolate Orgasm": {
+        "rating": 8.0,
+        "weight": 8
+    },
+    "Mirage": {
+        "rating": 9.0,
+        "weight": 2
+    },
+    "Greek Tycoon": {
+        "rating": 5.7,
+        "weight": 3
+    },
+    "Blow Job #4": {
+        "rating": 6.8,
+        "weight": 24
+    },
+    "The Chocolate Martini": {
+        "rating": 5.9,
+        "weight": 67
+    },
+    "Nestle": {
+        "rating": 1.5,
+        "weight": 2
+    },
+    "Anton's Ecto Cooler": {
+        "rating": 8.3,
+        "weight": 23
+    },
+    "Mudslide #1": {
+        "rating": 6.1,
+        "weight": 652
+    },
+    "Dark and Stormy": {
+        "rating": 6.4,
+        "weight": 328
+    },
+    "Key Lime Shooter": {
+        "rating": 9.9,
+        "weight": 23
+    },
+    "Washington Apple Martini": {
+        "rating": 7.5,
+        "weight": 91
+    },
+    "Jens Special": {
+        "rating": 8.5,
+        "weight": 12
+    },
+    "Pentecostal": {
+        "rating": 5.0,
+        "weight": 6
+    },
+    "Splender Blenders": {
+        "rating": 7.3,
+        "weight": 7
+    },
+    "Delta Sunset": {
+        "rating": 6.7,
+        "weight": 10
+    },
+    "Captains Pie": {
+        "rating": 9.5,
+        "weight": 14
+    },
+    "Sunny Sex": {
+        "rating": 5.5,
+        "weight": 10
+    },
+    "StumbleFuck": {
+        "rating": 6.1,
+        "weight": 20
+    },
+    "Irish Pride": {
+        "rating": 7.6,
+        "weight": 21
+    },
+    "The Roni": {
+        "rating": 6.5,
+        "weight": 11
+    },
+    "The Velvet Kilt": {
+        "rating": 5.3,
+        "weight": 14
+    },
+    "Frozen Mudslide": {
+        "rating": 6.0,
+        "weight": 429
+    },
+    "Mean Green Love Making Machine": {
+        "rating": 8.0,
+        "weight": 24
+    },
+    "Algonquin": {
+        "rating": 6.4,
+        "weight": 118
+    },
+    "Cockroach": {
+        "rating": 5.9,
+        "weight": 13
+    },
+    "Finn Roses": {
+        "rating": 9.0,
+        "weight": 1
+    },
+    "Hawaiian Sugar Plantation": {
+        "rating": 8.6,
+        "weight": 8
+    },
+    "Neon Nightmare": {
+        "rating": 9.4,
+        "weight": 18
+    },
+    "Purple Hooter #2": {
+        "rating": 6.4,
+        "weight": 129
+    },
+    "Wild Wendy": {
+        "rating": 7.8,
+        "weight": 16
+    },
+    "Beeaauu's Rum and Coke": {
+        "rating": 5.9,
+        "weight": 47
+    },
+    "Godiva Chocolate Martini": {
+        "rating": 6.6,
+        "weight": 73
+    },
+    "Fat Box": {
+        "rating": 8.2,
+        "weight": 13
+    },
+    "Cement Kicker": {
+        "rating": 6.0,
+        "weight": 26
+    },
+    "Champagne Martini": {
+        "rating": 6.3,
+        "weight": 145
+    },
+    "Godiva Peppermint Patty": {
+        "rating": 9.9,
+        "weight": 11
+    },
+    "Three Wise Men": {
+        "rating": 5.9,
+        "weight": 181
+    },
+    "Absolutly Screwed": {
+        "rating": 7.9,
+        "weight": 143
+    },
+    "Vulcan Mind-Probe": {
+        "rating": 5.3,
+        "weight": 23
+    },
+    "Cool Hot Damn": {
+        "rating": 7.5,
+        "weight": 6
+    },
+    "Black and Blue #2": {
+        "rating": 6.4,
+        "weight": 289
+    },
+    "Horny Toad": {
+        "rating": 7.1,
+        "weight": 11
+    },
+    "Smarty": {
+        "rating": 5.6,
+        "weight": 7
+    },
+    "Top Shelf Margarita": {
+        "rating": 6.4,
+        "weight": 66
+    },
+    "The Tony Kelly": {
+        "rating": 8.0,
+        "weight": 12
+    },
+    "Auburn Headbanger": {
+        "rating": 5.9,
+        "weight": 61
+    },
+    "1-900-FUK-MEUP": {
+        "rating": 6.0,
+        "weight": 677
+    },
+    "Miss V": {
+        "rating": 5.0,
+        "weight": 4
+    },
+    "Hunter Mountain": {
+        "rating": 8.5,
+        "weight": 12
+    },
+    "Neon Voodoo": {
+        "rating": 6.2,
+        "weight": 47
+    },
+    "Jelly Bean #2": {
+        "rating": 9.5,
+        "weight": 14
+    },
+    "Peppermint Patty (Northern Style)": {
+        "rating": 7.8,
+        "weight": 16
+    },
+    "Mexican Cherry": {
+        "rating": 7.7,
+        "weight": 9
+    },
+    "Raspberry Swirl": {
+        "rating": 6.0,
+        "weight": 2
+    },
+    "Purple Shroud": {
+        "rating": 6.0,
+        "weight": 9
+    },
+    "Loch Ness Monster": {
+        "rating": 6.7,
+        "weight": 48
+    },
+    "Black Cow #2": {
+        "rating": 7.9,
+        "weight": 14
+    },
+    "Zenmeister": {
+        "rating": 7.4,
+        "weight": 27
+    },
+    "Jelly Bean": {
+        "rating": 8.6,
+        "weight": 9
+    },
+    "Nuts and Berries #1": {
+        "rating": 6.3,
+        "weight": 128
+    },
+    "All American": {
+        "rating": 6.3,
+        "weight": 126
+    },
+    "Shake That Ass": {
+        "rating": 7.4,
+        "weight": 13
+    },
+    "Mandarin Metropolitan": {
+        "rating": 6.8,
+        "weight": 6
+    },
+    "Orgasm": {
+        "rating": 6.4,
+        "weight": 245
+    },
+    "Jack the Ripper": {
+        "rating": 6.5,
+        "weight": 23
+    },
+    "Fruit Sensation": {
+        "rating": 9.5,
+        "weight": 2
+    },
+    "Gorilla's Puke": {
+        "rating": 3.6,
+        "weight": 7
+    },
+    "Slimer": {
+        "rating": 7.8,
+        "weight": 12
+    },
+    "Ice Pick #2": {
+        "rating": 8.3,
+        "weight": 21
+    },
+    "Wayne's World": {
+        "rating": 7.4,
+        "weight": 18
+    },
+    "Orange Squash": {
+        "rating": 2.3,
+        "weight": 16
+    },
+    "Flaming Russian": {
+        "rating": 4.4,
+        "weight": 18
+    },
+    "Banana Rum Cream": {
+        "rating": 5.0,
+        "weight": 5
+    },
+    "Original Terminator": {
+        "rating": 5.0,
+        "weight": 1
+    },
+    "220 BTU": {
+        "rating": 8.3,
+        "weight": 18
+    },
+    "Bulldozer": {
+        "rating": 8.2,
+        "weight": 5
+    },
+    "Mountain Dang": {
+        "rating": 2.2,
+        "weight": 16
+    },
+    "Krypto Kami": {
+        "rating": 8.0,
+        "weight": 19
+    },
+    "Flaming Jesse or Tropical SunShine": {
+        "rating": 7.1,
+        "weight": 21
+    },
+    "Sperm Whale": {
+        "rating": 7.7,
+        "weight": 3
+    },
+    "Tennessee Tea": {
+        "rating": 6.4,
+        "weight": 969
+    },
+    "Lunch Box #2": {
+        "rating": 5.8,
+        "weight": 62
+    },
+    "MVP's Strawberry Bomb": {
+        "rating": 7.2,
+        "weight": 24
+    },
+    "White Witch": {
+        "rating": 8.7,
+        "weight": 19
+    },
+    "Red Rasputin": {
+        "rating": 7.7,
+        "weight": 19
+    },
+    "Screaming Orgasm": {
+        "rating": 6.0,
+        "weight": 726
+    },
+    "Alex Chi-Chi": {
+        "rating": 6.6,
+        "weight": 306
+    },
+    "Midnight Mint": {
+        "rating": 9.6,
+        "weight": 5
+    },
+    "Buddy's Favorite": {
+        "rating": 5.3,
+        "weight": 15
+    },
+    "Red Dragons Breath": {
+        "rating": 5.0,
+        "weight": 7
+    },
+    "Deep-7": {
+        "rating": 7.8,
+        "weight": 23
+    },
+    "Yukon Cornelius": {
+        "rating": 8.4,
+        "weight": 11
+    },
+    "Cherry Bomb": {
+        "rating": 5.8,
+        "weight": 42
+    },
+    "Rangers Rocker": {
+        "rating": 4.0,
+        "weight": 6
+    },
+    "Pink Passion": {
+        "rating": 8.8,
+        "weight": 5
+    },
+    "Disco Ball": {
+        "rating": 6.5,
+        "weight": 16
+    },
+    "Down Home Punch #2": {
+        "rating": 6.8,
+        "weight": 4
+    },
+    "Texas T": {
+        "rating": 5.8,
+        "weight": 5
+    },
+    "Widow Woods' Nightcap": {
+        "rating": 4.0,
+        "weight": 3
+    },
+    "Irish Lady": {
+        "rating": 9.6,
+        "weight": 7
+    },
+    "Tokyo Ice Tea": {
+        "rating": 6.2,
+        "weight": 134
+    },
+    "Dead green frog": {
+        "rating": 8.9,
+        "weight": 17
+    },
+    "Buzzard's Breath": {
+        "rating": 8.0,
+        "weight": 6
+    },
+    "Pistachio Cream": {
+        "rating": 8.7,
+        "weight": 3
+    },
+    "Double Pucker": {
+        "rating": 9.3,
+        "weight": 18
+    },
+    "BearCat Special": {
+        "rating": 7.9,
+        "weight": 18
+    },
+    "Creme de Menthe": {
+        "rating": 6.8,
+        "weight": 4
+    },
+    "Bondages' No Problem": {
+        "rating": 8.2,
+        "weight": 25
+    },
+    "Geneva Convention": {
+        "rating": 6.3,
+        "weight": 3
+    },
+    "Purple Mask": {
+        "rating": 4.2,
+        "weight": 4
+    },
+    "Vermont Maple Blaster": {
+        "rating": 8.0,
+        "weight": 32
+    },
+    "Moninger's Madness": {
+        "rating": 7.2,
+        "weight": 9
+    },
+    "Russian Qualude #3": {
+        "rating": 7.0,
+        "weight": 9
+    },
+    "666": {
+        "rating": 6.3,
+        "weight": 102
+    },
+    "Extremely Drunk": {
+        "rating": 4.4,
+        "weight": 12
+    },
+    "Killer Bee": {
+        "rating": 9.3,
+        "weight": 24
+    },
+    "Army Green": {
+        "rating": 7.9,
+        "weight": 17
+    },
+    "The Party Girl": {
+        "rating": 6.7,
+        "weight": 3
+    },
+    "Golden Coke": {
+        "rating": 5.9,
+        "weight": 39
+    },
+    "Pooky and Chooky": {
+        "rating": 7.0,
+        "weight": 3
+    },
+    "Fuzzy Bullet": {
+        "rating": 6.2,
+        "weight": 8
+    },
+    "Dreamsicle #2": {
+        "rating": 9.0,
+        "weight": 27
+    },
+    "Astroturf": {
+        "rating": 8.4,
+        "weight": 12
+    },
+    "Massacre": {
+        "rating": 6.0,
+        "weight": 7
+    },
+    "Timberwolf": {
+        "rating": 6.4,
+        "weight": 8
+    },
+    "I.V. (Italian Valium)": {
+        "rating": 5.9,
+        "weight": 27
+    },
+    "The Lucky Stud": {
+        "rating": 7.4,
+        "weight": 5
+    },
+    "Oil Slick #2": {
+        "rating": 9.3,
+        "weight": 3
+    },
+    "Dragon's Blood": {
+        "rating": 5.8,
+        "weight": 13
+    },
+    "Buzzby": {
+        "rating": 7.5,
+        "weight": 10
+    },
+    "Cherry Bomber": {
+        "rating": 9.8,
+        "weight": 12
+    },
+    "Hairy Happy Trail": {
+        "rating": 7.0,
+        "weight": 11
+    },
+    "Red Death #3": {
+        "rating": 9.4,
+        "weight": 20
+    },
+    "Poop Deck Cocktail": {
+        "rating": 5.3,
+        "weight": 3
+    },
+    "Blood of Satan": {
+        "rating": 6.8,
+        "weight": 54
+    },
+    "Coco Rush": {
+        "rating": 9.1,
+        "weight": 12
+    },
+    "Rocha-Gil": {
+        "rating": 6.4,
+        "weight": 5
+    },
+    "Jaguar": {
+        "rating": 0.0,
+        "weight": 0
+    },
+    "Tongue Tangler": {
+        "rating": 6.5,
+        "weight": 4
+    },
+    "Green Bomber": {
+        "rating": 7.6,
+        "weight": 7
+    },
+    "Slap Your Mama": {
+        "rating": 7.7,
+        "weight": 9
+    },
+    "Santorini Sundown": {
+        "rating": 8.7,
+        "weight": 3
+    },
+    "Quagmyre": {
+        "rating": 5.6,
+        "weight": 7
+    },
+    "Buttmeister": {
+        "rating": 7.1,
+        "weight": 21
+    },
+    "Breathalizer": {
+        "rating": 5.4,
+        "weight": 17
+    },
+    "Alley Shooter": {
+        "rating": 6.4,
+        "weight": 109
+    },
+    "BMW #2": {
+        "rating": 8.8,
+        "weight": 23
+    },
+    "Fruit Loop #2": {
+        "rating": 8.1,
+        "weight": 15
+    },
+    "Watermelon": {
+        "rating": 6.6,
+        "weight": 13
+    },
+    "Sunny D Screwdriver": {
+        "rating": 7.6,
+        "weight": 7
+    },
+    "Oil Slick": {
+        "rating": 8.7,
+        "weight": 17
+    },
+    "Epidural": {
+        "rating": 10.0,
+        "weight": 9
+    },
+    "Tainted Heart": {
+        "rating": 4.1,
+        "weight": 8
+    },
+    "Milpsi": {
+        "rating": 5.8,
+        "weight": 85
+    },
+    "Army special": {
+        "rating": 6.4,
+        "weight": 147
+    },
+    "Rambo Shot": {
+        "rating": 7.7,
+        "weight": 12
+    },
+    "Suicide #2": {
+        "rating": 5.2,
+        "weight": 4
+    },
+    "Gorilla Fart #4": {
+        "rating": 5.0,
+        "weight": 10
+    },
+    "Bloody Tampon": {
+        "rating": 5.6,
+        "weight": 34
+    },
+    "Jogeir": {
+        "rating": 9.0,
+        "weight": 1
+    },
+    "Liquid Cocaine #4": {
+        "rating": 6.2,
+        "weight": 44
+    },
+    "Loud-Mouth": {
+        "rating": 4.2,
+        "weight": 4
+    },
+    "XYZ": {
+        "rating": 1.5,
+        "weight": 8
+    },
+    "Matt's Tropical Punch": {
+        "rating": 7.1,
+        "weight": 7
+    },
+    "Hair Raiser": {
+        "rating": 8.0,
+        "weight": 3
+    },
+    "Slippery Nipple #3": {
+        "rating": 6.0,
+        "weight": 99
+    },
+    "Limonaide": {
+        "rating": 6.4,
+        "weight": 42
+    },
+    "Southern Sparkler": {
+        "rating": 6.0,
+        "weight": 5
+    },
+    "Almond Delight": {
+        "rating": 6.5,
+        "weight": 86
+    },
+    "Neon Ghost": {
+        "rating": 7.1,
+        "weight": 10
+    },
+    "Green Opal": {
+        "rating": 0.0,
+        "weight": 0
+    },
+    "Fuzznutts": {
+        "rating": 8.0,
+        "weight": 7
+    },
+    "The Triple": {
+        "rating": 5.3,
+        "weight": 7
+    },
+    "Sunny Mexico": {
+        "rating": 7.7,
+        "weight": 12
+    },
+    "Dolt Bolt": {
+        "rating": 6.5,
+        "weight": 6
+    },
+    "Hat Trick #1": {
+        "rating": 7.0,
+        "weight": 6
+    },
+    "Atheist's Best": {
+        "rating": 7.5,
+        "weight": 4
+    },
+    "Marvellaid": {
+        "rating": 6.8,
+        "weight": 4
+    },
+    "Wet Back": {
+        "rating": 4.8,
+        "weight": 23
+    },
+    "Black & Tan": {
+        "rating": 6.1,
+        "weight": 581
+    },
+    "Sex On The Beach #5": {
+        "rating": 6.4,
+        "weight": 62
+    },
+    "Grand Blue": {
+        "rating": 4.5,
+        "weight": 2
+    },
+    "Southwest Cooler": {
+        "rating": 6.8,
+        "weight": 4
+    },
+    "Alexander's Big Brother": {
+        "rating": 6.5,
+        "weight": 111
+    },
+    "The Red and Black": {
+        "rating": 7.6,
+        "weight": 27
+    },
+    "Brown Eye Opener": {
+        "rating": 7.6,
+        "weight": 12
+    },
+    "Afterlanche": {
+        "rating": 6.9,
+        "weight": 103
+    },
+    "Latana": {
+        "rating": 6.8,
+        "weight": 4
+    },
+    "Rocky Mountain Bear Fucker #3": {
+        "rating": 7.8,
+        "weight": 16
+    },
+    "Ostrich Shit": {
+        "rating": 7.7,
+        "weight": 10
+    },
+    "Clove Cocktail": {
+        "rating": 7.6,
+        "weight": 5
+    },
+    "Monkey C*m": {
+        "rating": 6.6,
+        "weight": 48
+    },
+    "Milk of Amnesia": {
+        "rating": 6.7,
+        "weight": 58
+    },
+    "Carl Johan": {
+        "rating": 8.0,
+        "weight": 7
+    },
+    "Kamikaze": {
+        "rating": 6.4,
+        "weight": 1333
+    },
+    "Dirty Monkey": {
+        "rating": 6.3,
+        "weight": 143
+    },
+    "White Mess": {
+        "rating": 4.0,
+        "weight": 5
+    },
+    "Jolly Rancher #2": {
+        "rating": 6.6,
+        "weight": 52
+    },
+    "Mountain Fuck": {
+        "rating": 6.4,
+        "weight": 47
+    },
+    "Zipper": {
+        "rating": 4.2,
+        "weight": 5
+    },
+    "Pisang Pistace": {
+        "rating": 8.5,
+        "weight": 2
+    },
+    "Apfel Orange": {
+        "rating": 7.8,
+        "weight": 11
+    },
+    "Cable Car": {
+        "rating": 6.2,
+        "weight": 195
+    },
+    "Harley Davidson (the company way)": {
+        "rating": 8.9,
+        "weight": 16
+    },
+    "William's Rainbow": {
+        "rating": 6.6,
+        "weight": 65
+    },
+    "Fuzzy Irishman": {
+        "rating": 7.0,
+        "weight": 102
+    },
+    "Mallelieu": {
+        "rating": 7.3,
+        "weight": 3
+    },
+    "Vesper": {
+        "rating": 9.6,
+        "weight": 46
+    },
+    "Green Froggy": {
+        "rating": 6.4,
+        "weight": 43
+    },
+    "Aviator Fuel": {
+        "rating": 6.0,
+        "weight": 68
+    },
+    "Lime Lizard": {
+        "rating": 6.3,
+        "weight": 32
+    },
+    "Volvo": {
+        "rating": 8.5,
+        "weight": 13
+    },
+    "Eenytini": {
+        "rating": 8.3,
+        "weight": 7
+    },
+    "Bayou Juice": {
+        "rating": 6.4,
+        "weight": 542
+    },
+    "Toxic Antifreeze": {
+        "rating": 8.7,
+        "weight": 18
+    },
+    "The Milky Way": {
+        "rating": 6.7,
+        "weight": 10
+    },
+    "Fire Engine": {
+        "rating": 8.3,
+        "weight": 19
+    },
+    "Bee Stinger": {
+        "rating": 5.6,
+        "weight": 9
+    },
+    "Snow White": {
+        "rating": 5.3,
+        "weight": 18
+    },
+    "The Canadian Gulp": {
+        "rating": 6.1,
+        "weight": 9
+    },
+    "Dr. Peppermint": {
+        "rating": 6.7,
+        "weight": 18
+    },
+    "Milky Nooky": {
+        "rating": 7.3,
+        "weight": 6
+    },
+    "Toro": {
+        "rating": 3.8,
+        "weight": 6
+    },
+    "Ice Cream Genius": {
+        "rating": 8.0,
+        "weight": 9
+    },
+    "Black Bitch": {
+        "rating": 6.8,
+        "weight": 10
+    },
+    "Boomer": {
+        "rating": 5.6,
+        "weight": 5
+    },
+    "Blue Dog": {
+        "rating": 8.6,
+        "weight": 22
+    },
+    "Mexican Rose": {
+        "rating": 8.7,
+        "weight": 10
+    },
+    "New York Lemonade": {
+        "rating": 6.7,
+        "weight": 6
+    },
+    "The Jumpin' Black Jack": {
+        "rating": 5.7,
+        "weight": 58
+    },
+    "Swamp Water #2": {
+        "rating": 5.9,
+        "weight": 8
+    },
+    "Flying Monkey": {
+        "rating": 8.1,
+        "weight": 21
+    }
+}

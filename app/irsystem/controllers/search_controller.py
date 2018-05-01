@@ -19,8 +19,12 @@ with open('drinks_data_no_weird_amts.json', 'r') as f:
     drinks_dict_utf = json.load(f)
 
 with open('instructions.json', 'r') as fi:
-    instructions = json.load(fi)
-    
+    instructions_dict = json.load(fi)
+
+with open('drinks_with_alcohol_content.json', 'r') as fa:
+    alc_contents_dict = json.load(fa)
+
+
 drinks_dict = {}
 for drink in drinks_dict_utf:
     drink_name = drink.encode('ascii','ignore')
@@ -31,9 +35,20 @@ for drink in drinks_dict_utf:
         recipe.append((ing_name, ing_amt))
     drinks_dict[drink_name] = recipe
 
+instructions = {}
+for drink in instructions_dict:
+    drink_name = drink.encode('ascii','ignore')
+    instructions[drink_name] = instructions_dict[drink]
+    
+alc_contents = {}
+for drink in alc_contents_dict:
+    drink_name = drink.encode('ascii','ignore')
+    alc_contents[drink_name] = alc_contents_dict[drink]
+    
 ingredients = [item.lower().encode('utf-8') for item in ingr]
 #print(ingredients)
 
+print(alc_contents)
 
 @irsystem.route('/', methods=['GET'])
 def search():
@@ -46,7 +61,7 @@ def search():
     try:
         alc_content = float(query2)/100
         alc = query2
-    except: 
+    except:
         alc_content = 0.0
         alc = 0
     #print(type(query))
@@ -108,8 +123,13 @@ def search():
             inter = sorted(results_dict, key=lambda x:results_dict[x], reverse=True)
             results = []
             results_mixing = []
+            print (alc_contents)
             for drink in inter[:15]:
-                results.append([drink, drinks_dict[drink], instructions[drink]])
+                name = drink.encode('ascii', 'ignore')
+                ingredients_list = drinks_dict[drink]
+                mixing_instructions = instructions[drink]
+                content_percent = round(alc_contents[drink]*100)
+                results.append([name, ingredients_list, mixing_instructions, content_percent])
             for i in inter[:20]:
                 print(i + str(results_dict[i]))
             data = (results)
