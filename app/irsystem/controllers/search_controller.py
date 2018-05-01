@@ -42,6 +42,11 @@ ingredients = [item.lower().encode('utf-8') for item in ingr]
 def search():
     query = request.args.get('search')
     query2 = request.args.get('but')
+    query3 = request.form.get('switch')
+
+    if query3:
+        #DRINKS ARE ON
+        
 
     # if request.form.get('checkAlc'):
     #     #print("alc selected")
@@ -116,8 +121,8 @@ def search():
             # for i in inter[:20]:
             #     print(i + str(results_dict[i]))
             data = results
-            print("DATA: !!!!!!!!!!!!!!!!")
-            print(data)
+            #print("DATA: !!!!!!!!!!!!!!!!")
+            #print(data)
 
             #we need to add a section into "data" that will call clustering to get the top few similar drinks
             #might wanna do this in gen jaccard, or do another loop here where you append to each list, we'll decide later
