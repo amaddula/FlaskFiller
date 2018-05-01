@@ -299,8 +299,6 @@
 
                   <input name="but" type="range" min="0" max="40" value="{{alc}}" step="5" class="slider form" id="mySlider" oninput="outputUpdate(value)">
                   <output for="mySlider" id="percent" style="font-size: 20px; font-family: Futura; color: white;"><p>Alcohol Content:</p></output>
-                  <input name="checkAlc" type="checkbox" id="checkAlc">
-
                 </div>
 
             </div>
@@ -347,7 +345,8 @@
               <div>
                 <h4 style="font-family: Futura; color: #d83c1a;">Other drinks you may like:
                 {% for drink in d[4] %}
-                {{drink}}
+                    {% set drink_url = "?switch=on&search=" + drink.strip().replace(" ", "+") + "&but=0"%}
+                  <a href={{drink_url}} style="color:#d83c2a">{{drink}}</a>
                 {% endfor %}</h4>
               </div>
             </div>
@@ -372,7 +371,6 @@
         /* update value on the alcohol percent slider as it's dragged */
         function outputUpdate(val) {
             document.querySelector('#percent').value = 'Alcohol Content: ' + val + '%';
-            document.getElementById("checkAlc").checked = true;
         }
 
         function searchDrinks(val) {

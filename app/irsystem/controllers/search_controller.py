@@ -64,7 +64,12 @@ def search():
         # if request.form.get('checkAlc'):
         #     #print("alc selected")
 
-
+        try:
+            alc_content = float(query2)/100
+            alc = query2
+        except:
+            alc_content = 0.0
+            alc = 0
         #print(type(query))
         #query = query.decode('utf-8').lower()
         search_ing = []
@@ -145,7 +150,7 @@ def search():
         mixing_instructions = instructions[drink]
         content_percent = round(alc_contents[drink]*100)
         top_few_drinks = clustering2.get_top_k_similar(drink, 3)
-        output_message = "Drink: " + drink
+        output_message = ""
         try:
             alc_content = float(query2)/100
             alc = query2
