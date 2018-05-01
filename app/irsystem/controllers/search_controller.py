@@ -25,7 +25,7 @@ with open('instructions.json', 'r') as fi:
 
 with open('drinks_with_alcohol_content.json', 'r') as fa:
     alc_contents_dict = json.load(fa)
-    
+
 drinks_dict = {}
 for drink in drinks_dict_utf:
     drink_name = drink.encode('ascii','ignore')
@@ -40,22 +40,24 @@ instructions = {}
 for drink in instructions_dict:
     drink_name = drink.encode('ascii','ignore')
     instructions[drink_name] = instructions_dict[drink]
-    
+
 alc_contents = {}
 for drink in alc_contents_dict:
     drink_name = drink.encode('ascii','ignore')
     alc_contents[drink_name] = alc_contents_dict[drink]
-    
+
 ingredients = [item.lower().encode('utf-8') for item in ingr]
 #print(ingredients)
 
 
 @irsystem.route('/', methods=['GET'])
 def search():
-    
+    query3 = request.form.get('switch')
     query = request.args.get('search')
     query2 = request.args.get('but')
-    query3 = request.form.get('switch')
+
+    print("~~~~~~~~~~~~~~~~")
+    print(query3)
     if not query3:
         # if request.form.get('checkAlc'):
         #     #print("alc selected")
@@ -128,7 +130,6 @@ def search():
                 inter = sorted(results_dict, key=lambda x:results_dict[x], reverse=True)
                 results = []
                 results_mixing = []
-                print (alc_contents)
                 for drink in inter[:15]:
                     name = drink.encode('ascii', 'ignore')
                     ingredients_list = drinks_dict[drink]
@@ -141,7 +142,9 @@ def search():
                 data = (results)
     else:
         drink = query.encode('ascii', 'ignore')
+        print (drink)
         ingredients_list = drinks_dict[drink]
+        print(ingredients_list)
         mixing_instructions = instructions[drink]
         content_percent = round(alc_contents[drink]*100)
         top_few_drinks = clustering2.get_top_k_similar(drink, 3)

@@ -102,8 +102,6 @@ joblib.dump(terms,  'terms_dump.pkl')
 
 # from sklearn.metrics.pairwise import cosine_similarity
 dist = 1 - cosine_similarity(tfidf_matrix)
-print
-print
 
 
 #### determine the optimal value of "k" ################ analyze the thing
