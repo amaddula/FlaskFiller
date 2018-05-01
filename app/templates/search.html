@@ -337,7 +337,7 @@
                     <div class="instructions" align="right">
                       <table style="width:450px">
                         <td style="padding:6px; font-size:14pt">
-                        Mixing Instructions
+                        {{d[2]}}
                         </td>
                       </table>
                     </div>
@@ -346,8 +346,8 @@
               </table>
               <div>
                 <h4 style="font-family: Futura; color: #d83c1a;">Other drinks you may like:
-                {% for drink in d[2] %}
-                {{drink}},
+                {% for drink in d[4] %}
+                {{drink}}
                 {% endfor %}</h4>
               </div>
             </div>

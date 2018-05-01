@@ -52,7 +52,7 @@ ingredients = [item.lower().encode('utf-8') for item in ingr]
 
 @irsystem.route('/', methods=['GET'])
 def search():
-    
+
     query = request.args.get('search')
     query2 = request.args.get('but')
     query3 = request.args.get('switch')
@@ -64,12 +64,7 @@ def search():
         # if request.form.get('checkAlc'):
         #     #print("alc selected")
 
-        try:
-            alc_content = float(query2)/100
-            alc = query2
-        except:
-            alc_content = 0.0
-            alc = 0
+
         #print(type(query))
         #query = query.decode('utf-8').lower()
         search_ing = []
@@ -150,7 +145,14 @@ def search():
         mixing_instructions = instructions[drink]
         content_percent = round(alc_contents[drink]*100)
         top_few_drinks = clustering2.get_top_k_similar(drink, 3)
-        data = [name, ingredients_list, mixing_instructions, content_percent, top_few_drinks]
+        output_message = "Drink: " + drink
+        try:
+            alc_content = float(query2)/100
+            alc = query2
+        except:
+            alc_content = 0.0
+            alc = 0
+        data = [[drink, ingredients_list, mixing_instructions, content_percent, top_few_drinks]]
 
 
             #we need to add a section into "data" that will call clustering to get the top few similar drinks
