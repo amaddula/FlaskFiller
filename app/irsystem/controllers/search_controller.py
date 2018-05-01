@@ -111,14 +111,17 @@ def search():
             inter = sorted(results_dict, key=lambda x:results_dict[x], reverse=True)
             results = []
             for drink in inter[:15]:
-                results.append((drink, drinks_dict[drink]))
+                top_few_drinks = clustering2.get_top_k_similar(drink, 3)
+                results.append([drink, drinks_dict[drink], top_few_drinks])
             # for i in inter[:20]:
             #     print(i + str(results_dict[i]))
             data = results
-            #print(data)
+            print("DATA: !!!!!!!!!!!!!!!!")
+            print(data)
 
             #we need to add a section into "data" that will call clustering to get the top few similar drinks
             #might wanna do this in gen jaccard, or do another loop here where you append to each list, we'll decide later
             #will return a list of the top k drinks
             #top_k_drinks = clustering2.get_top_k_similar(drink_name, top_k)
+
     return render_template('search.html', name=project_name, netid=net_id, alc=alc, output_message=output_message, data=data, ingr=json.dumps(ingr))

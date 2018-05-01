@@ -1,3 +1,4 @@
+#is not useful here, meant to be used in clusterfuck folder to generate some dumps
 from __future__ import print_function
 
 import numpy as np
@@ -118,7 +119,7 @@ print
 ###########################################################################
 # from sklearn.cluster import KMeans
 
-num_clusters = 20
+num_clusters = 50
 
 km = KMeans(n_clusters=num_clusters)
 

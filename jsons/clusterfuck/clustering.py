@@ -118,7 +118,7 @@ print
 ###########################################################################
 # from sklearn.cluster import KMeans
 
-num_clusters = 20
+num_clusters = 50
 
 km = KMeans(n_clusters=num_clusters)
 
