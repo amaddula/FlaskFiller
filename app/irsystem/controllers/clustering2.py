@@ -10,7 +10,6 @@ from sklearn import feature_extraction
 # import mpld3
 import json
 # import analyzetfidf
-# import elbow
 import numpy as np
 from collections import OrderedDict
 
