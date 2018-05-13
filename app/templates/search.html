@@ -240,7 +240,7 @@
 
         <div class="topcorner" style="text-align: right; color: white;">
             <p>Project Name: {{ name }}</p>
-            <p>Student Name: ({{ netid }})</p>
+            <p>Student Names: {{ netid }}</p>
         </div>
         <form class="form-inline global-search" autocomplete="off">
             <h1 style="font-family: Futura; font-size: 55px; color: #d83c1a">FLASK FILLER</h1>
@@ -297,11 +297,11 @@
               <table style = "width:100%">
                 <tr>
                   <td>
-                    <div class="glass" style="padding: 10px; background-size: 100% {{d[3]}}%; background-repeat: no-repeat;">
-                      <div class="alc-percent" align="center" style="transform: rotate(180deg); padding-bottom:90px; font-size:13pt">{{d[3]}}%</div>
+                    <div class="glass" style="padding: 5px; background-size: 100% {{d[3]}}%; background-repeat: no-repeat;">
+                      <div class="alc-percent" align="center" style="transform: rotate(180deg); padding-bottom:80px; font-size:13pt">{{d[3]}}%</div>
                     </div>
                   </td>
-                  <td style="min-width: 200px; padding: 10px">
+                  <td style="min-width: 200px; padding: 5px">
                     <div class ="ingredients">
                       <table style = "font-size:12pt">
                         {% for ingredient_amt in d[1] %}
@@ -338,7 +338,7 @@
                   </td>
                 </tr>
               </table>
-              <div style="text-align: left"><h4>Rating: {{d[5]}}</h4></div>
+              <div style="text-align: center"><h4>Rating: {{d[5]}}</h4></div>
               <div>
                 <h4 style="font-family: Futura; color: #d83c1a;">Other drinks you may like:
                 {% for drink in d[4] %}
