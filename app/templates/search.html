@@ -230,31 +230,7 @@
             {
               content:'DRINKS';
             }
-            div.stars {
-              width: 270px;
-              display: inline-block;
-            }
-
-            input.star { display: none; }
-
-            label.star {
-              float: right;
-              padding: 10px;
-              font-size: 36px;
-              color: #000;
-              transition: all .2s;
-            }
-
-            input.star:checked ~ label.star:before {
-              content: '\f005';
-              color: #FD4;
-              transition: all .25s;
-            }
-
-            input.star-5:checked ~ label.star:before {
-              color: #FE7;
-              text-shadow: 0 0 20px #952;
-            }
+            
 
         </style>
 
@@ -327,7 +303,7 @@
                   </td>
                   <td>
                     <div class ="ingredients">
-                      <table style = "width:350px; padding:20px;font-size:14pt">
+                      <table style = "padding:20px;font-size:14pt">
                         {% for ingredient_amt in d[1] %}
                         <tr>
                           <td>{{ingredient_amt[0]}}</td>
@@ -339,10 +315,22 @@
                   </td>
                   <td>
                     <div class="instructions" align="right">
-                      <table style="width:450px">
-                        <td style="padding:6px; font-size:14pt">
+                      <table>
+                        <td style="padding:20px; font-size:14pt">
                         {{d[2]}}
                         </td>
+                      </table>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="scores" align="right">
+                      <table style = "width:350px; padding:20px;font-size:14pt">
+                        {% for score in d[3] %}
+                        <tr>
+                          <td>{{score[0]}}</td>
+                          <td align = "right" >{{score[1]}}</td>
+                        </tr>
+                        {% endfor %}
                       </table>
                     </div>
                   </td>
