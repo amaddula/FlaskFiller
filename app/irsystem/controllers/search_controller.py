@@ -138,9 +138,9 @@ def search():
                         alc_content_score = content_results[drink]
                         ratings_score = rating_results[drink]
                         scores_dict[drink] = ["Overall Similarity Score: " + str(final_score),
-                                              "Ingredient Similarity Score: " + str(jaccard_score),
+                                              ["Ingredient Similarity Score: " + str(jaccard_score),
                                               "Alcohol Content Score: " + str(alc_content_score),
-                                              "Ratings Score: " + str(ratings_score)]
+                                              "Ratings Score: " + str(ratings_score)]]
 
                 else:
                     jaccard_weight = 0.6
@@ -156,8 +156,8 @@ def search():
                         jaccard_score = jaccard_results[drink]
                         ratings_score = rating_results[drink]
                         scores_dict[drink] = ["Overall Similarity Score: " + str(final_score),
-                                              "Ingredient Similarity Score: " + str(jaccard_score),
-                                              "Ratings Score: " + str(ratings_score)]
+                                              ["Ingredient Similarity Score: " + str(jaccard_score),
+                                              "Ratings Score: " + str(ratings_score)]]
 
                 #print(len(content_results))
                 #print(len(jaccard_results))
@@ -188,7 +188,7 @@ def search():
         drink_rating = ratingses[drink]["rating"]
         output_message = ""
         alc = ""
-        printout_score = ["", ""]
+        printout_score = ["", []]
         data = [[drink, ingredients_list, mixing_instructions, content_percent, top_few_drinks, drink_rating, printout_score]]
 
 

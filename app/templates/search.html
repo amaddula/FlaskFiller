@@ -325,8 +325,11 @@
                   <td>
                     <div class="scores" align="right">
                       <table style = "width:350px; padding:20px;font-size:14pt">
-                        {% for score in d[6] %}
                         <tr>
+                          <td><strong>{{d[6][0]}}</strong></td>
+                        </tr>
+                        {% for score in d[6][1] %}
+                        </tr>
                           <td>{{score}}</td>
                         </tr>
                         {% endfor %}
