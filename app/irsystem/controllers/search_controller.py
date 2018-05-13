@@ -129,8 +129,18 @@ def search():
                     jaccard_results = gen_jaccard_app.get_results(user_list, jaccard_weight)
                     rating_results = ratings.get_results(ratings_weight)
                     results_dict = {}
+                    scores_dict = {}
                     for drink in content_results:
                         results_dict[drink] = math.sqrt(jaccard_results[drink] + content_results[drink]) + rating_results[drink]
+                        #ardy's scoring tracking
+                        final_score = math.sqrt(jaccard_results[drink] + content_results[drink]) + rating_results[drink]
+                        jaccard_score = jaccard_results[drink]
+                        alc_content_score = content_results[drink]
+                        ratings_score = rating_results[drink]
+                        scores_dict[drink] = ["Overall Similarity Score: " + str(final_score),
+                                              "Ingredient Similarity Score: " + str(jaccard_score),
+                                              "Alcohol Content Score: " + str(alc_content_score),
+                                              "Ratings Score: " + str(ratings_score)]
 
                 else:
                     jaccard_weight = 0.6
@@ -138,10 +148,16 @@ def search():
                     jaccard_results = gen_jaccard_app.get_results(user_list, jaccard_weight)
                     rating_results = ratings.get_results(ratings_weight)
                     results_dict = {}
+                    scores_dict = {}
                     for drink in jaccard_results:
                         results_dict[drink] = math.sqrt(jaccard_results[drink]) + rating_results[drink]
-
-
+                        #ardy's scoring tracking
+                        final_score = math.sqrt(jaccard_results[drink]) + rating_results[drink]
+                        jaccard_score = jaccard_results[drink]
+                        ratings_score = rating_results[drink]
+                        scores_dict[drink] = ["Overall Similarity Score: " + str(final_score),
+                                              "Ingredient Similarity Score: " + str(jaccard_score),
+                                              "Ratings Score: " + str(ratings_score)]
 
                 #print(len(content_results))
                 #print(len(jaccard_results))
@@ -156,7 +172,8 @@ def search():
                     content_percent = round(alc_contents[drink]*100)
                     top_few_drinks = clustering2.get_top_k_similar(name, 10)
                     drink_rating = ratingses[name]["rating"]
-                    results.append([name, ingredients_list, mixing_instructions, content_percent, top_few_drinks, drink_rating])
+                    printout_score = scores_dict[drink] #adding in score distribution
+                    results.append([name, ingredients_list, mixing_instructions, content_percent, top_few_drinks, drink_rating, printout_score])
                 for i in inter[:20]:
                     print(i + str(results_dict[i]))
                 data = (results)
@@ -171,7 +188,8 @@ def search():
         drink_rating = ratingses[drink]["rating"]
         output_message = ""
         alc = ""
-        data = [[drink, ingredients_list, mixing_instructions, content_percent, top_few_drinks, drink_rating]]
+        printout_score = ["", ""]
+        data = [[drink, ingredients_list, mixing_instructions, content_percent, top_few_drinks, drink_rating, printout_score]]
 
 
             #we need to add a section into "data" that will call clustering to get the top few similar drinks

@@ -230,7 +230,7 @@
             {
               content:'DRINKS';
             }
-            
+
 
         </style>
 
@@ -325,10 +325,9 @@
                   <td>
                     <div class="scores" align="right">
                       <table style = "width:350px; padding:20px;font-size:14pt">
-                        {% for score in d[3] %}
+                        {% for score in d[6] %}
                         <tr>
-                          <td>{{score[0]}}</td>
-                          <td align = "right" >{{score[1]}}</td>
+                          <td>{{score}}</td>
                         </tr>
                         {% endfor %}
                       </table>
