@@ -297,13 +297,13 @@
               <table style = "width:100%">
                 <tr>
                   <td>
-                    <div class="glass" style="background-size: 100% {{d[3]}}%; background-repeat: no-repeat;">
+                    <div class="glass" style="padding: 10px; background-size: 100% {{d[3]}}%; background-repeat: no-repeat;">
                       <div class="alc-percent" align="center" style="transform: rotate(180deg); padding-bottom:90px; font-size:13pt">{{d[3]}}%</div>
                     </div>
                   </td>
-                  <td>
+                  <td style="min-width: 200px; padding: 10px">
                     <div class ="ingredients">
-                      <table style = "padding:20px;font-size:14pt">
+                      <table style = "font-size:12pt">
                         {% for ingredient_amt in d[1] %}
                         <tr>
                           <td>{{ingredient_amt[0]}}</td>
@@ -316,7 +316,7 @@
                   <td>
                     <div class="instructions" align="right">
                       <table>
-                        <td style="padding:20px; font-size:14pt">
+                        <td style="padding:10px; font-size:12pt">
                         {{d[2]}}
                         </td>
                       </table>
@@ -324,7 +324,7 @@
                   </td>
                   <td>
                     <div class="scores" align="right">
-                      <table style = "width:350px; padding:20px;font-size:14pt">
+                      <table style = "padding:20px;font-size:12pt; min-width: 150px;">
                         {% for score in d[6] %}
                         <tr>
                           <td>{{score}}</td>
@@ -335,7 +335,7 @@
                   </td>
                 </tr>
               </table>
-              <div align = "right"><h4>Rating: {{d[5]}}</h4></div>
+              <div style="text-align: left"><h4>Rating: {{d[5]}}</h4></div>
               <div>
                 <h4 style="font-family: Futura; color: #d83c1a;">Other drinks you may like:
                 {% for drink in d[4] %}
